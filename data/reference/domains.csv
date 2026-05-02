@@ -1,0 +1,9 @@
+domain_key,domain_name,description,priority
+infrastructure,Data Infrastructure and Architecture,"Databases warehouses lakes distributed systems integration and lifecycle architecture.",1
+engineering,Data Engineering Governance and Platform Operations,"Pipelines transformation quality governance observability security and reproducibility.",1
+statistics,Statistical Analytics Inference and Modeling,"Exploration inference forecasting causal analysis and uncertainty communication.",1
+ml,Machine Learning Predictive Systems and MLOps,"Predictive analytics model validation feature engineering MLOps monitoring and fairness.",1
+visualization,Data Visualization Reporting and Decision Support,"Visualization dashboards information design reporting and decision analytics.",1
+semantic,Knowledge Graphs Metadata and Semantic Systems,"Metadata lineage catalogs semantic layers ontologies taxonomies and knowledge graphs.",1
+ethics,Data Ethics Privacy Security and Accountability,"Data ethics privacy access security retention auditability and accountability.",1
+applications,Applied Data Systems Across Sustainable Systems,"Environmental economic health infrastructure scientific and policy data systems.",2

@@ -1,0 +1,19 @@
+nodes:
+  - id: raw_observations
+    type: csv
+    path: data/raw/observations.csv
+  - id: raw_entities
+    type: csv
+    path: data/raw/entities.csv
+  - id: stg_observations
+    type: table
+    depends_on: [raw_observations]
+  - id: dim_systems
+    type: table
+    depends_on: [raw_entities]
+  - id: mart_system_metrics
+    type: view
+    depends_on: [stg_observations, dim_systems]
+  - id: outputs_data_profile
+    type: report
+    depends_on: [mart_system_metrics]

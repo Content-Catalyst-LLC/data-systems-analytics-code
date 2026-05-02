@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.db
+*.sqlite
+*.sqlite3
+.Rhistory
+.RData
+.env
+.venv/
+node_modules/
+target/
+outputs/*
+!outputs/.gitkeep
+data/processed/*
+!data/processed/.gitkeep

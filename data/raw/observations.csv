@@ -1,0 +1,9 @@
+observation_id,system_id,observed_at,metric_name,metric_value,unit,source_system,quality_flag
+1,water_grid,2026-01-01,flow_rate,102.5,l_per_s,sensor_a,valid
+2,water_grid,2026-01-02,flow_rate,98.2,l_per_s,sensor_a,valid
+3,energy_grid,2026-01-01,load,430.0,MW,sensor_b,valid
+4,energy_grid,2026-01-02,load,457.2,MW,sensor_b,valid
+5,food_supply,2026-01-01,delivery_delay,4.0,hours,ops_log,valid
+6,food_supply,2026-01-02,delivery_delay,7.5,hours,ops_log,warning
+7,health_system,2026-01-01,bed_utilization,0.74,ratio,admin_db,valid
+8,health_system,2026-01-02,bed_utilization,0.81,ratio,admin_db,valid

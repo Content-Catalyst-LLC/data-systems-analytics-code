@@ -1,0 +1,65 @@
+slug,title,status,domain_key,priority
+database-systems-and-data-architecture,Database Systems and Data Architecture,published,infrastructure,1
+relational-databases-and-sql-systems,Relational Databases and SQL Systems,published,infrastructure,1
+data-warehouses-and-data-lakes,Data Warehouses and Data Lakes,published,infrastructure,1
+distributed-data-systems,Distributed Data Systems,published,infrastructure,1
+master-data-management-and-entity-resolution,Master Data Management and Entity Resolution,published,infrastructure,1
+data-integration-and-interoperability,Data Integration and Interoperability,published,infrastructure,1
+cloud-data-platforms-and-modern-data-stack-architecture,Cloud Data Platforms and Modern Data Stack Architecture,published,infrastructure,1
+data-lifecycle-management-and-retention,Data Lifecycle Management and Retention,published,infrastructure,1
+lakehouse-architecture-and-open-table-formats,Lakehouse Architecture and Open Table Formats,planned,infrastructure,2
+graph-databases-and-relationship-centered-data-architecture,Graph Databases and Relationship-Centered Data Architecture,planned,infrastructure,2
+time-series-databases-and-event-centered-data-systems,Time-Series Databases and Event-Centered Data Systems,planned,infrastructure,2
+data-pipelines-and-data-processing-systems,Data Pipelines and Data Processing Systems,published,engineering,1
+data-cleaning-and-data-quality-management,Data Cleaning and Data Quality Management,published,engineering,1
+etl-and-data-transformation-systems,ETL and Data Transformation Systems,published,engineering,1
+streaming-data-and-real-time-analytics,Streaming Data and Real-Time Analytics,published,engineering,1
+data-governance-and-stewardship,Data Governance and Stewardship,published,engineering,1
+metadata-data-catalogs-and-lineage,Metadata Data Catalogs and Lineage,published,engineering,1
+data-quality-metrics-and-observability,Data Quality Metrics and Observability,published,engineering,1
+analytics-engineering-and-semantic-layers,Analytics Engineering and Semantic Layers,published,engineering,1
+data-security-privacy-and-access-control,Data Security Privacy and Access Control,published,engineering,1
+data-products-and-self-service-analytics,Data Products and Self-Service Analytics,published,engineering,1
+reproducible-analytics-and-versioned-data-workflows,Reproducible Analytics and Versioned Data Workflows,published,engineering,1
+data-contracts-and-schema-evolution,Data Contracts and Schema Evolution,planned,engineering,2
+data-observability-platforms,Data Observability Platforms,planned,engineering,2
+reverse-etl-and-operational-analytics,Reverse ETL and Operational Analytics,planned,engineering,2
+data-access-patterns-and-query-optimization,Data Access Patterns and Query Optimization,planned,engineering,2
+descriptive-analytics-and-data-exploration,Descriptive Analytics and Data Exploration,published,statistics,1
+statistical-modeling-and-inference,Statistical Modeling and Inference,published,statistics,1
+time-series-analysis-and-forecasting,Time Series Analysis and Forecasting,published,statistics,1
+experimental-design-and-causal-inference,Experimental Design and Causal Inference,published,statistics,1
+bayesian-analytics-and-probabilistic-reasoning,Bayesian Analytics and Probabilistic Reasoning,planned,statistics,2
+regression-diagnostics-model-assumptions-and-analytical-validity,Regression Diagnostics Model Assumptions and Analytical Validity,planned,statistics,2
+panel-data-longitudinal-analysis-and-repeated-measurement,Panel Data Longitudinal Analysis and Repeated Measurement,planned,statistics,2
+uncertainty-quantification-and-analytical-communication,Uncertainty Quantification and Analytical Communication,planned,statistics,2
+predictive-analytics-and-machine-learning-models,Predictive Analytics and Machine Learning Models,published,ml,1
+model-training-and-validation,Model Training and Validation,published,ml,1
+feature-engineering-and-data-representation,Feature Engineering and Data Representation,published,ml,1
+model-evaluation-and-performance-metrics,Model Evaluation and Performance Metrics,published,ml,1
+mlops-and-analytical-deployment-systems,MLOps and Analytical Deployment Systems,planned,ml,2
+model-monitoring-drift-and-performance-degradation,Model Monitoring Drift and Performance Degradation,planned,ml,2
+explainable-analytics-and-interpretable-models,Explainable Analytics and Interpretable Models,planned,ml,2
+fairness-bias-and-data-representation-in-predictive-systems,Fairness Bias and Data Representation in Predictive Systems,planned,ml,2
+synthetic-data-and-privacy-preserving-analytics,Synthetic Data and Privacy-Preserving Analytics,planned,ml,2
+data-visualization-and-analytical-communication,Data Visualization and Analytical Communication,published,visualization,1
+interactive-dashboards-and-data-storytelling,Interactive Dashboards and Data Storytelling,published,visualization,1
+information-design-and-analytical-reporting,Information Design and Analytical Reporting,published,visualization,1
+business-intelligence-systems-and-decision-support,Business Intelligence Systems and Decision Support,published,visualization,1
+dashboard-governance-and-metric-stewardship,Dashboard Governance and Metric Stewardship,planned,visualization,2
+analytical-storytelling-evidence-and-decision-narratives,Analytical Storytelling Evidence and Decision Narratives,planned,visualization,2
+geospatial-analytics-and-mapping-systems,Geospatial Analytics and Mapping Systems,planned,visualization,2
+decision-analytics-scenarios-and-policy-evaluation,Decision Analytics Scenarios and Policy Evaluation,planned,visualization,2
+knowledge-graphs-and-graph-data-systems,Knowledge Graphs and Graph Data Systems,planned,semantic,2
+metadata-as-analytical-infrastructure,Metadata as Analytical Infrastructure,planned,semantic,2
+semantic-layers-and-governed-metric-systems,Semantic Layers and Governed Metric Systems,planned,semantic,2
+ontologies-taxonomies-and-controlled-vocabularies,Ontologies Taxonomies and Controlled Vocabularies,planned,semantic,2
+data-ethics-and-responsibilities-of-analytical-systems,Data Ethics and the Responsibilities of Analytical Systems,planned,ethics,2
+privacy-engineering-and-responsible-data-access,Privacy Engineering and Responsible Data Access,planned,ethics,2
+data-retention-deletion-and-ethics-of-memory,Data Retention Deletion and the Ethics of Memory,planned,ethics,2
+auditability-reproducibility-and-analytical-accountability,Auditability Reproducibility and Analytical Accountability,planned,ethics,2
+environmental-monitoring-data-systems,Environmental Monitoring Data Systems,planned,applications,2
+economic-data-systems-and-public-indicators,Economic Data Systems and Public Indicators,planned,applications,2
+health-data-systems-epidemiology-and-public-decision-support,Health Data Systems Epidemiology and Public Decision Support,planned,applications,2
+infrastructure-analytics-and-operational-monitoring,Infrastructure Analytics and Operational Monitoring,planned,applications,2
+scientific-data-systems-and-reproducible-research,Scientific Data Systems and Reproducible Research,planned,applications,2

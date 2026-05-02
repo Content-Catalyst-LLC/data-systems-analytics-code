@@ -1,0 +1,5 @@
+system_id,system_name,domain,criticality,owner,refresh_frequency
+water_grid,Water Distribution Grid,infrastructure,high,Public Works,daily
+energy_grid,Energy Grid,infrastructure,high,Energy Authority,hourly
+food_supply,Food Supply Chain,logistics,medium,Food Systems Office,daily
+health_system,Health System Capacity,public_health,high,Health Department,daily

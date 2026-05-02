@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Observation",
+  "type": "object",
+  "required": ["observation_id", "system_id", "observed_at", "metric_name", "metric_value", "unit", "source_system"],
+  "properties": {
+    "observation_id": {"type": "integer"},
+    "system_id": {"type": "string"},
+    "observed_at": {"type": "string", "format": "date"},
+    "metric_name": {"type": "string"},
+    "metric_value": {"type": "number"},
+    "unit": {"type": "string"},
+    "source_system": {"type": "string"},
+    "quality_flag": {"type": "string"}
+  }
+}

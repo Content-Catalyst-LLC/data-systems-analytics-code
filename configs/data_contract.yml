@@ -1,0 +1,25 @@
+dataset: observations
+version: 1.0.0
+owner: data-systems-analytics
+primary_key: observation_id
+required_fields:
+  - observation_id
+  - system_id
+  - observed_at
+  - metric_name
+  - metric_value
+  - unit
+  - source_system
+quality_expectations:
+  metric_value:
+    not_null: true
+  system_id:
+    not_null: true
+  observed_at:
+    not_null: true
+freshness:
+  expected_frequency: daily
+lineage:
+  raw_source: data/raw/observations.csv
+  staging_table: stg_observations
+  mart_table: mart_system_metrics
