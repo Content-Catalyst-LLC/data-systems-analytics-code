@@ -1,0 +1,10 @@
+check_id,dataset_id,quality_dimension,check_name,expected_value,observed_value,status,severity,owner
+qc001,ds_customer_360,completeness,required_email_present,0.98,0.972,warn,medium,customer-domain
+qc002,ds_customer_360,uniqueness,unique_customer_key,1.00,0.999,pass,low,customer-domain
+qc003,ds_revenue_mart,accuracy,revenue_reconciliation_variance,0.01,0.003,pass,high,finance-analytics
+qc004,ds_revenue_mart,freshness,hours_since_refresh,24,18,pass,medium,finance-analytics
+qc005,ds_usage_events,volume,row_count_within_bounds,1.00,0.72,warn,high,product-analytics
+qc006,ds_usage_events,distribution,event_type_distribution_shift,0.20,0.37,warn,high,product-analytics
+qc007,ds_support_tickets,schema,required_columns_present,1.00,1.00,pass,medium,service-analytics
+qc008,ds_supplier_fulfillment,validity,status_domain_conformance,0.98,0.961,warn,medium,operations-analytics
+qc009,ds_legacy_extract,integrity,declared_grain_present,1.00,0.00,fail,medium,central-bi

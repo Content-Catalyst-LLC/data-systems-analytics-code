@@ -1,0 +1,7 @@
+event_id,event_time_utc,dataset_id,event_type,signal_name,observed_value,baseline_value,alert_status,incident_id
+obs001,2026-01-01T01:00:00Z,ds_customer_360,quality,required_email_present,0.972,0.985,warn,inc001
+obs002,2026-01-01T02:00:00Z,ds_usage_events,volume,row_count,72000,120000,triggered,inc002
+obs003,2026-01-01T03:00:00Z,ds_usage_events,distribution,event_type_shift,0.37,0.12,triggered,inc002
+obs004,2026-01-01T04:00:00Z,ds_legacy_extract,integrity,grain_declared,0,1,triggered,inc003
+obs005,2026-01-02T01:00:00Z,ds_revenue_mart,freshness,hours_since_refresh,18,24,normal,
+obs006,2026-01-02T02:00:00Z,ds_supplier_fulfillment,validity,status_domain_conformance,0.961,0.985,warn,inc004

@@ -1,0 +1,7 @@
+edge_id,upstream_dataset,downstream_asset,asset_type,impact_level,owner
+lin001,ds_customer_360,dash_customer_health,dashboard,high,customer-domain
+lin002,ds_revenue_mart,dash_executive_revenue,dashboard,high,finance-analytics
+lin003,ds_usage_events,feature_product_activity,feature_table,high,product-analytics
+lin004,ds_usage_events,notebook_growth_review,notebook,medium,growth-analytics
+lin005,ds_supplier_fulfillment,dash_supplier_performance,dashboard,medium,operations-analytics
+lin006,ds_legacy_extract,dash_legacy_kpi,dashboard,low,central-bi

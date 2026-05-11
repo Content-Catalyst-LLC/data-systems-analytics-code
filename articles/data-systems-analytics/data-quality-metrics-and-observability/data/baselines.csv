@@ -1,0 +1,7 @@
+baseline_id,dataset_id,signal_name,baseline_type,expected_value,tolerance,window_days,owner
+base001,ds_customer_360,required_email_present,proportion,0.985,0.015,30,customer-domain
+base002,ds_revenue_mart,hours_since_refresh,freshness_hours,24,2,30,finance-analytics
+base003,ds_usage_events,row_count,volume,120000,15000,14,product-analytics
+base004,ds_usage_events,event_type_shift,distribution_shift,0.12,0.08,14,product-analytics
+base005,ds_supplier_fulfillment,status_domain_conformance,proportion,0.985,0.015,30,operations-analytics
+base006,ds_legacy_extract,grain_declared,binary,1,0,30,central-bi

@@ -1,0 +1,7 @@
+dataset_id,dataset_name,domain,owner,criticality,expected_freshness_hours,expected_row_count_min,expected_row_count_max,certification_status,consumer_count
+ds_customer_360,Customer 360 Analytical Product,customer,customer-domain,high,24,9000,12000,certified,14
+ds_revenue_mart,Revenue Mart,finance,finance-analytics,high,24,5000,9000,certified,18
+ds_usage_events,Product Usage Events,product,product-analytics,high,6,100000,150000,certified,12
+ds_support_tickets,Support Tickets,service,service-analytics,medium,12,15000,25000,reviewed,7
+ds_supplier_fulfillment,Supplier Fulfillment,operations,operations-analytics,medium,12,4000,7000,reviewed,9
+ds_legacy_extract,Legacy KPI Extract,legacy,central-bi,low,168,500,3000,uncertified,3

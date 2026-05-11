@@ -1,0 +1,26 @@
+name: Data quality observability smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/data-quality-metrics-and-observability/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/data-quality-metrics-and-observability
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run quality observability scorecard and SQL loader
+        run: |
+          python3 python/quality_observability_scorecard.py
+          python3 sql/run_sqlite_quality_observability.py
+      - name: Show manifest
+        run: |
+          cat outputs/quality_observability_manifest_python.json

@@ -1,0 +1,5 @@
+incident_id,dataset_id,opened_at_utc,severity,status,root_cause_category,time_to_ack_hours,time_to_resolve_hours,consumer_notified
+inc001,ds_customer_360,2026-01-01T01:05:00Z,medium,resolved,upstream_optional_field_change,2,18,true
+inc002,ds_usage_events,2026-01-01T02:05:00Z,high,resolved,upstream_event_instrumentation_change,1,12,true
+inc003,ds_legacy_extract,2026-01-01T04:05:00Z,medium,open,undocumented_legacy_logic,8,0,false
+inc004,ds_supplier_fulfillment,2026-01-02T02:10:00Z,medium,in_review,controlled_vocabulary_drift,4,0,true

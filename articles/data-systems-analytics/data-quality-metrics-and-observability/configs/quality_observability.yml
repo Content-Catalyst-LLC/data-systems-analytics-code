@@ -1,0 +1,32 @@
+platform:
+  name: data-quality-metrics-and-observability
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - fitness_for_use
+    - quality_by_dimension
+    - observability_as_operational_assurance
+    - lineage_aware_impact
+    - incident_response_by_default
+    - semantic_drift_review
+    - remediation_measurement
+    - criticality_based_thresholds
+  quality_dimensions:
+    - accuracy
+    - completeness
+    - validity
+    - consistency
+    - timeliness
+    - freshness
+    - uniqueness
+    - integrity
+    - volume
+    - distribution
+    - schema
+  observability_signals:
+    - freshness
+    - volume
+    - schema
+    - distribution
+    - lineage
+    - incidents
