@@ -1,0 +1,24 @@
+platform:
+  name: data-visualization-and-analytical-communication
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - visualization_as_analytical_thinking
+    - chart_choice_follows_analytical_task
+    - perceptual_accuracy_over_decoration
+    - uncertainty_visible_near_claim
+    - annotation_links_claims_to_evidence
+    - accessibility_by_default
+    - audience_context_shapes_communication_burden
+    - reports_and_dashboards_require_review
+    - visual_outputs_versioned_when_consequential
+  integrity_dimensions:
+    - chart_fit
+    - encoding_quality
+    - uncertainty_communication
+    - annotation_quality
+    - accessibility
+    - evidence_traceability
+    - audience_fit
+    - review_status
+    - output_control

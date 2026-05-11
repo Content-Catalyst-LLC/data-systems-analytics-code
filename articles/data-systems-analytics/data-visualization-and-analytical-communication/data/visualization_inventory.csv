@@ -1,0 +1,7 @@
+visual_id,visual_title,visualization_context,audience,primary_task,owner,steward,status,version,publication_surface,created_at_utc,last_reviewed_at_utc
+viz001,Revenue Variance Trend,executive_reporting,executive_leadership,trend_monitoring,finance-analytics,finance-steward,approved,v1.2,report,2026-01-01T00:00:00Z,2026-01-05T00:00:00Z
+viz002,Customer Completeness Distribution,technical_validation,analytics_engineering,distribution_inspection,customer-domain,customer-steward,in_review,v0.9,technical_report,2026-01-02T00:00:00Z,2026-01-05T00:00:00Z
+viz003,Supplier Risk Option Matrix,policy_analysis,procurement_leadership,tradeoff_comparison,operations-analytics,supplier-steward,in_review,v0.8,policy_memo,2026-01-03T00:00:00Z,2026-01-05T00:00:00Z
+viz004,Usage Event Recovery Chart,operational_monitoring,product_operations,threshold_monitoring,product-analytics,product-steward,approved,v1.1,dashboard,2026-01-04T00:00:00Z,2026-01-05T00:00:00Z
+viz005,Legacy KPI Gauge,legacy_reporting,central_bi,status_display,central-bi,legacy-steward,needs_revision,v0.4,dashboard,2025-12-01T00:00:00Z,2026-01-02T00:00:00Z
+viz006,Model Error Calibration Curve,model_evaluation,ml_platform,calibration_review,ml-platform,ai-steward,in_review,v0.7,technical_report,2026-01-04T00:00:00Z,2026-01-05T00:00:00Z

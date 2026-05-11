@@ -1,0 +1,7 @@
+context_id,visual_id,audience_type,technical_depth_required,summary_required,method_reference_required,decision_record_required
+ctx001,viz001,executive,low,true,false,true
+ctx002,viz002,technical_reviewer,high,true,true,true
+ctx003,viz003,policy_decision_maker,medium,true,true,true
+ctx004,viz004,operations,medium,true,false,true
+ctx005,viz005,audit_reviewer,high,true,true,true
+ctx006,viz006,technical_reviewer,high,true,true,true

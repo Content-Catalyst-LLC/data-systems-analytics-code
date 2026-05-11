@@ -1,0 +1,50 @@
+---
+title: "Visualization and Analytical Communication Review"
+subtitle: "Chart Fit, Encoding Quality, Uncertainty, and Accessibility"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Analytical question
+
+State the question the visualization answers.
+
+## Chart choice
+
+Explain why the chart type fits the task: comparison, trend, distribution, relationship, uncertainty, or exact lookup.
+
+## Reproducible example
+
+```{python}
+visuals = 6
+approved = 2
+in_review = 3
+needs_revision = 1
+print({
+    "visuals": visuals,
+    "approved_share": approved / visuals,
+    "needs_revision_share": needs_revision / visuals
+})
+```
+
+## Interpretation
+
+Describe the main comparison and the visual evidence supporting it.
+
+## Uncertainty
+
+Place limitations and uncertainty near the claim they qualify.
+
+## Accessibility
+
+Document color, contrast, labels, alt text, and color-independent encodings.
+
+## Appendix
+
+Preserve source assets, methods, evidence links, and review notes.

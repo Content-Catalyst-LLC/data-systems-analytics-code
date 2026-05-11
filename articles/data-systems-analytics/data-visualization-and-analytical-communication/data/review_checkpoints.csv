@@ -1,0 +1,8 @@
+review_id,visual_id,review_type,review_owner,status,findings_count,blocking_issues,completed_at_utc
+rev001,viz001,analytical_review,finance-steward,approved,1,0,2026-01-04T00:00:00Z
+rev002,viz001,visual_design_review,finance-analytics,approved,1,0,2026-01-04T01:00:00Z
+rev003,viz002,technical_review,customer-steward,in_review,3,1,
+rev004,viz003,policy_review,supplier-steward,in_review,3,1,
+rev005,viz004,operations_review,product-steward,approved,1,0,2026-01-05T00:00:00Z
+rev006,viz005,visual_integrity_review,legacy-steward,needs_revision,5,3,
+rev007,viz006,model_evaluation_review,ai-steward,in_review,4,1,

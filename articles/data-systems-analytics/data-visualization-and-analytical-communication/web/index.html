@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Visualization Communication Mockup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem; line-height: 1.5; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 1rem; background: #fafafa; max-width: 900px; }
+    .bars { display: grid; gap: 0.5rem; margin-top: 1rem; }
+    .row { display: grid; grid-template-columns: 160px 1fr 60px; align-items: center; gap: 0.75rem; }
+    .bar { height: 20px; background: repeating-linear-gradient(45deg, #111, #111 6px, #555 6px, #555 12px); border-radius: 4px; }
+    .caption { color: #555; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Visualization Communication Mockup</h1>
+    <p>This static mockup demonstrates accessible comparison: aligned bars, direct labels, redundant patterning, and an interpretive caption.</p>
+
+    <section class="bars" aria-label="Example category comparison">
+      <div class="row"><span>Certified visuals</span><div class="bar" style="width: 80%"></div><strong>80%</strong></div>
+      <div class="row"><span>Traceable evidence</span><div class="bar" style="width: 67%"></div><strong>67%</strong></div>
+      <div class="row"><span>Needs revision</span><div class="bar" style="width: 20%"></div><strong>20%</strong></div>
+    </section>
+
+    <p class="caption"><strong>Interpretation:</strong> The chart uses aligned length for comparison and avoids relying on color alone.</p>
+  </main>
+</body>
+</html>

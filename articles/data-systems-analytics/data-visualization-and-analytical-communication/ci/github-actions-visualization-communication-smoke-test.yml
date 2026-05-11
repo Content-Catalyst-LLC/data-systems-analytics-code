@@ -1,0 +1,26 @@
+name: Data visualization communication smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/data-visualization-and-analytical-communication/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/data-visualization-and-analytical-communication
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run visualization scorecard and SQL loader
+        run: |
+          python3 python/visualization_integrity_scorecard.py
+          python3 sql/run_sqlite_visualization_integrity.py
+      - name: Show manifest
+        run: |
+          cat outputs/visualization_integrity_manifest_python.json

@@ -1,0 +1,7 @@
+link_id,visual_id,source_asset,method_reference,traceability_status,review_status
+evl001,viz001,asset_revenue_mart,method_reconciliation_v2,complete,approved
+evl002,viz002,asset_customer_360,method_validation_v1,complete,in_review
+evl003,viz003,asset_supplier_risk,method_policy_scenario_v1,partial,in_review
+evl004,viz004,asset_usage_events,method_operational_monitoring_v3,complete,approved
+evl005,viz005,asset_legacy_kpi,method_audit_review_v1,partial,needs_revision
+evl006,viz006,asset_model_eval,method_calibration_v1,complete,in_review

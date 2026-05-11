@@ -1,0 +1,7 @@
+output_id,visual_id,output_format,versioned,archived,publication_channel,hash_recorded,access_level
+out001,viz001,png,true,true,leadership_report,true,confidential
+out002,viz002,html,true,false,technical_report,true,confidential
+out003,viz003,docx_embedded,true,false,policy_review_workspace,false,confidential
+out004,viz004,dashboard_tile,true,true,operations_dashboard,true,internal
+out005,viz005,dashboard_tile,false,false,legacy_dashboard,false,internal
+out006,viz006,html,true,false,model_evaluation_report,true,restricted

@@ -1,0 +1,7 @@
+encoding_id,visual_id,primary_encoding,scale_type,axis_baseline_appropriate,sorting_appropriate,label_quality,color_dependency,perceptual_accuracy
+enc001,viz001,position_common_scale,linear,true,true,approved,false,high
+enc002,viz002,position_common_scale,linear,true,true,in_review,false,high
+enc003,viz003,position_and_color,ordinal,true,true,in_review,true,medium
+enc004,viz004,position_common_scale,linear,true,true,approved,false,high
+enc005,viz005,angle_and_color,relative,false,false,weak,true,low
+enc006,viz006,position_common_scale,probability,true,true,in_review,false,high

@@ -1,0 +1,7 @@
+uncertainty_id,visual_id,uncertainty_type,visual_form,near_claim,materiality,statement_quality
+unc001,viz001,late_adjustment_window,caption,true,medium,approved
+unc002,viz002,source_system_completeness,interval_note,true,medium,in_review
+unc003,viz003,scenario_assumption,annotation,true,high,in_review
+unc004,viz004,instrumentation_recovery_window,threshold_band,true,low,approved
+unc005,viz005,legacy_definition_uncertainty,none,false,high,weak
+unc006,viz006,sampling_uncertainty,confidence_band,true,high,in_review

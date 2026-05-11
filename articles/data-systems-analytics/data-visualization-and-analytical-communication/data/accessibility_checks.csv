@@ -1,0 +1,9 @@
+check_id,visual_id,check_type,status,severity,notes
+acc001,viz001,color_not_only_signal,pass,high,Thresholds are labeled and not color-only
+acc002,viz001,text_legibility,pass,medium,Axis and labels readable
+acc003,viz002,color_not_only_signal,pass,high,Distribution uses position and labels
+acc004,viz003,color_not_only_signal,warn,high,Matrix colors need redundant labels
+acc005,viz004,color_contrast,pass,high,Operational thresholds meet contrast review
+acc006,viz005,color_not_only_signal,fail,high,Legacy gauge depends on red-yellow-green only
+acc007,viz005,text_legibility,warn,medium,Labels too small in exported dashboard
+acc008,viz006,caption_clarity,warn,medium,Calibration caption needs clearer interpretation

@@ -1,0 +1,8 @@
+chart_id,visual_id,chart_type,analytical_task,chart_fit,comparison_supported,exact_values_needed,distribution_visible,trend_visible,relationship_visible
+chart001,viz001,line_chart,trend,high,true,false,false,true,false
+chart002,viz002,histogram,distribution,high,false,false,true,false,false
+chart003,viz002,box_plot,distribution_comparison,high,true,false,true,false,false
+chart004,viz003,matrix,tradeoff_comparison,medium,true,true,false,false,false
+chart005,viz004,line_chart,monitoring,high,true,false,false,true,false
+chart006,viz005,gauge,status_display,low,false,false,false,false,false
+chart007,viz006,calibration_curve,model_evaluation,high,true,false,false,true,true

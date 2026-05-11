@@ -1,0 +1,7 @@
+annotation_id,visual_id,annotation_type,text_quality,evidence_linked,near_relevant_visual,emphasis_risk
+ann001,viz001,threshold_note,approved,true,true,low
+ann002,viz002,distribution_explanation,in_review,true,true,medium
+ann003,viz003,tradeoff_note,in_review,true,true,medium
+ann004,viz004,recovery_note,approved,true,true,low
+ann005,viz005,status_warning,weak,false,false,high
+ann006,viz006,calibration_note,in_review,true,true,medium
