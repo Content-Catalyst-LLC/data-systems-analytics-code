@@ -1,0 +1,7 @@
+window_id,model_id,window_start,window_end,roc_auc,brier_score,precision,recall,mae,drift_index,status
+win001,model_churn_v1,2026-01-01,2026-01-31,0.72,0.19,0.60,0.75,,0.08,watch
+win002,model_churn_v1,2026-02-01,2026-02-28,0.68,0.22,0.55,0.70,,0.16,watch
+win003,model_fraud_v2,2026-01-01,2026-01-31,0.81,0.14,0.50,0.67,,0.10,approved
+win004,model_fraud_v2,2026-02-01,2026-02-28,0.75,0.18,0.46,0.58,,0.20,escalate
+win005,model_demand_v1,2026-01-01,2026-01-31,,,,,7.1,0.09,approved
+win006,model_demand_v1,2026-02-01,2026-02-28,,,,,10.6,0.18,watch

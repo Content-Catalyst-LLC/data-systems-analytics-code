@@ -1,0 +1,54 @@
+---
+title: "Model Evaluation and Performance Metrics Review"
+subtitle: "Metrics, Thresholds, Calibration, Error, and Monitoring"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Evaluation question
+
+State the model task, intended use, and prediction target.
+
+## Metric alignment
+
+Explain why the selected metrics match the task.
+
+## Reproducible example
+
+```{python}
+models = 4
+approved = 1
+in_review = 2
+needs_revision = 1
+print({
+    "models": models,
+    "approved_share": approved / models,
+    "review_or_revision_share": (in_review + needs_revision) / models
+})
+```
+
+## Threshold policy
+
+Document the threshold, false-positive cost, false-negative cost, review capacity, and decision owner.
+
+## Calibration and probability quality
+
+Review Brier score, log loss, and calibration curve.
+
+## Regression error
+
+Review MAE, RMSE, bias, and tail error where applicable.
+
+## Monitoring
+
+Track performance and drift across windows.
+
+## Appendix
+
+Preserve source predictions, metric definitions, thresholds, and governance decisions.

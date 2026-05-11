@@ -1,0 +1,26 @@
+platform:
+  name: model-evaluation-and-performance-metrics
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - metrics_follow_prediction_task
+    - thresholds_are_decision_policy
+    - calibration_is_distinct_from_discrimination
+    - rare_event_evaluation_requires_precision_recall_logic
+    - regression_error_requires_distributional_review
+    - subgroup_and_cohort_error_matter
+    - reported_metrics_are_estimates
+    - deployed_models_require_monitoring
+    - governance_limits_define_operational_acceptability
+  evaluation_dimensions:
+    - classification
+    - threshold_policy
+    - roc_auc
+    - precision_recall
+    - calibration
+    - brier_score
+    - log_loss
+    - regression_error
+    - subgroup_error
+    - monitoring
+    - governance_limits

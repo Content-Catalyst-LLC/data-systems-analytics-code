@@ -1,0 +1,5 @@
+model_id,model_name,task_type,prediction_target,owner,steward,status,version,training_window,validation_window,intended_use,risk_level
+model_churn_v1,Customer Churn Risk,binary_classification,event_probability,customer-analytics,customer-steward,in_review,v1.0,2025-Q1_to_2025-Q3,2025-Q4,retention_prioritization,medium
+model_fraud_v2,Fraud Review Prioritization,binary_classification,event_probability,risk-analytics,risk-steward,approved,v2.1,2025-Q1_to_2025-Q3,2025-Q4,human_review_queue,high
+model_demand_v1,Demand Forecasting,regression,conditional_mean,operations-analytics,operations-steward,in_review,v1.0,2024-Q4_to_2025-Q3,2025-Q4,inventory_planning,medium
+model_legacy_v0,Legacy Lead Score,binary_classification,class_label,central-bi,legacy-steward,needs_revision,v0.4,2024-Q1_to_2024-Q3,2024-Q4,legacy_sales_routing,medium
