@@ -1,0 +1,8 @@
+# Core workflow uses only Python standard library.
+# Optional packages for notebooks and expanded pipeline workflows:
+pandas>=2.2
+numpy>=2.0
+duckdb>=1.0
+pyyaml>=6.0
+networkx>=3.4
+jupyter>=1.0

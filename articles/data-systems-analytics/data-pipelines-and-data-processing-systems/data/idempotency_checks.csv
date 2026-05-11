@@ -1,0 +1,4 @@
+check_id,pipeline_name,stage_name,key_strategy,rerun_input_rows,first_output_rows,second_output_rows,duplicate_effect_count,status
+idem001,customer_metrics_pipeline,load_customer_mart,merge_on_customer_date,30000,29950,29950,0,pass
+idem002,event_monitoring_pipeline,write_alerts,dedupe_on_event_window_rule,87000,86670,86710,40,warn
+idem003,event_monitoring_pipeline,windowed_aggregates,keyed_window_update,42000,41920,41920,0,pass

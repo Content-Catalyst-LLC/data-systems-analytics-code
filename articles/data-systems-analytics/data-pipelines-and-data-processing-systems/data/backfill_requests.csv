@@ -1,0 +1,4 @@
+backfill_id,pipeline_name,requested_at,reason,start_period,end_period,expected_rows,status,owner
+bf001,customer_metrics_pipeline,2026-05-03T01:30:00Z,recompute_after_mapping_fix,2026-04-01,2026-04-30,30000,completed,analytics-engineering
+bf002,event_monitoring_pipeline,2026-05-03T10:30:00Z,replay_after_sink_failure,2026-05-03T10:00:00Z,2026-05-03T10:10:00Z,87000,completed_with_warning,stream-platform
+bf003,customer_metrics_pipeline,2026-05-04T09:00:00Z,late_arriving_records,2026-05-01,2026-05-02,500,pending,data-platform

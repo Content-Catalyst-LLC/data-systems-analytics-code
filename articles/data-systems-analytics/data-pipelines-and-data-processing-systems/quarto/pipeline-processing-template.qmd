@@ -1,0 +1,36 @@
+---
+title: "Data Pipelines and Data Processing Systems Review"
+subtitle: "DAGs, Dataflow, Batch, Streaming, Orchestration, Observability, Replay, and Governance"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Pipeline objective
+
+Define sources, stages, processing mode, timing requirements, owners, quality gates, and downstream consumers.
+
+## Reproducible example
+
+```{python}
+stages = ["extract", "validate", "transform", "load", "publish"]
+edges = list(zip(stages[:-1], stages[1:]))
+print({"edges": edges})
+```
+
+## Operational evidence
+
+Review run health, failed rows, retries, lag, latency, quality gates, lineage, and idempotency checks.
+
+## Recovery
+
+Document replay windows, backfill requests, checkpoints, stable keys, and output comparison after rerun.
+
+## Appendix
+
+Attach pipeline topology, run records, quality gates, observability metrics, lineage edges, backfill requests, and idempotency checks.

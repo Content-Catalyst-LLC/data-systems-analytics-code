@@ -1,0 +1,11 @@
+stage_id,pipeline_name,stage_name,stage_type,mode,upstream_stage,downstream_stage,owner,criticality,status
+stg001,customer_metrics_pipeline,extract_crm,ingestion,batch,,validate_crm,data-platform,high,approved
+stg002,customer_metrics_pipeline,validate_crm,validation,batch,extract_crm,transform_customer,data-quality,critical,approved
+stg003,customer_metrics_pipeline,transform_customer,transformation,batch,validate_crm,load_customer_mart,analytics-engineering,critical,approved
+stg004,customer_metrics_pipeline,load_customer_mart,serving,batch,transform_customer,publish_dashboard,analytics-engineering,high,approved
+stg005,customer_metrics_pipeline,publish_dashboard,serving,batch,load_customer_mart,,bi-platform,medium,approved
+stg006,event_monitoring_pipeline,consume_events,ingestion,stream,,validate_events,stream-platform,critical,approved
+stg007,event_monitoring_pipeline,validate_events,validation,stream,consume_events,enrich_events,data-quality,critical,approved
+stg008,event_monitoring_pipeline,enrich_events,transformation,stream,validate_events,windowed_aggregates,stream-platform,high,approved
+stg009,event_monitoring_pipeline,windowed_aggregates,stateful_processing,stream,enrich_events,write_alerts,stream-platform,critical,in_review
+stg010,event_monitoring_pipeline,write_alerts,serving,stream,windowed_aggregates,,observability-platform,high,in_review

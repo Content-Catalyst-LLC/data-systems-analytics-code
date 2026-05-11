@@ -1,0 +1,15 @@
+platform:
+  name: data-pipelines-and-data-processing-systems
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - treat_pipelines_as_directed_dataflow_graphs
+    - distinguish_processing_engine_from_orchestrator
+    - support_batch_stream_replay_and_backfill
+    - make_dependencies_explicit
+    - preserve_raw_inputs_and_lineage
+    - enforce_quality_gates_before_promotion
+    - design_for_idempotency_and_fault_tolerance
+    - monitor_latency_lag_throughput_errors_and_freshness
+    - document_delivery_semantics_end_to_end
+    - connect_processing_mode_to_workload_semantics

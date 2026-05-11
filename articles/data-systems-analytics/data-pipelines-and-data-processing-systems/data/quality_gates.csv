@@ -1,0 +1,9 @@
+gate_id,pipeline_name,stage_name,dimension,rule_name,threshold,observed_value,severity,status
+gate001,customer_metrics_pipeline,validate_crm,completeness,email_not_null,0.99,0.993,high,pass
+gate002,customer_metrics_pipeline,validate_crm,validity,valid_signup_date,1.00,0.998,high,warn
+gate003,customer_metrics_pipeline,validate_crm,uniqueness,unique_customer_key,0.999,0.997,critical,warn
+gate004,customer_metrics_pipeline,transform_customer,consistency,status_mapping_coverage,1.00,1.000,critical,pass
+gate005,event_monitoring_pipeline,validate_events,validity,event_schema_conformance,0.995,0.996,critical,pass
+gate006,event_monitoring_pipeline,validate_events,timeliness,event_lateness_under_threshold,0.950,0.918,high,warn
+gate007,event_monitoring_pipeline,windowed_aggregates,correctness,idempotent_window_update,1.00,0.990,critical,warn
+gate008,event_monitoring_pipeline,write_alerts,availability,sink_write_success_rate,0.999,0.992,critical,warn
