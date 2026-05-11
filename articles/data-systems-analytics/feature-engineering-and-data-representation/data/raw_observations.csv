@@ -1,0 +1,9 @@
+entity_id,event_time,signup_time,region,channel,plan_type,device_type,monthly_spend,events_30d,days_since_last_event,label_churn
+u001,2026-01-15T10:00:00Z,2025-05-01T08:00:00Z,north,organic,basic,mobile,29.0,18,2,0
+u002,2026-01-15T11:00:00Z,2025-07-12T09:00:00Z,south,paid,pro,desktop,99.0,7,14,1
+u003,2026-01-15T12:00:00Z,2025-12-01T12:00:00Z,west,partner,basic,mobile,19.0,4,21,1
+u004,2026-01-15T13:00:00Z,2025-03-03T12:00:00Z,north,organic,enterprise,desktop,299.0,42,1,0
+u005,2026-01-15T14:00:00Z,2025-11-21T12:00:00Z,east,paid,pro,tablet,89.0,12,9,0
+u006,2026-01-15T15:00:00Z,2025-01-20T12:00:00Z,west,organic,basic,mobile,39.0,2,30,1
+u007,2026-01-15T16:00:00Z,2025-08-18T12:00:00Z,south,partner,pro,desktop,109.0,23,4,0
+u008,2026-01-15T17:00:00Z,2025-10-05T12:00:00Z,east,organic,basic,mobile,25.0,8,11,1

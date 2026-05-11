@@ -1,0 +1,25 @@
+platform:
+  name: feature-engineering-and-data-representation
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - representation_determines_learnable_signal
+    - transformations_fit_only_on_training_data
+    - categorical_encoding_must_not_impose_false_order
+    - temporal_features_must_respect_prediction_time
+    - feature_crosses_make_interactions_visible
+    - embeddings_trade_interpretability_for_dense_similarity
+    - selection_narrows_but_does_not_create_representation
+    - leakage_checks_are_mandatory
+    - feature_lineage_connects_raw_sources_to_model_inputs
+  representation_dimensions:
+    - numerical_transformation
+    - categorical_encoding
+    - feature_crosses
+    - temporal_features
+    - embeddings
+    - sparsity
+    - dimensionality
+    - feature_selection
+    - leakage_risk
+    - prediction_time_availability

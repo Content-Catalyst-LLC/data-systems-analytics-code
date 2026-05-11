@@ -1,0 +1,11 @@
+selection_id,feature_id,selection_method,score,selected,selection_status
+sel001,feat001,mutual_information,0.42,true,approved
+sel002,feat002,mutual_information,0.35,true,approved
+sel003,feat003,mutual_information,0.21,true,in_review
+sel004,feat004,chi_square,0.18,true,approved
+sel005,feat005,regularized_model,0.26,true,in_review
+sel006,feat006,regularized_model,0.08,false,watch
+sel007,feat007,regularized_model,0.07,false,watch
+sel008,feat008,embedding_eval,0.00,false,planned
+sel009,feat009,mutual_information,0.75,false,blocked_leakage
+sel010,feat010,mutual_information,0.31,true,approved

@@ -1,0 +1,10 @@
+check_id,feature_id,check_type,status,severity,notes
+chk001,feat001,missingness,pass,medium,No missing monthly spend in sample
+chk002,feat002,scale_fit,pass,high,Scaler fit only on training partition
+chk003,feat003,bin_coverage,warn,medium,One bin is sparse in validation
+chk004,feat004,oov_handling,pass,medium,Unknown categories routed to OOV bucket
+chk005,feat005,cardinality,warn,medium,Cross expands dimensionality
+chk006,feat006,cyclical_boundary,pass,medium,Hour 23 and hour 0 are adjacent in representation
+chk007,feat008,embedding_documentation,warn,high,Embedding model-card not yet complete
+chk008,feat009,leakage_check,fail,critical,Feature depends on post-outcome support tickets
+chk009,feat010,prediction_time_availability,pass,high,Signup time available before prediction

@@ -1,0 +1,11 @@
+feature_id,feature_name,feature_family,source_field,transformation,model_stage,status,owner,leakage_risk,interpretability,cardinality
+feat001,log_monthly_spend,numerical,monthly_spend,log1p,training,approved,customer-steward,low,high,continuous
+feat002,events_30d_scaled,numerical,events_30d,z_score,training,approved,customer-steward,low,high,continuous
+feat003,days_since_last_event_bucket,numerical_binned,days_since_last_event,bucket,training,in_review,customer-steward,low,medium,5_bins
+feat004,region_one_hot,categorical,region,one_hot,training,approved,customer-steward,low,high,4
+feat005,channel_plan_cross,categorical_cross,channel+plan_type,feature_cross,training,in_review,customer-steward,medium,medium,12
+feat006,event_hour_sin,temporal,event_time,cyclical_sine,training,approved,customer-steward,low,medium,continuous
+feat007,event_hour_cos,temporal,event_time,cyclical_cosine,training,approved,customer-steward,low,medium,continuous
+feat008,user_text_embedding,embedding,free_text_notes,embedding,training,planned,ml-platform,medium,low,128
+feat009,future_support_ticket_count,leakage_candidate,support_tickets_after_event,post_outcome_count,training,needs_revision,customer-steward,high,medium,continuous
+feat010,tenure_days,numerical,signup_time,date_difference,training,approved,customer-steward,low,high,continuous

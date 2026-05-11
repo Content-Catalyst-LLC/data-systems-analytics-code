@@ -1,0 +1,11 @@
+rule_id,feature_id,rule_type,fit_scope,applied_scope,requires_training_fit,allowed_at_prediction_time,review_status
+rule001,feat001,numerical_transform,training_only,train_valid_test,true,true,approved
+rule002,feat002,standard_scaler,training_only,train_valid_test,true,true,approved
+rule003,feat003,binner,training_only,train_valid_test,true,true,in_review
+rule004,feat004,one_hot_encoder,training_only,train_valid_test,true,true,approved
+rule005,feat005,feature_cross,training_only,train_valid_test,true,true,in_review
+rule006,feat006,cyclical_encoding,no_fit,train_valid_test,false,true,approved
+rule007,feat007,cyclical_encoding,no_fit,train_valid_test,false,true,approved
+rule008,feat008,embedding_model,training_only,train_valid_test,true,true,planned
+rule009,feat009,post_outcome_aggregation,full_dataset,train_valid_test,true,false,needs_revision
+rule010,feat010,date_difference,no_fit,train_valid_test,false,true,approved

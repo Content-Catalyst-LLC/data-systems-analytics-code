@@ -1,0 +1,6 @@
+metric_id,representation_name,feature_count,density,sparsity_ratio,oov_rate,leakage_flag_count,approved_feature_share,status
+rep001,baseline_numeric,4,0.92,0.08,0.00,0,1.00,approved
+rep002,categorical_one_hot,12,0.25,0.75,0.02,0,0.92,approved
+rep003,feature_cross_expanded,24,0.14,0.86,0.04,0,0.75,in_review
+rep004,embedding_candidate,128,1.00,0.00,0.00,0,0.40,planned
+rep005,legacy_feature_set,18,0.31,0.69,0.08,1,0.50,needs_revision

@@ -1,0 +1,45 @@
+---
+title: "Feature Engineering and Data Representation Review"
+subtitle: "Transformation, Encoding, Leakage, Selection, and Representation Integrity"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Representation question
+
+State the prediction target, prediction time, and feature design goals.
+
+## Feature registry
+
+Document feature names, source fields, transformations, owners, and review status.
+
+## Reproducible example
+
+```{python}
+features = 10
+approved = 5
+needs_revision = 1
+print({
+    "features": features,
+    "approved_share": approved / features,
+    "needs_revision_share": needs_revision / features
+})
+```
+
+## Leakage review
+
+Document cutoff time, prediction-time availability, and training-only transform fitting.
+
+## Dimensionality and sparsity
+
+Review one-hot encodings, feature crosses, embeddings, hashing, and selection.
+
+## Appendix
+
+Preserve source fields, transformation rules, feature quality checks, and review notes.
