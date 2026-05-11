@@ -1,0 +1,8 @@
+model_id,model_name,layer,domain,grain,owner,materialization,lifecycle_status,criticality
+mod_stg_orders,stg_orders,staging,commerce,order,analytics-engineering,view,active,medium
+mod_int_customer_orders,int_customer_orders,intermediate,commerce,customer_order,analytics-engineering,table,active,high
+mod_dim_customer,dim_customer,mart,customer,customer,customer-domain,table,active,high
+mod_fct_revenue,fct_revenue,mart,finance,order_line,finance-analytics,incremental,active,high
+mod_fct_usage,fct_usage,mart,product,user_event,product-analytics,incremental,active,high
+mod_mart_executive_metrics,mart_executive_metrics,presentation,enterprise,metric_day,central-bi,table,active,high
+mod_legacy_dashboard_logic,legacy_dashboard_logic,presentation,legacy,mixed,central-bi,view,deprecated,low

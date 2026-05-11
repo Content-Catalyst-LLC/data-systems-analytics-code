@@ -1,0 +1,22 @@
+platform:
+  name: analytics-engineering-and-semantic-layers
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - analytics_engineering_as_semantic_governance
+    - model_for_reuse
+    - explicit_grain
+    - certified_metrics
+    - versioned_semantics
+    - disciplined_plurality
+    - lineage_by_default
+    - test_coverage_by_default
+    - semantic_layer_as_interpretive_contract
+  semantic_objects:
+    - entities
+    - dimensions
+    - metrics
+    - measures
+    - hierarchies
+    - filters
+    - access_rules

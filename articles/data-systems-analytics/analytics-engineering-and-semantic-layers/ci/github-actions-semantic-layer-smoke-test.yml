@@ -1,0 +1,26 @@
+name: Analytics engineering semantic layer smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/analytics-engineering-and-semantic-layers/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/analytics-engineering-and-semantic-layers
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run semantic layer scorecard and SQL loader
+        run: |
+          python3 python/semantic_layer_scorecard.py
+          python3 sql/run_sqlite_semantic_layer.py
+      - name: Show manifest
+        run: |
+          cat outputs/semantic_layer_manifest_python.json

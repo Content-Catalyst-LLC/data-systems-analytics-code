@@ -1,0 +1,10 @@
+usage_date,metric_id,consumption_surface,consumer_group,query_count,dashboard_views,notebook_sessions
+2026-01-01,met_net_revenue,executive_dashboard,executive-team,120,180,4
+2026-01-01,met_active_customer,customer_dashboard,marketing-and-support,95,142,12
+2026-01-01,met_weekly_active_user,product_workbench,product-and-growth,80,111,25
+2026-01-01,met_order_conversion_rate,growth_notebooks,growth-team,60,33,31
+2026-01-01,met_customer_satisfaction,customer_review,customer-leaders,25,61,8
+2026-01-01,met_legacy_revenue,legacy_dashboard,legacy-consumers,18,45,0
+2026-01-02,met_net_revenue,executive_dashboard,executive-team,130,196,5
+2026-01-02,met_active_customer,customer_dashboard,marketing-and-support,102,155,14
+2026-01-02,met_weekly_active_user,product_workbench,product-and-growth,84,118,27

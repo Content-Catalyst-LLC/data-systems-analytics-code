@@ -1,0 +1,8 @@
+test_id,model_id,test_type,expected_value,observed_value,status,owner
+test001,mod_stg_orders,not_null_order_id,1.00,1.00,pass,analytics-engineering
+test002,mod_int_customer_orders,unique_customer_order_key,1.00,0.998,pass,analytics-engineering
+test003,mod_dim_customer,not_null_customer_key,1.00,0.999,pass,customer-domain
+test004,mod_fct_revenue,revenue_reconciliation_variance,0.01,0.002,pass,finance-analytics
+test005,mod_fct_usage,event_freshness_hours,6.00,8.00,warn,product-analytics
+test006,mod_mart_executive_metrics,certified_metric_alignment,1.00,0.95,pass,central-bi
+test007,mod_legacy_dashboard_logic,grain_declared,1.00,0.00,fail,central-bi

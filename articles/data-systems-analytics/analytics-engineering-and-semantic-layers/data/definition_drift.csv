@@ -1,0 +1,7 @@
+metric_name,certified_metric_id,local_definition_count,highest_risk_surface,drift_status
+net_revenue,met_net_revenue,1,spreadsheet_extract,low
+active_customer,met_active_customer,3,regional_dashboard,medium
+weekly_active_user,met_weekly_active_user,2,product_notebook,medium
+order_conversion_rate,met_order_conversion_rate,4,growth_dashboard,high
+customer_satisfaction,met_customer_satisfaction,2,survey_notebook,medium
+legacy_revenue,met_legacy_revenue,6,legacy_dashboard,high

@@ -1,0 +1,7 @@
+edge_id,upstream_model,downstream_model,relationship_type,impact_level
+edge001,mod_stg_orders,mod_int_customer_orders,transformation,high
+edge002,mod_int_customer_orders,mod_fct_revenue,transformation,high
+edge003,mod_int_customer_orders,mod_dim_customer,enrichment,medium
+edge004,mod_fct_revenue,mod_mart_executive_metrics,metric_dependency,high
+edge005,mod_fct_usage,mod_mart_executive_metrics,metric_dependency,medium
+edge006,mod_legacy_dashboard_logic,mod_mart_executive_metrics,legacy_dependency,low

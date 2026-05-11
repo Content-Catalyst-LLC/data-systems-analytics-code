@@ -1,0 +1,7 @@
+metric_id,metric_name,domain,definition,base_model,grain,owner,certification_status,version,decision_critical
+met_net_revenue,net_revenue,finance,"Gross revenue less refunds discounts and reversals",mod_fct_revenue,accounting_period,finance-analytics,certified,1.2,true
+met_active_customer,active_customer,customer,"Customer with qualifying activity in reporting window",mod_dim_customer,customer_day,customer-domain,certified,1.1,true
+met_weekly_active_user,weekly_active_user,product,"User with one or more qualifying product events in calendar week",mod_fct_usage,user_week,product-analytics,certified,1.0,true
+met_order_conversion_rate,order_conversion_rate,commerce,"Orders divided by qualifying sessions",mod_int_customer_orders,session_day,growth-analytics,reviewed,0.9,true
+met_customer_satisfaction,customer_satisfaction,customer,"Survey-weighted customer satisfaction score",mod_dim_customer,survey_response,customer-insights,reviewed,0.8,false
+met_legacy_revenue,legacy_revenue,legacy,"Legacy dashboard revenue calculation with dashboard-local filters",mod_legacy_dashboard_logic,mixed,central-bi,uncertified,0.3,false
