@@ -1,0 +1,4 @@
+external_id_id,master_entity_id,identifier_type,identifier_value,issuing_authority,verification_status,last_verified_at_utc
+ext001,mstr_supplier_001,LEI,5493001KJTIIGC8Y1R12,GLEIF,verified,2026-01-03T05:00:00Z
+ext002,mstr_customer_001,DUNS,DUNS-EXAMPLE-001,external_vendor,unverified,2026-01-03T06:00:00Z
+ext003,mstr_facility_001,LOCAL_FACILITY_ID,FACILITY-REGION-88,facilities_system,verified,2026-01-03T07:00:00Z

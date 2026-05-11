@@ -1,0 +1,28 @@
+platform:
+  name: master-data-management-and-entity-resolution
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - mdm_as_representational_governance
+    - entity_resolution_as_governed_inference
+    - explicit_identity_rules
+    - confidence_is_not_action
+    - steward_review_for_borderline_cases
+    - survivorship_by_attribute
+    - contextual_authoritative_views
+    - hierarchy_and_relationship_modeling
+    - lineage_by_default
+    - privacy_review_for_identity_linkage
+  match_actions:
+    - merge
+    - link
+    - possible_link
+    - steward_review
+    - block
+  entity_domains:
+    - customer
+    - supplier
+    - facility
+    - legal_entity
+    - product
+    - household

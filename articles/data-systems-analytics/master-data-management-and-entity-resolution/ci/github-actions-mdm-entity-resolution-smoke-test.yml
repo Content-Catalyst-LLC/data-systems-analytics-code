@@ -1,0 +1,26 @@
+name: MDM entity resolution smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/master-data-management-and-entity-resolution/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/master-data-management-and-entity-resolution
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run MDM scorecard and SQL loader
+        run: |
+          python3 python/mdm_entity_resolution_scorecard.py
+          python3 sql/run_sqlite_mdm_entity_resolution.py
+      - name: Show manifest
+        run: |
+          cat outputs/mdm_entity_resolution_manifest_python.json

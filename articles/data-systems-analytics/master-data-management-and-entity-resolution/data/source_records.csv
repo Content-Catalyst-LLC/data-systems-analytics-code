@@ -1,0 +1,9 @@
+record_id,source_system,domain,entity_type,source_entity_id,name,address,city,country,postal_code,legal_identifier,local_identifier,record_status,updated_at_utc
+rec001,crm,customer,organization,crm_1001,Northstar Components LLC,100 Market Street,Chicago,US,60601,,CRM-1001,active,2026-01-01T01:00:00Z
+rec002,billing,customer,organization,bill_9001,North Star Components,100 Market St.,Chicago,US,60601,,BILL-9001,active,2026-01-01T02:00:00Z
+rec003,support,customer,organization,supp_3001,Northstar Components LLC,100 Market Street Suite 4,Chicago,US,60601,,SUPP-3001,active,2026-01-01T03:00:00Z
+rec004,procurement,supplier,organization,ven_501,Global Industrial Supply Inc,44 Dock Road,Houston,US,77002,5493001KJTIIGC8Y1R12,VEN-501,active,2026-01-01T04:00:00Z
+rec005,finance,supplier,organization,fin_778,Global Industrial Supply Incorporated,44 Dock Rd,Houston,US,77002,5493001KJTIIGC8Y1R12,FIN-778,active,2026-01-01T05:00:00Z
+rec006,facilities,facility,facility,fac_88,South River Plant,210 River Road,St. Louis,US,63101,,FAC-88,active,2026-01-01T06:00:00Z
+rec007,sustainability,facility,facility,sus_410,South River Manufacturing Facility,210 River Rd,Saint Louis,US,63101,,SUS-410,active,2026-01-01T07:00:00Z
+rec008,legacy,customer,organization,leg_22,N Star Components,100 Market,Chicago,US,60601,,LEG-22,inactive,2025-06-01T01:00:00Z

@@ -1,0 +1,5 @@
+risk_id,master_entity_id,entity_type,linked_record_count,contains_personal_data,reidentification_risk,linkage_sensitivity,purpose_review_status,mitigation
+risk001,mstr_customer_001,organization,4,false,low,medium,approved,limit_legacy_link_use
+risk002,mstr_supplier_001,organization,2,false,low,medium,approved,verify_lei_annually
+risk003,mstr_facility_001,facility,2,false,low,high,review_required,preserve_operational_and_reporting_views
+risk004,mstr_household_example,household,5,true,high,high,review_required,require_privacy_review_before_householding

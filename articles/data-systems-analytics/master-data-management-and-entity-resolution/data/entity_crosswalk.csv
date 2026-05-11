@@ -1,0 +1,9 @@
+master_entity_id,source_system,source_entity_id,record_id,link_type,confidence,link_status,effective_from_utc,effective_to_utc
+mstr_customer_001,crm,crm_1001,rec001,mastered_link,0.96,active,2026-01-02T01:00:00Z,
+mstr_customer_001,billing,bill_9001,rec002,mastered_link,0.91,active,2026-01-02T01:00:00Z,
+mstr_customer_001,support,supp_3001,rec003,mastered_link,0.94,active,2026-01-02T01:00:00Z,
+mstr_customer_001,legacy,leg_22,rec008,legacy_possible_link,0.66,review,2026-01-02T01:00:00Z,
+mstr_supplier_001,procurement,ven_501,rec004,mastered_link,0.99,active,2026-01-02T02:00:00Z,
+mstr_supplier_001,finance,fin_778,rec005,mastered_link,0.99,active,2026-01-02T02:00:00Z,
+mstr_facility_001,facilities,fac_88,rec006,mastered_link,0.90,active,2026-01-02T03:00:00Z,
+mstr_facility_001,sustainability,sus_410,rec007,reporting_boundary_link,0.84,review,2026-01-02T03:00:00Z,

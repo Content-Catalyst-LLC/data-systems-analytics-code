@@ -1,0 +1,7 @@
+candidate_id,left_record_id,right_record_id,entity_type,match_method,name_similarity,address_similarity,identifier_match,relationship_evidence,match_score,recommended_action,review_required
+cand001,rec001,rec002,organization,hybrid,0.91,0.94,false,0.70,0.89,link,true
+cand002,rec001,rec003,organization,hybrid,0.98,0.88,false,0.80,0.91,link,true
+cand003,rec004,rec005,organization,deterministic_identifier,0.93,0.92,true,0.85,0.98,merge,false
+cand004,rec006,rec007,facility,hybrid,0.78,0.91,false,0.75,0.84,steward_review,true
+cand005,rec001,rec008,organization,probabilistic,0.72,0.76,false,0.40,0.66,possible_link,true
+cand006,rec002,rec003,organization,hybrid,0.89,0.86,false,0.72,0.85,steward_review,true

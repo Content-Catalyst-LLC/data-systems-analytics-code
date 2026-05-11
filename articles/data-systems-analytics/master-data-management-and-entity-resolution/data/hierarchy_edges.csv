@@ -1,0 +1,5 @@
+edge_id,parent_entity_id,child_entity_id,relationship_type,relationship_view,effective_from_utc,effective_to_utc,confidence,source
+hier001,mstr_supplier_parent_global,mstr_supplier_001,owns,legal_hierarchy,2025-01-01T00:00:00Z,,0.94,external_registry
+hier002,mstr_customer_001,mstr_customer_account_001,has_account,operational_hierarchy,2026-01-02T01:00:00Z,,0.90,billing
+hier003,mstr_facility_region_midwest,mstr_facility_001,contains,operational_region,2026-01-02T03:00:00Z,,0.88,facilities
+hier004,mstr_legal_entity_us,mstr_facility_001,reports_facility,sustainability_boundary,2026-01-02T03:00:00Z,,0.82,sustainability
