@@ -1,0 +1,7 @@
+annotation_id,dashboard_id,view_id,annotation_type,text_quality,evidence_linked,near_relevant_visual,emphasis_risk
+ann001,dash001,view002,threshold_note,approved,true,true,low
+ann002,dash001,view003,reconciliation_note,approved,true,true,low
+ann003,dash002,view004,segment_context,in_review,true,true,medium
+ann004,dash003,view006,policy_tradeoff_note,in_review,true,true,medium
+ann005,dash004,view008,incident_recovery_note,approved,true,true,low
+ann006,dash005,view010,legacy_warning,weak,false,false,high

@@ -1,0 +1,9 @@
+kpi_id,dashboard_id,kpi_name,definition_status,baseline_present,target_present,trend_present,denominator_present,owner,certification_status
+kpi001,dash001,net_revenue_variance,approved,true,true,true,true,finance-steward,certified
+kpi002,dash001,late_adjustment_rate,approved,true,true,true,true,finance-steward,certified
+kpi003,dash002,active_customer_count,approved,true,false,true,true,customer-steward,reviewed
+kpi004,dash002,customer_completeness_score,review,true,true,true,true,customer-steward,reviewed
+kpi005,dash003,supplier_high_risk_share,review,true,true,true,true,supplier-steward,reviewed
+kpi006,dash004,usage_event_volume,approved,true,true,true,true,product-steward,certified
+kpi007,dash004,instrumentation_error_rate,approved,true,true,true,true,product-steward,certified
+kpi008,dash005,legacy_kpi_value,incomplete,false,false,false,false,legacy-steward,uncertified

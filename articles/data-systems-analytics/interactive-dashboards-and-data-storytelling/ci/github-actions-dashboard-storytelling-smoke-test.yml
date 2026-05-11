@@ -1,0 +1,26 @@
+name: Interactive dashboards storytelling smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/interactive-dashboards-and-data-storytelling/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/interactive-dashboards-and-data-storytelling
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run dashboard scorecard and SQL loader
+        run: |
+          python3 python/dashboard_storytelling_scorecard.py
+          python3 sql/run_sqlite_dashboard_storytelling.py
+      - name: Show manifest
+        run: |
+          cat outputs/dashboard_storytelling_manifest_python.json

@@ -1,0 +1,6 @@
+dashboard_id,dashboard_title,dashboard_type,audience,primary_use,owner,steward,status,refresh_cadence,view_count,filter_count,created_at_utc,last_reviewed_at_utc
+dash001,Executive Revenue Monitoring Dashboard,monitoring,executive_leadership,recurring_decision_support,finance-analytics,finance-steward,approved,daily,3,3,2026-01-01T00:00:00Z,2026-01-05T00:00:00Z
+dash002,Customer 360 Exploration Dashboard,exploratory,customer_analytics,segment_analysis,customer-domain,customer-steward,in_review,daily,5,7,2026-01-02T00:00:00Z,2026-01-05T00:00:00Z
+dash003,Supplier Risk Story Dashboard,guided_story,procurement_leadership,policy_choice,operations-analytics,supplier-steward,in_review,weekly,4,4,2026-01-03T00:00:00Z,2026-01-05T00:00:00Z
+dash004,Product Usage Operations Dashboard,operational_monitoring,product_operations,incident_monitoring,product-analytics,product-steward,approved,hourly,3,4,2026-01-04T00:00:00Z,2026-01-05T00:00:00Z
+dash005,Legacy KPI Dashboard,legacy_reporting,central_bi,legacy_review,central-bi,legacy-steward,needs_revision,monthly,8,9,2025-12-01T00:00:00Z,2026-01-02T00:00:00Z

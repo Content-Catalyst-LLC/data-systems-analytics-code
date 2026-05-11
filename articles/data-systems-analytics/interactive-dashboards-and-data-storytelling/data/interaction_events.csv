@@ -1,0 +1,8 @@
+event_id,dashboard_id,event_type,user_task,friction_level,error_risk,observed_count,notes
+evt001,dash001,filter_change,compare_region,low,low,42,Stable defaults visible
+evt002,dash001,drill_down,inspect_reconciliation,low,low,18,Detail table linked from trend
+evt003,dash002,filter_change,segment_customers,medium,medium,60,Many filters but reset available
+evt004,dash002,drill_down,inspect_customer_detail,medium,medium,30,Detail table useful but dense
+evt005,dash003,story_navigation,compare_policy_options,medium,medium,21,Story points guide interpretation
+evt006,dash004,threshold_alert,inspect_incident,low,low,50,Operational recovery path clear
+evt007,dash005,filter_change,legacy_region_slice,high,high,12,Default state unclear and reset absent

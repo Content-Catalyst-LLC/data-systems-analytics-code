@@ -1,0 +1,7 @@
+story_point_id,dashboard_id,sequence_order,story_title,story_function,claim_id,linked_view_id,user_action_expected,uncertainty_visible
+sp001,dash003,1,Why supplier concentration matters,context,claim001,view006,read,true
+sp002,dash003,2,Where high-risk exposure appears,pattern,claim002,view006,filter,true
+sp003,dash003,3,Which option reduces risk with least disruption,tradeoff,claim003,view007,compare,true
+sp004,dash001,1,Revenue variance is within tolerance,status,claim004,view002,read,true
+sp005,dash004,1,Usage volume recovered after instrumentation fix,status,claim005,view008,monitor,true
+sp006,dash005,1,Legacy KPI cannot support certified monitoring,governance_warning,claim006,view010,read,false

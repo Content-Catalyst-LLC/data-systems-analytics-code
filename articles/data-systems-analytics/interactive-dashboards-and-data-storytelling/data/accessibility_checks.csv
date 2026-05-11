@@ -1,0 +1,9 @@
+check_id,dashboard_id,check_type,status,severity,notes
+acc001,dash001,color_not_only_signal,pass,high,Variance also labeled with arrows and text
+acc002,dash001,keyboard_navigation,pass,medium,Main filters reachable
+acc003,dash002,color_not_only_signal,warn,high,Segment colors need redundant labels
+acc004,dash002,tooltip_dependency,warn,medium,Some definitions only appear in hover states
+acc005,dash003,story_text_readability,pass,medium,Story captions readable
+acc006,dash004,color_contrast,pass,high,Alert palette meets contrast review
+acc007,dash005,color_not_only_signal,fail,high,Legacy dashboard relies on color only
+acc008,dash005,tooltip_dependency,fail,medium,Critical definitions hidden in hover states

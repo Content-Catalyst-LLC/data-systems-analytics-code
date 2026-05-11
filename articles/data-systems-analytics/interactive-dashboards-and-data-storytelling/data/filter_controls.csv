@@ -1,0 +1,13 @@
+filter_id,dashboard_id,filter_name,filter_type,default_state_visible,reset_available,consumer_relevant,complexity_level
+flt001,dash001,fiscal_quarter,dropdown,true,true,true,low
+flt002,dash001,business_unit,dropdown,true,true,true,medium
+flt003,dash001,region,dropdown,true,true,true,medium
+flt004,dash002,segment,multiselect,true,true,true,medium
+flt005,dash002,cohort_date,range_slider,true,true,true,medium
+flt006,dash002,channel,multiselect,true,true,true,medium
+flt007,dash002,customer_lifecycle_stage,multiselect,true,true,true,high
+flt008,dash002,account_owner,multiselect,false,true,false,high
+flt009,dash003,supplier_region,dropdown,true,true,true,medium
+flt010,dash003,risk_category,multiselect,true,true,true,medium
+flt011,dash004,time_window,range_slider,true,true,true,medium
+flt012,dash005,legacy_region,multiselect,false,false,false,high

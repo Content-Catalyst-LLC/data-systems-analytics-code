@@ -1,0 +1,30 @@
+platform:
+  name: interactive-dashboards-and-data-storytelling
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - dashboards_are_analytical_interfaces
+    - stories_are_guided_interpretation
+    - interactivity_must_reduce_not_increase_confusion
+    - kpis_need_context
+    - progressive_disclosure_over_clutter
+    - annotations_link_claims_to_evidence
+    - visible_filter_state
+    - accessibility_by_default
+    - governance_controls_for_metrics_and_refresh_state
+    - narrative_emphasis_proportionate_to_evidence
+  dashboard_modes:
+    - monitoring
+    - exploratory
+    - guided_story
+    - operational_monitoring
+    - legacy_reporting
+  integrity_dimensions:
+    - kpi_context
+    - view_focus
+    - interaction_burden
+    - story_coherence
+    - annotation_quality
+    - accessibility
+    - governance
+    - traceability

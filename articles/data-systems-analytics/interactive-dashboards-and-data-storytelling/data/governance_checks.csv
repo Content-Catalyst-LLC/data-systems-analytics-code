@@ -1,0 +1,8 @@
+governance_id,dashboard_id,check_type,status,owner,blocking_issue,notes
+gov001,dash001,certified_metrics,approved,finance-steward,false,Metrics certified and linked to finance glossary
+gov002,dash001,refresh_state_visible,approved,finance-analytics,false,Refresh time visible
+gov003,dash002,metric_definitions,in_review,customer-steward,false,Definitions visible but customer completeness still under review
+gov004,dash002,filter_state_visible,in_review,customer-steward,false,Most filter states visible
+gov005,dash003,responsible_story_emphasis,in_review,supplier-steward,true,Policy tradeoff statement needs stronger caveat
+gov006,dash004,incident_thresholds,approved,product-steward,false,Thresholds and owners visible
+gov007,dash005,legacy_warning,needs_revision,legacy-steward,true,Legacy status not visible enough

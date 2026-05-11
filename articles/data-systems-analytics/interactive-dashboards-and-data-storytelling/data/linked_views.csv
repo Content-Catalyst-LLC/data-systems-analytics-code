@@ -1,0 +1,12 @@
+view_id,dashboard_id,view_name,visual_type,purpose,linked_to,progressive_disclosure,design_risk,caption_quality
+view001,dash001,revenue_kpi_cards,kpi_cards,status_summary,view002,true,low,approved
+view002,dash001,revenue_trend,line_chart,trend,view003,true,low,approved
+view003,dash001,revenue_reconciliation_table,table,exact_lookup,,false,low,approved
+view004,dash002,customer_segment_bar_chart,bar_chart,comparison,view005,true,medium,in_review
+view005,dash002,customer_detail_table,table,detail_lookup,,false,medium,in_review
+view006,dash003,supplier_risk_matrix,matrix,tradeoff_comparison,view007,true,medium,in_review
+view007,dash003,supplier_story_annotations,annotation_panel,guided_interpretation,,false,medium,in_review
+view008,dash004,usage_event_trend,line_chart,monitoring,view009,true,low,approved
+view009,dash004,incident_detail_table,table,incident_lookup,,false,low,approved
+view010,dash005,legacy_metric_grid,kpi_grid,status_summary,view011,false,high,weak
+view011,dash005,legacy_filter_detail_table,table,detail_lookup,,false,high,weak

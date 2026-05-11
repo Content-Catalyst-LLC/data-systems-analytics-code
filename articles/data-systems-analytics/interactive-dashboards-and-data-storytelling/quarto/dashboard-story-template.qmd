@@ -1,0 +1,55 @@
+---
+title: "Dashboard Storytelling Review"
+subtitle: "Monitoring, Exploration, Story Points, and Interface Integrity"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Dashboard purpose
+
+State the dashboard mode: monitoring, exploration, guided story, or operational status.
+
+## Core questions
+
+- What is happening now?
+- What changed?
+- Where is the exception?
+- Which segment needs attention?
+- What should the user do next?
+
+## Dashboard integrity summary
+
+```{python}
+dashboards = 5
+approved = 2
+in_review = 2
+needs_revision = 1
+print({
+    "dashboards": dashboards,
+    "approved_share": approved / dashboards,
+    "in_review_share": in_review / dashboards,
+    "needs_revision_share": needs_revision / dashboards
+})
+```
+
+## Story points
+
+Describe the sequence of views, annotations, and evidence links.
+
+## Interaction notes
+
+Document filters, active states, resets, drill-downs, and expected tasks.
+
+## Accessibility and governance
+
+List metric certification, refresh visibility, color/contrast checks, keyboard navigation, and tooltip dependency issues.
+
+## Appendix
+
+Preserve source definitions, method references, evidence links, and review notes.

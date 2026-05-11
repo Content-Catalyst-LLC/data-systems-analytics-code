@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard Storytelling Mockup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem; line-height: 1.5; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 1rem; background: #fafafa; }
+    .kpi { font-size: 2rem; font-weight: 700; }
+    .caption { color: #555; font-size: 0.95rem; }
+    @media (max-width: 800px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <h1>Dashboard Storytelling Mockup</h1>
+  <p>This static mockup demonstrates the principle: few views, visible context, annotated findings, and accessible text labels.</p>
+
+  <section class="grid" aria-label="KPI cards">
+    <article class="card">
+      <h2>Revenue variance</h2>
+      <div class="kpi">0.3%</div>
+      <p class="caption">Within certified tolerance; baseline: 1.0% threshold.</p>
+    </article>
+    <article class="card">
+      <h2>Late adjustments</h2>
+      <div class="kpi">2.1%</div>
+      <p class="caption">Slightly elevated; context preserved in story point 2.</p>
+    </article>
+    <article class="card">
+      <h2>Open review items</h2>
+      <div class="kpi">1</div>
+      <p class="caption">One caveat requires steward review before publication.</p>
+    </article>
+  </section>
+
+  <section class="card" style="margin-top:1rem">
+    <h2>Story point</h2>
+    <p><strong>Finding:</strong> The dashboard supports monitoring because its primary KPIs have baselines, trends, denominators, and certified definitions.</p>
+    <p><strong>Caveat:</strong> Interactivity should remain limited to the controls needed for the primary decision task.</p>
+  </section>
+</body>
+</html>

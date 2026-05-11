@@ -1,0 +1,7 @@
+link_id,claim_id,dashboard_id,source_asset,method_reference,traceability_status,review_status
+evl001,claim001,dash003,asset_supplier_risk,method_supplier_risk_v1,complete,in_review
+evl002,claim002,dash003,asset_supplier_risk,method_supplier_risk_v1,complete,in_review
+evl003,claim003,dash003,asset_supplier_risk,method_policy_scenario_v1,partial,in_review
+evl004,claim004,dash001,asset_revenue_mart,method_reconciliation_v2,complete,approved
+evl005,claim005,dash004,asset_usage_events,method_operational_monitoring_v3,complete,approved
+evl006,claim006,dash005,asset_legacy_kpi,method_audit_review_v1,partial,needs_revision
