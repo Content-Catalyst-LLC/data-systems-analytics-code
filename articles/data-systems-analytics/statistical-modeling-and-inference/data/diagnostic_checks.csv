@@ -1,0 +1,9 @@
+check_id,model_id,check_type,status,severity,evidence,remediation
+chk001,mod001,sample_size,pass,medium,group counts adequate for demonstration,none
+chk002,mod001,independence,warn,high,batches may introduce dependence,consider batch-adjusted sensitivity
+chk003,mod002,linearity,pass,high,residual pattern acceptable in small demonstration,none
+chk004,mod002,influential_observations,warn,medium,one high-x observation has leverage,run sensitivity without high leverage point
+chk005,mod003,multicollinearity,warn,medium,predictor_x and predictor_z partially aligned,inspect variance inflation
+chk006,mod003,heteroskedasticity,warn,high,residual variance may differ by group,use robust standard errors
+chk007,mod004,p_value_overreliance,fail,critical,claim rests on threshold without effect-size interpretation,reframe with interval and practical threshold
+chk008,mod004,assumption_documentation,fail,critical,model assumptions not documented,rebuild model record

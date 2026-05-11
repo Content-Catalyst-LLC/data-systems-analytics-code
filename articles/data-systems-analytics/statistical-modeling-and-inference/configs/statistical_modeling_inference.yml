@@ -1,0 +1,14 @@
+platform:
+  name: statistical-modeling-and-inference
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - define_estimand_before_estimator
+    - separate_description_from_inference
+    - report_effect_size_with_uncertainty
+    - do_not_reduce_evidence_to_p_value_thresholds
+    - check_model_assumptions
+    - preserve_diagnostics_and_robustness_records
+    - interpret_practical_meaning_separately_from_statistical_detection
+    - document_sampling_and_measurement_process
+    - distinguish_association_prediction_and_causation

@@ -1,0 +1,5 @@
+claim_id,model_id,claim_text,claim_type,effect_size,standard_error,p_value,confidence_low,confidence_high,practical_threshold,claim_status
+clm001,mod001,Group B has higher mean outcome than Group A,mean_difference,2.78,0.62,0.012,1.34,4.22,1.00,approved
+clm002,mod002,Outcome increases with predictor_x,slope_estimate,1.82,0.31,0.004,1.14,2.50,0.50,in_review
+clm003,mod003,Predictor_x remains positive after adjustment,adjusted_slope,1.46,0.44,0.031,0.52,2.40,0.50,in_review
+clm004,mod004,Legacy result is significant,p_value_threshold,0.22,0.11,0.049,0.01,0.43,0.50,needs_revision

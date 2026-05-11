@@ -1,0 +1,5 @@
+robustness_id,model_id,check_name,primary_estimate,alternative_estimate,absolute_change,status,notes
+rob001,mod001,batch_adjusted_difference,2.78,2.41,0.37,pass,batch adjustment changes magnitude modestly
+rob002,mod002,leave_one_high_leverage_out,1.82,1.61,0.21,watch,slope remains positive but weaker
+rob003,mod003,robust_standard_errors,1.46,1.46,0.00,watch,estimate unchanged but uncertainty wider
+rob004,mod004,practical_threshold_review,0.22,0.22,0.00,fail,effect below practical threshold despite p-value focus

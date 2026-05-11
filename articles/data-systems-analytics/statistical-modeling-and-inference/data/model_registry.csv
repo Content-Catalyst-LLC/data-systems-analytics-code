@@ -1,0 +1,5 @@
+model_id,model_name,model_family,estimand,outcome,predictors,assumption_profile,status,owner,risk_level
+mod001,Group Mean Difference,two_sample_estimator,mean_difference,outcome,group_id,independent_samples,approved,statistics-steward,medium
+mod002,Linear Association Model,linear_regression,slope,outcome,predictor_x,linear_independent_errors,in_review,statistics-steward,medium
+mod003,Adjusted Regression Model,multiple_regression,adjusted_slope,outcome,predictor_x;predictor_z,linear_additive_errors,in_review,statistics-steward,medium
+mod004,Legacy Significance Screen,null_hypothesis_test,p_value_threshold,outcome,group_id,unclear_assumptions,needs_revision,legacy-steward,medium

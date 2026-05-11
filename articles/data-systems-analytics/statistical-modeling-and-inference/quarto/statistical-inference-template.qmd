@@ -1,0 +1,41 @@
+---
+title: "Statistical Modeling and Inference Review"
+subtitle: "Estimation, Intervals, Hypothesis Tests, Diagnostics, and Interpretation"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Estimand
+
+State the population or process quantity being estimated.
+
+## Model
+
+Describe the model structure, assumptions, and data-generating interpretation.
+
+## Reproducible example
+
+```{python}
+estimate = 2.78
+standard_error = 0.62
+ci = (estimate - 1.96 * standard_error, estimate + 1.96 * standard_error)
+print({"estimate": estimate, "ci_95": ci})
+```
+
+## Diagnostics
+
+Review residuals, leverage, heteroskedasticity, multicollinearity, and robustness.
+
+## Interpretation
+
+Separate statistical detection from practical meaning.
+
+## Appendix
+
+Preserve model registry, inference claims, diagnostics, and robustness notes.
