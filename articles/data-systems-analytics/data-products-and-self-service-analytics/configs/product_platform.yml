@@ -1,0 +1,26 @@
+platform:
+  name: data-products-and-self-service-analytics
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - data_as_product
+    - domain_ownership
+    - self_service_on_governed_assets
+    - semantic_consistency
+    - catalog_discovery
+    - lineage_by_default
+    - quality_by_default
+    - federated_governance
+    - product_lifecycle_management
+  required_product_fields:
+    - product_id
+    - domain
+    - product_name
+    - owner
+    - consumer_group
+    - criticality
+    - freshness_sla_hours
+    - semantic_status
+    - quality_score
+    - access_model
+    - lifecycle_status

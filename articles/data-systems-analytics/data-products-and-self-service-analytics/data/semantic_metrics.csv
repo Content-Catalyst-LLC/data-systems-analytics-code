@@ -1,0 +1,8 @@
+metric_id,product_id,metric_name,definition,grain,calculation_owner,certification_status
+m001,dp_customer_360,active_customer,"Customer with qualifying activity in the reporting window",customer_day,analytics-engineering,certified
+m002,dp_customer_360,customer_lifetime_value,"Estimated net value over observed customer relationship",customer,customer-domain,reviewed
+m003,dp_revenue_mart,net_revenue,"Gross revenue less refunds discounts and reversals",accounting_period,finance-domain,certified
+m004,dp_supply_delay,late_supplier_delivery_rate,"Share of supplier deliveries later than contracted service window",supplier_week,operations-domain,certified
+m005,dp_product_usage,weekly_active_user,"User with one or more qualifying product events in a calendar week",user_week,product-domain,certified
+m006,dp_emissions_intensity,emissions_per_unit_output,"Estimated emissions divided by production or service output",facility_month,sustainability-domain,reviewed
+m007,dp_experiment_readout,treatment_lift,"Difference between treatment and control conversion rates",experiment,growth-domain,reviewed

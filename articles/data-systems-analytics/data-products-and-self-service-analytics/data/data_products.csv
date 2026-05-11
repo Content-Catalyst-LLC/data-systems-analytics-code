@@ -1,0 +1,8 @@
+product_id,domain,product_name,owner,consumer_group,criticality,freshness_sla_hours,semantic_status,quality_score,access_model,lifecycle_status
+dp_customer_360,customer,Customer 360 Analytical Product,customer-domain,marketing-and-support,high,24,certified,0.96,role-based,active
+dp_revenue_mart,finance,Revenue Performance Product,finance-domain,finance-and-executives,high,24,certified,0.98,row-column-security,active
+dp_supply_delay,operations,Supplier Delay and Fulfillment Product,operations-domain,operations-and-procurement,medium,12,certified,0.91,role-based,active
+dp_product_usage,product,Product Usage Analytics Product,product-domain,product-and-growth,high,6,certified,0.94,role-based,active
+dp_emissions_intensity,sustainability,Emissions Intensity Product,sustainability-domain,sustainability-and-risk,medium,168,reviewed,0.88,restricted,active
+dp_experiment_readout,growth,Experiment Readout Product,growth-domain,growth-and-product,medium,24,reviewed,0.86,role-based,beta
+dp_legacy_dashboard_extract,legacy,Legacy Dashboard Extract,central-bi,legacy-consumers,low,168,uncertified,0.62,open-internal,deprecated

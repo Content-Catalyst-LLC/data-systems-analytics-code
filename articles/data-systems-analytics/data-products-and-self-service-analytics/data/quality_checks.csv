@@ -1,0 +1,9 @@
+check_id,product_id,check_type,threshold,observed_value,last_status,owner
+qc001,dp_customer_360,freshness_hours,24,8,pass,customer-domain
+qc002,dp_customer_360,identity_resolution_match_rate,0.95,0.97,pass,customer-domain
+qc003,dp_revenue_mart,reconciliation_variance,0.01,0.002,pass,finance-domain
+qc004,dp_supply_delay,not_null_supplier_id,0.99,0.992,pass,operations-domain
+qc005,dp_product_usage,event_lateness_hours,6,5,pass,product-domain
+qc006,dp_emissions_intensity,source_coverage,0.90,0.87,warn,sustainability-domain
+qc007,dp_experiment_readout,minimum_sample_size,500,430,warn,growth-domain
+qc008,dp_legacy_dashboard_extract,metric_certification,1,0,fail,central-bi

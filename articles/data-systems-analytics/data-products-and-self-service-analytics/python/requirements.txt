@@ -1,0 +1,6 @@
+# The core scorecard uses only the Python standard library.
+# Optional packages for notebooks and extended analysis:
+pandas>=2.2
+duckdb>=1.0
+pyyaml>=6.0
+jupyter>=1.0

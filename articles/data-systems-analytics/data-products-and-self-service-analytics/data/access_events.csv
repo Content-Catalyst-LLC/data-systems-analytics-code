@@ -1,0 +1,11 @@
+event_date,product_id,consumer_group,dashboard_views,notebook_sessions,api_calls,ad_hoc_queries
+2026-01-01,dp_customer_360,marketing-and-support,82,14,240,31
+2026-01-01,dp_revenue_mart,finance-and-executives,104,8,90,22
+2026-01-01,dp_supply_delay,operations-and-procurement,46,6,35,18
+2026-01-01,dp_product_usage,product-and-growth,73,21,150,42
+2026-01-01,dp_emissions_intensity,sustainability-and-risk,19,5,10,7
+2026-01-02,dp_customer_360,marketing-and-support,88,17,265,29
+2026-01-02,dp_revenue_mart,finance-and-executives,115,9,100,24
+2026-01-02,dp_supply_delay,operations-and-procurement,51,7,40,16
+2026-01-02,dp_product_usage,product-and-growth,79,24,165,47
+2026-01-02,dp_experiment_readout,growth-and-product,22,13,12,36
