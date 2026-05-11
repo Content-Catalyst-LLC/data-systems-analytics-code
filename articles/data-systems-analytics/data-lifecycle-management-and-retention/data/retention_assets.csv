@@ -1,0 +1,8 @@
+asset_id,asset_name,system,owner,classification,retention_category,created_date,trigger_date,last_accessed_date,legal_hold,archival_value,storage_gb,downstream_dependencies
+crm_contacts_raw,CRM contacts raw export,cloud_object_storage,sales_ops,personal_data,customer_contact_data,2022-02-01,2025-12-31,2026-03-01,false,low,18,3
+invoice_records,Invoice records,finance_database,finance,financial_record,financial_records,2018-01-01,2019-12-31,2026-02-15,false,medium,42,5
+web_logs_2021,Web logs 2021,log_archive,platform_engineering,behavioral_log,system_logs,2021-01-01,2021-12-31,2022-03-01,false,low,120,0
+environmental_sensor_history,Environmental sensor history,data_lakehouse,research_data_team,scientific_observation,research_observational_data,2016-01-01,2025-12-31,2026-03-20,false,high,380,12
+terminated_employee_files,Terminated employee files,hr_document_system,human_resources,sensitive_personal_data,employee_records,2015-05-01,2016-05-01,2026-01-10,true,low,9,1
+model_training_extract_v1,Model training extract v1,machine_learning_workspace,machine_learning,derived_personal_data,ml_training_extract,2023-06-01,2024-06-01,2024-09-01,false,low,64,2
+legacy_dashboard_extract,Legacy dashboard extract,business_intelligence,,internal_analytics,dashboard_extract,2020-01-01,2020-12-31,2021-06-01,false,low,27,0

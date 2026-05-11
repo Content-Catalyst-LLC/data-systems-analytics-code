@@ -1,0 +1,8 @@
+retention_category,retention_years,default_action,requires_archival_review
+customer_contact_data,2,delete_or_anonymize,false
+financial_records,7,retain_until_expired_then_dispose,false
+system_logs,1,delete,false
+research_observational_data,10,archive_review,true
+employee_records,7,retain_until_expired_then_dispose,false
+ml_training_extract,2,delete_or_regenerate_from_governed_source,false
+dashboard_extract,1,delete_or_rebuild_from_certified_source,false
