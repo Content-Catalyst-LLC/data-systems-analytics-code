@@ -1,0 +1,6 @@
+flow_id,source_asset,target_asset,flow_type,masking_applied,tokenization_applied,purpose,owner
+flow001,asset_customer_raw,asset_customer_curated,curation,true,true,customer_analytics,customer-domain
+flow002,asset_finance_payroll,asset_public_metrics,aggregation,true,false,public_aggregate_reporting,finance-domain
+flow003,asset_support_tickets,asset_usage_events,feature_enrichment,false,false,model_training,service-domain
+flow004,asset_customer_curated,asset_public_metrics,aggregation,true,false,public_reporting,analytics-engineering
+flow005,asset_api_secrets,asset_customer_raw,credentialed_ingestion,false,false,ingestion_pipeline,platform-security

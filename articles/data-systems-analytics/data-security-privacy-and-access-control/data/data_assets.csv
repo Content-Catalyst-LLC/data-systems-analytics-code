@@ -1,0 +1,8 @@
+asset_id,asset_name,domain,classification,contains_personal_data,contains_direct_identifiers,sensitivity_score,owner,retention_days,control_surface
+asset_customer_raw,Customer Raw Landing Zone,customer,restricted,true,true,0.95,customer-domain,365,raw-zone
+asset_customer_curated,Customer Curated Mart,customer,confidential,true,false,0.80,customer-domain,730,warehouse
+asset_finance_payroll,Payroll Analytics Mart,finance,restricted,true,true,0.98,finance-domain,2555,warehouse
+asset_support_tickets,Support Ticket Text,service,confidential,true,false,0.82,service-domain,1095,lakehouse
+asset_usage_events,Product Usage Events,product,internal,true,false,0.65,product-domain,730,event-stream
+asset_public_metrics,Public Aggregate Metrics,enterprise,public,false,false,0.10,analytics-engineering,1825,semantic-layer
+asset_api_secrets,API Secrets Vault,platform,secret,false,false,1.00,platform-security,90,secrets-manager
