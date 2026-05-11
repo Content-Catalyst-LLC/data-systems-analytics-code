@@ -1,0 +1,9 @@
+table_id,table_name,entity_type,grain,primary_key,owner,normalization_target,row_count,certification_status
+t001,customers,entity,one row per customer,customer_id,customer-data,3NF,120000,certified
+t002,products,entity,one row per sellable product,product_id,product-data,3NF,55000,certified
+t003,orders,event,one row per customer order,order_id,sales-data,3NF,850000,certified
+t004,order_lines,event,one row per ordered product line,order_line_id,sales-data,3NF,4200000,certified
+t005,payments,event,one row per payment attempt,payment_id,finance-data,3NF,970000,certified
+t006,shipments,event,one row per shipment,shipment_id,logistics-data,3NF,810000,in_review
+t007,customer_segments,classification,one row per customer segment assignment,customer_segment_id,marketing-data,3NF,300000,in_review
+t008,audit_log,event,one row per database state-changing event,audit_id,platform-governance,append_only,2500000,registered

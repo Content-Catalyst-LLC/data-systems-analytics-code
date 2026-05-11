@@ -1,0 +1,33 @@
+---
+title: "Relational Databases and SQL Systems Review"
+subtitle: "Relations, Keys, Constraints, Normalization, Transactions, Indexes, Query Workloads, and Governance"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Relational design objective
+
+Define the domain relations, table grains, keys, constraints, dependencies, transaction boundaries, indexes, and access controls.
+
+## Reproducible example
+
+```{sql}
+SELECT c.customer_name, COUNT(o.order_id) AS order_count
+FROM customers c
+JOIN orders o ON o.customer_id = c.customer_id
+GROUP BY c.customer_name;
+```
+
+## Governance review
+
+Check primary keys, foreign keys, nullability, uniqueness, check constraints, normalization risks, query workload fit, transaction evidence, and access controls.
+
+## Appendix
+
+Attach schema inventory, constraints, workloads, indexes, normalization checks, transaction logs, access controls, and integrity incidents.

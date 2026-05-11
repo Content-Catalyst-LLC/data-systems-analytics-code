@@ -1,0 +1,9 @@
+grant_id,role_name,table_name,privilege,scope,least_privilege_status,row_level_security,masking_required,status
+a001,analyst_readonly,customers,SELECT,non_pii_columns,pass,1,1,approved
+a002,analyst_readonly,orders,SELECT,all_columns,pass,0,0,approved
+a003,analyst_readonly,order_lines,SELECT,all_columns,pass,0,0,approved
+a004,finance_analyst,payments,SELECT,finance_columns,pass,1,1,approved
+a005,logistics_user,shipments,SELECT,logistics_columns,pass,0,0,in_review
+a006,etl_service,orders,"SELECT;INSERT;UPDATE",pipeline_scope,pass,0,0,approved
+a007,app_service,customers,"SELECT;INSERT;UPDATE",application_scope,watch,1,1,in_review
+a008,dba_admin,ALL,ALL,administration,pass,0,0,approved

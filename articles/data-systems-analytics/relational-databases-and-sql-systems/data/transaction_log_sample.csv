@@ -1,0 +1,7 @@
+txn_id,started_at,committed_at,operation_count,tables_touched,isolation_level,result,rollback_flag,deadlock_retry_count,latency_ms
+tx001,2026-05-11T10:00:00Z,2026-05-11T10:00:00.090Z,3,"orders;order_lines;payments",read_committed,committed,0,0,90
+tx002,2026-05-11T10:00:02Z,2026-05-11T10:00:02.130Z,2,"orders;shipments",read_committed,committed,0,0,130
+tx003,2026-05-11T10:00:05Z,2026-05-11T10:00:05.650Z,4,"payments;orders;audit_log",repeatable_read,committed,0,1,650
+tx004,2026-05-11T10:00:08Z,2026-05-11T10:00:08.030Z,1,audit_log,read_committed,committed,0,0,30
+tx005,2026-05-11T10:00:10Z,2026-05-11T10:00:10.920Z,5,"orders;order_lines;payments;shipments",serializable,rolled_back,1,2,920
+tx006,2026-05-11T10:00:12Z,2026-05-11T10:00:12.180Z,2,"customers;audit_log",read_committed,committed,0,0,180

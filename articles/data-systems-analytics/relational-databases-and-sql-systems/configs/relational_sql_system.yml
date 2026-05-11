@@ -1,0 +1,15 @@
+platform:
+  name: relational-databases-and-sql-systems
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - model_domain_state_as_relations
+    - define_identity_with_primary_keys
+    - express_dependencies_with_foreign_keys
+    - use_constraints_to_protect_valid_state
+    - distinguish_logical_schema_from_physical_optimization
+    - design_indexes_from_workload_evidence
+    - preserve_transaction_evidence
+    - normalize_where_update_anomalies_matter
+    - govern_access_with_least_privilege
+    - treat_sql_as_declarative_institutional_language

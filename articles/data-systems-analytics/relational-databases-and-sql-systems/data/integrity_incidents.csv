@@ -1,0 +1,5 @@
+incident_id,detected_at,table_name,incident_type,affected_rows,root_cause,severity,status
+inc001,2026-05-10T09:00:00Z,shipments,foreign_key_orphan_candidate,12,legacy import before FK enforcement,high,in_review
+inc002,2026-05-10T09:30:00Z,customer_segments,reference_table_missing,120,segment taxonomy not normalized,medium,planned
+inc003,2026-05-10T10:00:00Z,payments,negative_amount_rejected,3,application validation gap,critical,resolved
+inc004,2026-05-10T10:30:00Z,audit_log,query_latency_above_target,0,missing partitioning strategy,medium,in_review

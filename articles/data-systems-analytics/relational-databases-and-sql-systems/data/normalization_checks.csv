@@ -1,0 +1,9 @@
+check_id,table_name,normal_form,dependency_issue,duplication_risk,update_anomaly_risk,status,owner
+n001,customers,3NF,no_partial_or_transitive_dependency,low,low,pass,customer-data
+n002,products,3NF,no_partial_or_transitive_dependency,low,low,pass,product-data
+n003,orders,3NF,order_header_separated_from_line_items,low,low,pass,sales-data
+n004,order_lines,3NF,line_items_separated_from_order_header,low,low,pass,sales-data
+n005,payments,3NF,payment_attempts_separated_from_orders,low,low,pass,finance-data
+n006,shipments,2NF,status_history_not_fully_modeled,medium,medium,warn,logistics-data
+n007,customer_segments,2NF,segment_definitions_need_reference_table,medium,medium,warn,marketing-data
+n008,audit_log,append_only,designed_for_event_history,low,low,pass,platform-governance

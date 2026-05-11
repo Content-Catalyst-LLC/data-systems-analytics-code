@@ -1,0 +1,26 @@
+name: Relational SQL smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/relational-databases-and-sql-systems/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/relational-databases-and-sql-systems
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run relational SQL scorecard and SQLite example
+        run: |
+          python3 python/relational_sql_scorecard.py
+          python3 sql/run_sqlite_relational.py
+      - name: Show manifest
+        run: |
+          cat outputs/relational_sql_manifest_python.json

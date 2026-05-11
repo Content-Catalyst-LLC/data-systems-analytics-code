@@ -1,0 +1,7 @@
+query_id,workload_name,query_type,primary_tables,join_count,filter_columns,group_by_columns,expected_latency_ms,p95_latency_ms,execution_count_per_day,criticality,status
+q001,customer_order_history,lookup,"customers;orders;order_lines",2,"customer_id;order_date",,150,120,5000,high,good
+q002,daily_revenue_report,aggregation,"orders;order_lines;payments",2,"order_date;status","order_date;payment_status",600,720,240,critical,watch
+q003,product_sales_rank,aggregation,"products;order_lines",1,"product_id","product_id",450,410,360,medium,good
+q004,payment_exception_review,lookup,"payments;orders",1,"payment_status;order_id",,200,350,1500,high,watch
+q005,shipment_delay_monitor,operational,"shipments;orders",1,"shipment_status;promised_date",,300,520,2000,high,watch
+q006,audit_access_review,governance,"audit_log",0,"action_type;actor_role","action_type;actor_role",900,1100,30,medium,watch

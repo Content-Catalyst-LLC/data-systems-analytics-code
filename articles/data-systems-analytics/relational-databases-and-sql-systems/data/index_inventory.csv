@@ -1,0 +1,11 @@
+index_id,table_name,index_name,index_type,columns,unique_index,covering_index,used_by_queries,write_overhead_score,status
+i001,customers,pk_customers,btree,customer_id,1,1,q001,0.10,approved
+i002,customers,ux_customers_email,btree,email,1,0,q001,0.12,approved
+i003,orders,pk_orders,btree,order_id,1,1,"q001;q002;q004;q005",0.12,approved
+i004,orders,idx_orders_customer_date,btree,"customer_id;order_date",0,1,q001,0.20,approved
+i005,orders,idx_orders_date_status,btree,"order_date;status",0,1,q002,0.22,approved
+i006,order_lines,pk_order_lines,btree,order_line_id,1,1,"q001;q002;q003",0.12,approved
+i007,order_lines,idx_order_lines_order_product,btree,"order_id;product_id",0,1,"q001;q002;q003",0.25,approved
+i008,payments,idx_payments_order_status,btree,"order_id;payment_status",0,1,"q002;q004",0.22,in_review
+i009,shipments,idx_shipments_status_promised,btree,"shipment_status;promised_date",0,1,q005,0.25,in_review
+i010,audit_log,idx_audit_action_actor,btree,"action_type;actor_role",0,0,q006,0.18,in_review

@@ -1,0 +1,21 @@
+constraint_id,table_name,column_name,constraint_type,referenced_table,referenced_column,rule_expression,severity,status
+c001,customers,customer_id,primary_key,,,unique not null,critical,approved
+c002,customers,email,unique,,,lowercase email unique,high,approved
+c003,customers,created_at,not_null,,,created_at is required,high,approved
+c004,products,product_id,primary_key,,,unique not null,critical,approved
+c005,products,price,check,,,price >= 0,high,approved
+c006,orders,order_id,primary_key,,,unique not null,critical,approved
+c007,orders,customer_id,foreign_key,customers,customer_id,customer must exist,critical,approved
+c008,orders,order_date,not_null,,,order_date required,high,approved
+c009,orders,status,check,,,status in allowed set,high,approved
+c010,order_lines,order_line_id,primary_key,,,unique not null,critical,approved
+c011,order_lines,order_id,foreign_key,orders,order_id,order must exist,critical,approved
+c012,order_lines,product_id,foreign_key,products,product_id,product must exist,critical,approved
+c013,order_lines,quantity,check,,,quantity > 0,high,approved
+c014,payments,payment_id,primary_key,,,unique not null,critical,approved
+c015,payments,order_id,foreign_key,orders,order_id,order must exist,critical,approved
+c016,payments,amount,check,,,amount >= 0,critical,approved
+c017,shipments,order_id,foreign_key,orders,order_id,order must exist,critical,in_review
+c018,customer_segments,customer_id,foreign_key,customers,customer_id,customer must exist,high,in_review
+c019,audit_log,audit_id,primary_key,,,unique not null,critical,approved
+c020,audit_log,action_type,check,,,action_type in allowed set,medium,approved
