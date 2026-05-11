@@ -1,0 +1,25 @@
+platform:
+  name: data-integration-and-interoperability
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - integration_as_coordination
+    - interoperability_as_usable_coordination
+    - schema_mapping_with_semantic_review
+    - governed_identifiers
+    - controlled_vocabularies
+    - lineage_by_default
+    - observability_by_default
+    - minimization_by_design
+    - disciplined_plurality
+  interoperability_layers:
+    - technical
+    - syntactic
+    - semantic
+    - organizational
+  integration_patterns:
+    - batch_elt
+    - api_based_integration
+    - event_driven_integration
+    - federation
+    - file_exchange

@@ -1,0 +1,7 @@
+system_id,system_name,domain,system_type,owner,primary_entity,identifier_field,refresh_pattern,sensitivity
+crm,Customer Relationship Management,sales,saas,sales-ops,customer,crm_customer_id,api-hourly,medium
+erp,Enterprise Resource Planning,finance,transactional,finance-it,account,erp_account_id,batch-daily,high
+support,Support Platform,service,saas,service-ops,customer,support_contact_id,api-hourly,medium
+warehouse,Cloud Data Warehouse,analytics,warehouse,data-platform,customer,customer_key,batch-daily,medium
+iot,Sensor Network,operations,streaming,operations-technology,facility,facility_sensor_id,streaming,high
+sustainability,Sustainability Reporting System,sustainability,registry,sustainability-team,facility,facility_reporting_id,batch-monthly,high

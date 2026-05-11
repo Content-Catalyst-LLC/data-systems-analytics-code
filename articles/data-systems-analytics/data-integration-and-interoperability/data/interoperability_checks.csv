@@ -1,0 +1,9 @@
+check_id,layer,check_name,expected_value,observed_value,status,owner
+chk001,technical,api_response_success_rate,0.99,0.995,pass,data-platform
+chk002,syntactic,schema_mapping_coverage,0.95,0.875,warn,data-platform
+chk003,semantic,controlled_vocabulary_alignment,0.90,0.78,warn,data-governance
+chk004,organizational,mapping_owner_assigned,1.00,1.00,pass,data-governance
+chk005,identity,crosswalk_confidence_average,0.90,0.907,pass,mdm-team
+chk006,observability,lineage_event_coverage,0.95,0.86,warn,data-platform
+chk007,security,minimized_payload_coverage,0.90,0.84,warn,security-governance
+chk008,lifecycle,versioned_mapping_coverage,0.95,0.75,fail,data-governance

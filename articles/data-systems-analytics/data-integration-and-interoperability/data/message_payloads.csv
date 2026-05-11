@@ -1,0 +1,6 @@
+payload_id,source_system,message_type,syntax_valid,semantic_valid,minimized_payload,consumer_ready
+msg001,crm,customer_update,true,true,true,true
+msg002,erp,revenue_event,true,true,true,true
+msg003,support,ticket_status_update,true,false,false,false
+msg004,iot,facility_sensor_event,true,true,true,true
+msg005,sustainability,facility_reporting_update,true,false,true,false

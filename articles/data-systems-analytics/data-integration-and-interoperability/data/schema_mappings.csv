@@ -1,0 +1,9 @@
+mapping_id,source_system,target_model,source_field,target_field,transformation_type,semantic_risk,owner,status
+map001,crm,customer_model,crm_customer_id,customer_source_id,direct,low,sales-ops,active
+map002,erp,customer_model,erp_account_id,account_source_id,direct,medium,finance-it,active
+map003,support,customer_model,support_contact_id,contact_source_id,direct,medium,service-ops,active
+map004,crm,customer_model,lifecycle_stage,customer_status,controlled_vocab_translation,high,sales-ops,active
+map005,erp,revenue_model,invoice_date,revenue_recognition_date,business_rule_translation,high,finance-it,active
+map006,iot,facility_model,facility_sensor_id,facility_source_id,direct,medium,operations-technology,active
+map007,sustainability,facility_model,facility_reporting_id,facility_reporting_unit,direct,high,sustainability-team,active
+map008,support,customer_model,ticket_status,service_status,controlled_vocab_translation,high,service-ops,review

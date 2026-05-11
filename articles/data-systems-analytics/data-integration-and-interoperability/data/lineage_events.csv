@@ -1,0 +1,6 @@
+event_id,source_system,target_asset,job_name,run_id,event_type,event_time_utc
+lin001,crm,customer_model,crm_customer_sync,run_001,complete,2026-01-01T01:00:00Z
+lin002,erp,revenue_model,erp_revenue_load,run_002,complete,2026-01-01T02:00:00Z
+lin003,support,customer_model,support_contact_sync,run_003,complete,2026-01-01T03:00:00Z
+lin004,iot,facility_model,iot_facility_stream,run_004,complete,2026-01-01T04:00:00Z
+lin005,sustainability,facility_model,sustainability_facility_load,run_005,complete,2026-01-01T05:00:00Z

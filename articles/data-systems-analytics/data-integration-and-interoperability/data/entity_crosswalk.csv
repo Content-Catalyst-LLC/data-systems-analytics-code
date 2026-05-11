@@ -1,0 +1,7 @@
+canonical_entity_id,entity_type,crm_customer_id,erp_account_id,support_contact_id,facility_sensor_id,facility_reporting_id,match_method,confidence
+cust_001,customer,crm_1001,erp_9001,supp_3001,,,deterministic_key,0.99
+cust_002,customer,crm_1002,erp_9002,supp_3002,,,probabilistic_match,0.93
+cust_003,customer,crm_1003,,supp_3003,,,partial_match,0.82
+fac_001,facility,,,,iot_501,sus_701,governed_crosswalk,0.97
+fac_002,facility,,,,iot_502,sus_702,governed_crosswalk,0.95
+fac_003,facility,,,,iot_503,,partial_match,0.78
