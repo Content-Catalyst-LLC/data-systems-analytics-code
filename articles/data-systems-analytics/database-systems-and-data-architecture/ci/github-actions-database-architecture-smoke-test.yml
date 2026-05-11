@@ -1,0 +1,26 @@
+name: Database architecture smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/database-systems-and-data-architecture/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/database-systems-and-data-architecture
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run database architecture scorecard and SQLite loader
+        run: |
+          python3 python/database_architecture_scorecard.py
+          python3 sql/run_sqlite_database_architecture.py
+      - name: Show manifest
+        run: |
+          cat outputs/database_architecture_manifest_python.json

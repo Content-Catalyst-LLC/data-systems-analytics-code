@@ -1,0 +1,15 @@
+platform:
+  name: database-systems-and-data-architecture
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - treat_databases_as_institutional_memory
+    - define_entities_events_state_and_relationships_explicitly
+    - connect_operational_and_analytical_architecture_through_lineage
+    - use_metadata_governance_and_security_as_architectural_layers
+    - match_storage_model_to_workload_semantics
+    - preserve_recovery_and_audit_evidence
+    - measure_schema_quality_and_workload_fit_together
+    - distinguish_operational_truth_from_analytical_readiness
+    - make_lifecycle_and_retention_status_visible
+    - integrate_database_design_with_data_architecture

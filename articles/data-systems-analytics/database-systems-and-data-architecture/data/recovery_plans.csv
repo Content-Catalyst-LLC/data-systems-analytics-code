@@ -1,0 +1,11 @@
+plan_id,system_id,recovery_point_objective_minutes,recovery_time_objective_minutes,last_backup_age_minutes,last_restore_test_days_ago,replication_mode,failover_coverage,status
+r001,s001,15,60,8,21,synchronous_multi_az,automated,pass
+r002,s002,15,60,10,24,synchronous_multi_az,automated,pass
+r003,s003,5,30,4,14,synchronous_multi_az,automated,pass
+r004,s004,30,120,20,45,replicated_log,manual,warn
+r005,s005,1440,480,900,80,cross_region_object_replication,manual,warn
+r006,s006,60,180,30,32,snapshot_and_replica,manual,pass
+r007,s007,60,240,55,95,snapshot_and_replica,manual,warn
+r008,s008,15,60,12,28,synchronous_multi_az,automated,pass
+r009,s009,1440,720,800,120,cross_region_archive,manual,warn
+r010,s010,60,180,45,70,snapshot_and_replica,manual,in_review

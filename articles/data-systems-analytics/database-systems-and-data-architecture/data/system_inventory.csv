@@ -1,0 +1,11 @@
+system_id,system_name,system_type,storage_model,primary_workload,owner,criticality,records_millions,data_volume_gb,availability_target,certification_status
+s001,customer_core,operational_database,relational,transactional_applications,customer-data,critical,12,420,99.95,certified
+s002,order_management,operational_database,relational,orders_and_fulfillment,sales-data,critical,85,950,99.95,certified
+s003,payment_ledger,operational_database,relational,financial_transactions,finance-data,critical,97,780,99.99,certified
+s004,event_stream,streaming_platform,log_based,event_ingestion,platform-engineering,high,900,4200,99.90,registered
+s005,raw_data_lake,analytical_storage,object_storage,raw_retention,data-platform,high,1500,18500,99.90,registered
+s006,warehouse_marts,analytical_database,columnar_sql,bi_reporting,analytics-engineering,high,260,3100,99.90,certified
+s007,feature_store,ml_data_platform,key_value_and_table,ml_features,ml-platform,high,130,950,99.90,in_review
+s008,metadata_catalog,governance_platform,metadata_graph,discovery_and_lineage,data-governance,critical,8,210,99.95,certified
+s009,audit_archive,records_platform,append_only_storage,audit_and_retention,records-management,high,400,5400,99.90,registered
+s010,semantic_layer,analytics_service,metric_model,governed_metrics,analytics-engineering,critical,2,40,99.90,in_review

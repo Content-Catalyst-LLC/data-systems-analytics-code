@@ -1,0 +1,8 @@
+workload_id,workload_name,workload_type,systems_used,latency_requirement_ms,throughput_requirement_per_minute,consistency_need,availability_need,governance_need,status
+w001,customer_profile_lookup,operational_lookup,"customer_core",120,12000,strong,high,high,good
+w002,checkout_transaction,transactional_workflow,"order_management;payment_ledger",250,8000,strong,critical,critical,good
+w003,daily_revenue_dashboard,bi_reporting,"warehouse_marts;semantic_layer",3000,240,eventual_but_certified,high,critical,watch
+w004,real_time_order_monitoring,streaming_monitoring,"event_stream;order_management",1000,30000,near_real_time,high,high,watch
+w005,churn_feature_generation,ml_feature_pipeline,"raw_data_lake;feature_store;warehouse_marts",600000,60,reproducible_snapshot,high,critical,in_review
+w006,regulatory_audit_extract,compliance_reporting,"payment_ledger;audit_archive;metadata_catalog",60000,10,strong_and_auditable,critical,critical,good
+w007,governed_metric_exploration,self_service_analytics,"warehouse_marts;semantic_layer;metadata_catalog",5000,600,certified_semantics,high,critical,in_review

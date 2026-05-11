@@ -1,0 +1,13 @@
+asset_id,system_id,asset_name,asset_type,grain,primary_key,foreign_key_count,constraint_count,owner,classification,lineage_status,quality_status,access_status,lifecycle_status
+a001,s001,customers,table,one row per customer,customer_id,0,6,customer-data,restricted,complete,pass,approved,approved
+a002,s002,orders,table,one row per order,order_id,1,7,sales-data,confidential,complete,pass,approved,approved
+a003,s002,order_lines,table,one row per order line,order_line_id,2,8,sales-data,confidential,complete,pass,approved,approved
+a004,s003,payments,table,one row per payment attempt,payment_id,1,8,finance-data,restricted,complete,pass,approved,approved
+a005,s004,order_events,topic,one event per order state change,event_id,0,3,platform-engineering,confidential,partial,warn,approved,approved
+a006,s005,raw_clickstream,object_prefix,one event per user interaction,event_uuid,0,1,data-platform,confidential,partial,warn,approved,approved
+a007,s006,fact_sales,warehouse_table,one row per order line sale,sales_line_key,4,8,analytics-engineering,confidential,complete,pass,approved,approved
+a008,s006,dim_customer,warehouse_table,one row per customer version,customer_key,0,6,analytics-engineering,restricted,complete,pass,approved,approved
+a009,s007,customer_features,feature_table,one row per customer feature snapshot,customer_feature_key,1,5,ml-platform,restricted,partial,warn,in_review,approved
+a010,s008,business_glossary,metadata_asset,one row per governed term,term_id,0,4,data-governance,internal,complete,pass,approved,approved
+a011,s009,audit_events,append_only_table,one row per audited action,audit_id,0,5,records-management,restricted,complete,pass,approved,approved
+a012,s010,revenue_metrics,semantic_model,one row per certified metric,metric_id,0,4,analytics-engineering,internal,partial,warn,in_review,in_review

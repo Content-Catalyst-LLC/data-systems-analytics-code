@@ -1,0 +1,10 @@
+edge_id,source_system,target_system,flow_type,frequency,lineage_visibility,transformation_owner,quality_gate,contract_status,status
+e001,customer_core,warehouse_marts,cdc_pipeline,hourly,complete,analytics-engineering,pass,approved,pass
+e002,order_management,event_stream,event_publish,continuous,partial,platform-engineering,warn,in_review,warn
+e003,order_management,warehouse_marts,elt_pipeline,hourly,complete,analytics-engineering,pass,approved,pass
+e004,payment_ledger,warehouse_marts,elt_pipeline,daily,complete,finance-data,pass,approved,pass
+e005,event_stream,raw_data_lake,stream_sink,continuous,partial,data-platform,warn,approved,warn
+e006,raw_data_lake,feature_store,feature_pipeline,daily,partial,ml-platform,warn,in_review,in_review
+e007,warehouse_marts,semantic_layer,metric_model_publish,daily,partial,analytics-engineering,warn,in_review,in_review
+e008,metadata_catalog,semantic_layer,metadata_sync,daily,complete,data-governance,pass,approved,pass
+e009,payment_ledger,audit_archive,audit_export,daily,complete,records-management,pass,approved,pass

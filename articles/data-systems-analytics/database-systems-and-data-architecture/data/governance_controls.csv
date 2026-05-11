@@ -1,0 +1,11 @@
+control_id,system_id,metadata_coverage,lineage_coverage,owner_assigned,classification_applied,access_policy_status,backup_status,recovery_test_status,retention_policy_status,quality_gate_status,certification_status
+g001,s001,0.96,0.92,1,1,approved,pass,pass,approved,pass,certified
+g002,s002,0.94,0.90,1,1,approved,pass,pass,approved,pass,certified
+g003,s003,0.98,0.96,1,1,approved,pass,pass,approved,pass,certified
+g004,s004,0.78,0.70,1,1,approved,pass,warn,approved,warn,registered
+g005,s005,0.72,0.64,1,1,approved,pass,warn,approved,warn,registered
+g006,s006,0.95,0.90,1,1,approved,pass,pass,approved,pass,certified
+g007,s007,0.84,0.76,1,1,in_review,pass,warn,approved,warn,in_review
+g008,s008,0.99,0.97,1,1,approved,pass,pass,approved,pass,certified
+g009,s009,0.88,0.83,1,1,approved,pass,pass,approved,pass,registered
+g010,s010,0.80,0.68,1,1,in_review,pass,warn,in_review,warn,in_review

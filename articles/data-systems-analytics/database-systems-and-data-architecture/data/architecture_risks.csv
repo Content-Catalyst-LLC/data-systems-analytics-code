@@ -1,0 +1,7 @@
+risk_id,risk_area,system_id,description,severity,likelihood,owner,status
+risk001,semantic_consistency,s010,Semantic layer not fully certified for revenue metrics,high,medium,analytics-engineering,in_review
+risk002,lineage_visibility,s004,Event-stream lineage is partial for downstream monitoring,medium,medium,platform-engineering,in_review
+risk003,recovery_testing,s005,Raw lake restore test is older than target interval,medium,medium,data-platform,planned
+risk004,feature_reproducibility,s007,Feature table lineage and access controls are still in review,high,medium,ml-platform,in_review
+risk005,contract_maturity,e007,Metric publication contract remains in review,high,medium,analytics-engineering,in_review
+risk006,archive_restore,s009,Audit archive restore drills are infrequent,medium,low,records-management,planned
