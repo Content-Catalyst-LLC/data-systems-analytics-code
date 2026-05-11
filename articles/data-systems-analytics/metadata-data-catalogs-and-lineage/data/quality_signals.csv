@@ -1,0 +1,8 @@
+signal_id,asset_id,signal_type,signal_name,status,severity,observed_value,expected_value
+sig001,asset_customer_360,freshness,hours_since_refresh,pass,medium,18,24
+sig002,asset_customer_360,completeness,required_fields_present,warn,medium,0.972,0.985
+sig003,asset_revenue_mart,reconciliation,revenue_variance,pass,high,0.003,0.01
+sig004,asset_usage_events,volume,row_count_within_bounds,warn,high,0.72,1.00
+sig005,asset_supplier_risk,validity,risk_rating_domain_conformance,pass,medium,0.991,0.98
+sig006,asset_legacy_kpi,documentation,definition_present,fail,medium,0,1
+sig007,asset_ai_feature_store,distribution,feature_drift_index,warn,high,0.31,0.20

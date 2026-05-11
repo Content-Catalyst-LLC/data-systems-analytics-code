@@ -1,0 +1,9 @@
+edge_id,upstream_asset,downstream_asset,relationship_type,lineage_granularity,impact_level,observed_by
+lin001,source_crm,asset_customer_360,transformation,dataset,high,orchestrator
+lin002,source_billing,asset_revenue_mart,transformation,column,high,orchestrator
+lin003,asset_revenue_mart,dash_executive_revenue,consumption,dataset,high,catalog
+lin004,asset_customer_360,dash_customer_health,consumption,dataset,high,catalog
+lin005,asset_usage_events,asset_ai_feature_store,feature_derivation,column,high,openlineage
+lin006,asset_supplier_risk,dash_supplier_oversight,consumption,dataset,medium,catalog
+lin007,asset_legacy_kpi,dash_legacy_kpi,consumption,unknown,low,manual
+lin008,asset_ai_feature_store,model_churn_prediction,model_input,column,high,openlineage

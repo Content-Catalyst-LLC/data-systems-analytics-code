@@ -1,0 +1,7 @@
+asset_id,asset_name,domain,asset_type,owner,steward,classification,certification_status,criticality,created_at_utc,last_reviewed_at_utc
+asset_customer_360,Customer 360 Analytical Product,customer,data_product,customer-domain,customer-steward,confidential,certified,high,2025-11-01T00:00:00Z,2026-01-03T00:00:00Z
+asset_revenue_mart,Revenue Mart,finance,table,finance-analytics,finance-steward,confidential,certified,high,2025-10-01T00:00:00Z,2026-01-03T00:00:00Z
+asset_usage_events,Product Usage Events,product,event_stream,product-analytics,product-steward,internal,certified,high,2025-09-01T00:00:00Z,2026-01-02T00:00:00Z
+asset_supplier_risk,Supplier Risk Data Product,operations,data_product,operations-analytics,supplier-steward,confidential,reviewed,medium,2025-12-01T00:00:00Z,2026-01-02T00:00:00Z
+asset_legacy_kpi,Legacy KPI Extract,legacy,extract,central-bi,legacy-steward,internal,uncertified,low,2024-01-01T00:00:00Z,2025-06-01T00:00:00Z
+asset_ai_feature_store,AI Feature Store,ai,feature_table,ml-platform,ai-steward,restricted,reviewed,high,2025-12-15T00:00:00Z,2026-01-04T00:00:00Z

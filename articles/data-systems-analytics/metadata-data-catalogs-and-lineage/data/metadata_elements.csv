@@ -1,0 +1,13 @@
+metadata_id,asset_id,metadata_type,element_name,value_present,quality_status,source,review_required
+meta001,asset_customer_360,business,definition,true,approved,steward,true
+meta002,asset_customer_360,technical,schema,true,approved,harvested,false
+meta003,asset_customer_360,policy,sensitivity_label,true,approved,governance,true
+meta004,asset_revenue_mart,business,certified_metric_definitions,true,approved,steward,true
+meta005,asset_revenue_mart,operational,freshness_sla,true,approved,observability,false
+meta006,asset_usage_events,technical,schema,true,approved,harvested,false
+meta007,asset_usage_events,operational,volume_baseline,true,approved,observability,false
+meta008,asset_supplier_risk,semantic,glossary_alignment,true,review,steward,true
+meta009,asset_legacy_kpi,business,definition,false,missing,manual,true
+meta010,asset_legacy_kpi,technical,schema,true,stale,harvested,true
+meta011,asset_ai_feature_store,technical,feature_schema,true,approved,ml-platform,false
+meta012,asset_ai_feature_store,policy,model_governance_context,true,review,ai-governance,true

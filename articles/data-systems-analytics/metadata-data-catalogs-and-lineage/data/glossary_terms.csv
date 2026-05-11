@@ -1,0 +1,7 @@
+term_id,term_name,domain,definition_status,linked_asset_id,semantic_owner,certification_status
+term001,active_customer,customer,approved,asset_customer_360,customer-steward,certified
+term002,net_revenue,finance,approved,asset_revenue_mart,finance-steward,certified
+term003,product_usage_event,product,approved,asset_usage_events,product-steward,certified
+term004,high_risk_supplier,operations,review,asset_supplier_risk,supplier-steward,reviewed
+term005,legacy_kpi,legacy,incomplete,asset_legacy_kpi,legacy-steward,uncertified
+term006,model_feature,ai,review,asset_ai_feature_store,ai-steward,reviewed

@@ -1,0 +1,28 @@
+platform:
+  name: metadata-data-catalogs-and-lineage
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - metadata_as_epistemic_infrastructure
+    - catalog_as_discovery_and_governance_interface
+    - lineage_as_evidence_and_impact_graph
+    - provenance_by_default
+    - active_metadata_control_plane
+    - semantic_metadata_over_free_text
+    - policy_tags_attached_to_real_assets
+    - trust_signals_connected_to_quality_and_usage
+    - human_curation_plus_automation
+  metadata_types:
+    - technical
+    - business
+    - operational
+    - administrative
+    - policy
+    - semantic
+    - social_usage
+  lineage_granularity:
+    - dataset
+    - column
+    - pipeline
+    - analytical
+    - semantic

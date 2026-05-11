@@ -1,0 +1,7 @@
+catalog_entry_id,asset_id,discoverable,description_complete,owner_visible,quality_visible,lineage_visible,policy_visible,usage_visible,trust_label
+cat001,asset_customer_360,true,true,true,true,true,true,true,trusted
+cat002,asset_revenue_mart,true,true,true,true,true,true,true,trusted
+cat003,asset_usage_events,true,true,true,true,true,true,true,trusted
+cat004,asset_supplier_risk,true,true,true,true,true,true,false,reviewed
+cat005,asset_legacy_kpi,true,false,true,false,false,false,true,legacy
+cat006,asset_ai_feature_store,true,true,true,true,true,true,false,reviewed

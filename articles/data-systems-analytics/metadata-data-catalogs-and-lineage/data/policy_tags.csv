@@ -1,0 +1,8 @@
+policy_tag_id,asset_id,tag_type,tag_value,policy_owner,enforcement_status
+pol001,asset_customer_360,sensitivity,confidential,privacy-office,enforced
+pol002,asset_customer_360,retention,seven_years,records-management,enforced
+pol003,asset_revenue_mart,financial_reporting,certified_metric,finance-governance,enforced
+pol004,asset_usage_events,internal_telemetry,product_analytics,product-governance,enforced
+pol005,asset_supplier_risk,third_party_risk,restricted_sharing,risk-office,review
+pol006,asset_legacy_kpi,legacy_status,do_not_expand,central-bi,weak
+pol007,asset_ai_feature_store,ai_governance,model_input_feature,ai-governance,review

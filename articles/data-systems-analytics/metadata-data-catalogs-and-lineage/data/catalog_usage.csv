@@ -1,0 +1,7 @@
+usage_date,asset_id,search_count,view_count,query_count,downstream_consumer_count,issue_comment_count
+2026-01-01,asset_customer_360,48,92,130,14,2
+2026-01-01,asset_revenue_mart,52,110,165,18,1
+2026-01-01,asset_usage_events,35,75,210,12,3
+2026-01-01,asset_supplier_risk,22,40,64,9,4
+2026-01-01,asset_legacy_kpi,12,20,18,3,7
+2026-01-01,asset_ai_feature_store,30,66,140,11,5
