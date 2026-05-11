@@ -1,0 +1,5 @@
+incident_id,detected_at,dataset,rule_id,failed_records,affected_metric,incident_status,steward_notes
+inc001,2026-04-03T10:00:00Z,customer_master,q001,1,customer_count,open,blank email prevents reliable entity resolution
+inc002,2026-04-03T10:05:00Z,customer_master,q003,1,cohort_reporting,open,invalid date breaks signup cohort logic
+inc003,2026-04-03T10:07:00Z,customer_master,q006,3,customer_count,in_review,duplicates found after email normalization
+inc004,2026-04-03T10:10:00Z,customer_master,q004,1,revenue_reporting,open,negative lifetime value requires source-system review

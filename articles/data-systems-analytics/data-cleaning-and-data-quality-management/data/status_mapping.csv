@@ -1,0 +1,6 @@
+source_system,source_value,canonical_value,mapping_status
+crm,active,active,approved
+crm,inactive,inactive,approved
+billing,current,active,approved
+billing,lapsed,inactive,approved
+support,open,active,approved

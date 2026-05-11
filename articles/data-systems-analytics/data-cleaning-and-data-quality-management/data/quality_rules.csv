@@ -1,0 +1,9 @@
+rule_id,dimension,rule_name,field_name,rule_type,threshold,severity,owner,status
+q001,completeness,email_required,email,not_null,1.00,critical,data-steward,approved
+q002,validity,email_format,email,regex_email,0.99,high,data-steward,approved
+q003,validity,signup_date_valid,signup_date,date_valid,1.00,high,data-steward,approved
+q004,validity,lifetime_value_nonnegative,lifetime_value,nonnegative,1.00,high,data-steward,approved
+q005,consistency,country_code_standardized,country_code,in_allowed_set,0.99,medium,data-steward,approved
+q006,uniqueness,email_unique_after_normalization,email,unique_normalized,0.98,high,data-steward,approved
+q007,timeliness,last_updated_fresh,last_updated,max_age_days_45,0.95,medium,data-steward,in_review
+q008,interpretability,status_mapped,status,canonical_mapping,1.00,medium,data-steward,approved

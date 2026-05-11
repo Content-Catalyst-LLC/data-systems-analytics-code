@@ -1,0 +1,36 @@
+---
+title: "Data Cleaning and Data Quality Management Review"
+subtitle: "Dimensions, Profiling, Validation, Cleaning, Stewardship, Root Cause, and Monitoring"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Quality objective
+
+Define the dataset, use case, quality dimensions, owners, thresholds, and materiality.
+
+## Reproducible example
+
+```{python}
+email = "ADA@EXAMPLE.COM"
+normalized_email = email.strip().lower()
+print({"normalized_email": normalized_email})
+```
+
+## Quality checks
+
+Review completeness, validity, consistency, timeliness, uniqueness, interpretability, and accessibility.
+
+## Stewardship
+
+Preserve incidents, root causes, rejected records, repair decisions, and unresolved uncertainty.
+
+## Appendix
+
+Attach raw records, quality rules, mappings, incidents, root-cause register, and generated summaries.

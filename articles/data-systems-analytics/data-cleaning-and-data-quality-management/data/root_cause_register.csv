@@ -1,0 +1,6 @@
+issue_id,quality_dimension,issue_type,affected_system,root_cause,process_owner,impact_level,remediation_status
+dq001,completeness,missing_email,crm,input form permits blank email,sales-ops,high,in_progress
+dq002,validity,invalid_signup_date,crm,date validation missing on import,crm-platform,high,planned
+dq003,uniqueness,duplicate_identity,support,no cross-system master identity resolution,support-ops,medium,in_progress
+dq004,validity,negative_lifetime_value,crm,no domain constraint for monetary value,finance-ops,medium,planned
+dq005,consistency,country_code_variants,billing,USA and US both permitted without normalization,billing-ops,low,mitigated

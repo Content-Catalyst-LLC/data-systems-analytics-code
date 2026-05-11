@@ -1,0 +1,13 @@
+record_id,source_system,customer_id,full_name,email,phone,country_code,status,signup_date,last_updated,postal_code,lifetime_value
+r001,crm,C-001,Ada Lovelace,ada@example.com,+1-312-555-0101,US,active,2025-01-03,2026-04-01,60601,1200.50
+r002,crm,C-002,Grace Hopper,grace@example.com,+1-312-555-0102,US,active,2025-02-14,2026-04-02,60602,980.00
+r003,crm,C-003,Katherine Johnson,katherine@example.com,+1-312-555-0103,US,inactive,2025-03-22,2026-03-31,60603,450.00
+r004,crm,C-004,Missing Email,,+1-312-555-0104,US,active,2026-01-05,2026-04-02,60604,300.00
+r005,billing,B-1001,Ada L.,ada@example.com,3125550101,USA,current,2025-01-03,2026-04-03,60601,1200.50
+r006,billing,B-1002,Grace M Hopper,grace@example.com,312-555-0102,USA,current,2025-02-14,2026-04-03,60602,980.00
+r007,billing,B-1003,K Johnson,katherine@example.com,312-555-0103,USA,lapsed,2025-03-22,2026-04-01,60603,450.00
+r008,support,S-88,Ada Lovelace,ADA@EXAMPLE.COM,+13125550101,US,open,2025-01-03,2026-04-03,60601,1200.50
+r009,support,S-99,Grace Hopper,grace@example.com,+13125550102,US,open,2025-02-14,2026-04-03,60602,980.00
+r010,support,S-77,Duplicate Typo,gracce@example.com,+13125550102,US,open,2025-02-14,2026-04-03,60602,980.00
+r011,crm,C-011,Invalid Date,invalid@example.com,+1-312-555-0111,US,active,2026-99-99,2026-04-02,60611,110.00
+r012,crm,C-012,Negative Value,negative@example.com,+1-312-555-0112,US,active,2026-02-03,2026-04-02,60612,-5.00

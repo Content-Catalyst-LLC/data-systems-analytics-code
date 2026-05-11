@@ -1,0 +1,15 @@
+platform:
+  name: data-cleaning-and-data-quality-management
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - quality_is_fitness_for_use
+    - measure_multiple_quality_dimensions
+    - distinguish_repair_from_disclosure
+    - quarantine_rejected_records_with_reason_codes
+    - preserve_raw_records_and_cleaning_lineage
+    - treat_root_causes_as_process_defects
+    - assign_stewardship_and_ownership
+    - monitor_quality_over_time
+    - separate_quality_metrics_from_quality_decisions
+    - connect_quality_thresholds_to_use_case_risk
