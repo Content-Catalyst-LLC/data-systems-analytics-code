@@ -1,0 +1,9 @@
+check_id,model_id,check_type,status,severity,evidence,remediation
+chk001,model_churn_v1,preprocessing_leakage,pass,critical,pipeline fit inside folds,none
+chk002,model_churn_v1,duplicate_across_splits,pass,high,no duplicate entity ids across validation and test,none
+chk003,model_fraud_v2,resampling_before_split,pass,critical,resampling only inside training fold,none
+chk004,model_demand_v1,future_information,pass,critical,time-aware split and lag cutoff documented,none
+chk005,model_demand_v1,temporal_shift,warn,high,seasonal regime shift appears in validation,add backtesting windows
+chk006,model_recommend_v1,group_leakage,warn,high,user groups require careful split validation,confirm grouped temporal split
+chk007,model_legacy_v0,test_set_reuse,fail,critical,test set used for repeated tuning,rebuild split and freeze test set
+chk008,model_legacy_v0,preprocessing_before_split,fail,critical,imputer and target encoder fit on full dataset,rebuild pipeline

@@ -1,0 +1,6 @@
+model_id,model_name,task_type,model_family,prediction_target,owner,steward,status,risk_level,intended_use
+model_churn_v1,Customer Churn Risk,binary_classification,regularized_logistic_regression,event_probability,customer-analytics,customer-steward,in_review,medium,retention_prioritization
+model_fraud_v2,Fraud Review Prioritization,binary_classification,gradient_boosting,event_probability,risk-analytics,risk-steward,approved,high,human_review_queue
+model_demand_v1,Demand Forecasting,regression,random_forest,conditional_mean,operations-analytics,operations-steward,in_review,medium,inventory_planning
+model_recommend_v1,Product Recommendation Ranking,ranking,matrix_factorization,rank_score,product-analytics,product-steward,planned,medium,recommendation_surface
+model_legacy_v0,Legacy Lead Score,binary_classification,decision_tree,class_label,central-bi,legacy-steward,needs_revision,medium,legacy_sales_routing

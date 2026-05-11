@@ -1,0 +1,51 @@
+---
+title: "Predictive Analytics and Machine Learning Model Review"
+subtitle: "Generalization, Metrics, Calibration, Thresholds, Drift, and Governance"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Prediction task
+
+State the target, prediction time, intended use, and acceptable error behavior.
+
+## Model family
+
+Describe the model family, feature representation, and training design.
+
+## Reproducible example
+
+```{python}
+models = 5
+approved = 1
+in_review = 2
+needs_revision = 1
+planned = 1
+print({
+    "models": models,
+    "approved_share": approved / models,
+    "non_approved_share": (in_review + needs_revision + planned) / models
+})
+```
+
+## Generalization evidence
+
+Document split design, validation logic, and final test protection.
+
+## Metrics and calibration
+
+Review task-appropriate metrics, calibration, and threshold behavior.
+
+## Monitoring
+
+Track drift, production performance, and escalation windows.
+
+## Appendix
+
+Preserve model registry, split records, metric scorecards, threshold policies, leakage checks, and monitoring windows.

@@ -1,0 +1,8 @@
+window_id,model_id,window_start,window_end,production_metric,metric_value,validation_reference,drift_index,status
+win001,model_churn_v1,2026-01-01,2026-01-31,roc_auc,0.72,0.735,0.08,watch
+win002,model_churn_v1,2026-02-01,2026-02-28,roc_auc,0.68,0.735,0.17,escalate
+win003,model_fraud_v2,2026-01-01,2026-01-31,average_precision,0.49,0.502,0.09,approved
+win004,model_fraud_v2,2026-02-01,2026-02-28,average_precision,0.45,0.502,0.19,escalate
+win005,model_demand_v1,2026-01-01,2026-01-31,mae,9.7,9.567,0.08,approved
+win006,model_demand_v1,2026-02-01,2026-02-28,mae,12.0,9.567,0.20,watch
+win007,model_legacy_v0,2026-01-01,2026-01-31,accuracy,0.52,0.595,0.25,escalate

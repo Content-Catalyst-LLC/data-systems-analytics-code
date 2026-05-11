@@ -1,0 +1,6 @@
+policy_id,model_id,threshold,policy_name,false_positive_cost,false_negative_cost,decision_owner,review_status,notes
+thr001,model_churn_v1,0.50,balanced_retention_outreach,1.0,2.0,customer-steward,in_review,Lower threshold increases recall for outreach
+thr002,model_churn_v1,0.70,high_confidence_retention_outreach,1.0,2.0,customer-steward,in_review,Higher threshold improves precision
+thr003,model_fraud_v2,0.50,fraud_review_queue_sensitive,2.0,8.0,risk-steward,approved,False negatives are costlier than review burden
+thr004,model_fraud_v2,0.80,fraud_review_queue_conservative,2.0,8.0,risk-steward,in_review,Reduces false positives but may miss cases
+thr005,model_legacy_v0,0.50,legacy_sales_routing,1.0,1.0,legacy-steward,needs_revision,Legacy threshold lacks documented policy basis

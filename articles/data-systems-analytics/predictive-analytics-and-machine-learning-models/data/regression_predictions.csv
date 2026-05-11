@@ -1,0 +1,11 @@
+prediction_id,model_id,cohort,segment,y_true,y_pred
+r001,model_demand_v1,validation,north,120,118
+r002,model_demand_v1,validation,north,132,129
+r003,model_demand_v1,validation,north,141,150
+r004,model_demand_v1,validation,south,90,84
+r005,model_demand_v1,validation,south,95,100
+r006,model_demand_v1,validation,south,110,102
+r007,model_demand_v1,validation,west,160,151
+r008,model_demand_v1,validation,west,170,172
+r009,model_demand_v1,validation,west,190,181
+r010,model_demand_v1,validation,west,210,198

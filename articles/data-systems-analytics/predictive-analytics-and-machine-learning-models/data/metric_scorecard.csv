@@ -1,0 +1,8 @@
+metric_id,model_id,metric_name,metric_family,target_question,acceptable_limit,observed_value,status,owner
+met001,model_churn_v1,roc_auc,ranking,Does the model rank likely churners higher,0.75,0.72,in_review,customer-steward
+met002,model_churn_v1,brier_score,calibration,Are predicted probabilities numerically reliable,0.18,0.19,watch,customer-steward
+met003,model_fraud_v2,recall_at_threshold,threshold,Does the review queue catch enough true fraud,0.70,0.67,watch,risk-steward
+met004,model_fraud_v2,precision_at_threshold,threshold,Are flagged cases sufficiently credible,0.45,0.50,approved,risk-steward
+met005,model_demand_v1,mae,regression,How large is typical numeric forecast error,8.00,7.10,approved,operations-steward
+met006,model_demand_v1,tail_error_p90,regression,Are large forecast misses controlled,18.00,15.00,approved,operations-steward
+met007,model_legacy_v0,accuracy,threshold,Does the legacy class label look broadly correct,0.70,0.50,needs_revision,legacy-steward

@@ -1,0 +1,27 @@
+platform:
+  name: predictive-analytics-and-machine-learning-models
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - supervised_learning_maps_features_to_targets
+    - generalization_not_training_fit_is_the_goal
+    - metric_choice_follows_prediction_task
+    - calibration_is_distinct_from_discrimination
+    - thresholds_are_decision_policy
+    - leakage_checks_are_blocking_controls
+    - rare_events_require_precision_recall_logic
+    - drift_monitoring_extends_validation
+    - model_governance_connects_scores_to_accountability
+  predictive_dimensions:
+    - task_definition
+    - model_family
+    - split_design
+    - loss_function
+    - feature_representation
+    - model_selection
+    - evaluation_metrics
+    - calibration
+    - threshold_policy
+    - leakage_control
+    - monitoring
+    - governance
