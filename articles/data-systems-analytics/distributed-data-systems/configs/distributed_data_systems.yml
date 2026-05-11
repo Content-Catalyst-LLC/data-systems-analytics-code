@@ -1,0 +1,15 @@
+platform:
+  name: distributed-data-systems
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - partition_for_scale_but_measure_hotspots
+    - replicate_for_durability_locality_and_availability
+    - document_consistency_model_per_workload
+    - make_quorum_policy_explicit
+    - monitor_replica_lag_and_leader_health
+    - test_failover_and_recovery
+    - preserve_operation_and_consensus_evidence
+    - define_conflict_resolution_strategy
+    - distinguish_cp_ap_and_mixed_guarantees
+    - connect_distribution_tradeoffs_to_application_risk

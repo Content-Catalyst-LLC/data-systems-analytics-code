@@ -1,0 +1,9 @@
+operation_id,shard_id,operation_type,client_region,request_time,commit_time,read_quorum_observed,write_quorum_observed,latency_ms,result_status,consistency_observed
+op001,s001,write,us-central,2026-05-11T10:00:01Z,2026-05-11T10:00:01.024Z,0,2,24,committed,linearizable
+op002,s001,read,us-east,2026-05-11T10:00:02Z,2026-05-11T10:00:02.030Z,2,0,30,served,linearizable
+op003,s002,write,us-west,2026-05-11T10:00:03Z,2026-05-11T10:00:03.090Z,0,2,90,committed,linearizable
+op004,s002,read,us-west,2026-05-11T10:00:04Z,2026-05-11T10:00:04.022Z,1,0,22,served,stale_possible
+op005,s005,write,us-west,2026-05-11T10:00:05Z,2026-05-11T10:00:05.180Z,0,1,180,partial,quorum_not_met
+op006,s005,read,eu-west,2026-05-11T10:00:06Z,2026-05-11T10:00:06.142Z,1,0,142,served,stale_possible
+op007,s003,write,eu-west,2026-05-11T10:00:07Z,2026-05-11T10:00:07.130Z,0,2,130,committed,linearizable
+op008,s004,read,us-central,2026-05-11T10:00:08Z,2026-05-11T10:00:08.018Z,2,0,18,served,linearizable

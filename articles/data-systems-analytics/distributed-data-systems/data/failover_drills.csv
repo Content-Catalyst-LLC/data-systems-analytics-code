@@ -1,0 +1,4 @@
+drill_id,scenario,started_at,ended_at,affected_shard,primary_node,replacement_node,recovery_time_seconds,data_loss_observed,drill_status
+fd001,leader_failure,2026-05-10T03:00:00Z,2026-05-10T03:00:22Z,s001,n001,n002,22,0,pass
+fd002,zone_outage,2026-05-10T04:00:00Z,2026-05-10T04:01:20Z,s002,n002,n003,80,0,pass
+fd003,regional_latency_spike,2026-05-10T05:00:00Z,2026-05-10T05:04:40Z,s005,n005,n001,280,0,warn

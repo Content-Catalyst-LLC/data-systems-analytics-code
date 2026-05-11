@@ -1,0 +1,4 @@
+conflict_id,shard_id,key_id,replica_versions,detected_at,resolution_strategy,resolution_status,owner
+cf001,s002,user:2042,"v12@n002;v11@n005",2026-05-11T10:01:00Z,last_writer_wins,resolved,profile-service
+cf002,s005,cart:9188,"v7@n005;v8@n001;v8@n003",2026-05-11T10:01:30Z,vector_clock_merge,in_review,cart-service
+cf003,s005,session:8801,"v3@n005;v5@n001",2026-05-11T10:02:00Z,application_reconciliation,pending,session-service

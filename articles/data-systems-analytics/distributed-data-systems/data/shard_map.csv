@@ -1,0 +1,6 @@
+shard_id,key_range_start,key_range_end,leader_node,replica_nodes,replication_factor,partition_strategy,status
+s001,0000,1999,n001,"n001;n002;n004",3,hash_range,healthy
+s002,2000,3999,n002,"n002;n003;n005",3,hash_range,healthy
+s003,4000,5999,n003,"n003;n001;n006",3,hash_range,healthy
+s004,6000,7999,n004,"n004;n002;n006",3,hash_range,healthy
+s005,8000,9999,n005,"n005;n001;n003",3,hash_range,degraded

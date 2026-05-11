@@ -1,0 +1,37 @@
+---
+title: "Distributed Data Systems Review"
+subtitle: "Partitioning, Replication, Quorums, Consistency, Consensus, Failover, and Observability"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Distributed architecture objective
+
+Define workload, partition strategy, replication factor, read/write quorum policy, consistency model, and failure assumptions.
+
+## Reproducible example
+
+```{python}
+def quorum_intersects(n, r, w):
+    return r + w > n
+
+print({"n": 3, "r": 2, "w": 2, "intersects": quorum_intersects(3, 2, 2)})
+```
+
+## Operational evidence
+
+Review node health, shard routing, replica lag, quorum outcomes, conflicts, consensus events, and failover drills.
+
+## Governance
+
+Document which workloads require linearizability, which tolerate stale reads, and which need application-level reconciliation.
+
+## Appendix
+
+Attach cluster nodes, shard maps, replica status, quorum policies, operation logs, conflicts, consensus events, and failover records.

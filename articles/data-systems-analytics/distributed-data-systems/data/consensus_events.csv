@@ -1,0 +1,6 @@
+event_id,shard_id,event_type,term,leader_node,event_time,result,notes
+ce001,s001,heartbeat,41,n001,2026-05-11T10:00:00Z,success,leader healthy
+ce002,s002,append_entries,18,n002,2026-05-11T10:00:03Z,success,write committed to quorum
+ce003,s005,leader_degraded,29,n005,2026-05-11T10:00:04Z,warn,leader lag and degraded node
+ce004,s005,election_timeout,30,n005,2026-05-11T10:00:06Z,warn,followers may elect replacement
+ce005,s005,leader_transfer,31,n001,2026-05-11T10:00:12Z,success,leadership moved to healthy replica

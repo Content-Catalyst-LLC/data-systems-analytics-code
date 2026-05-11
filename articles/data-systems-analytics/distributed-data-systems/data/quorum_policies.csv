@@ -1,0 +1,6 @@
+policy_id,workload,replication_factor,read_quorum,write_quorum,consistency_model,availability_orientation,status
+qp001,financial_ledger,3,2,2,linearizable,CP,approved
+qp002,user_profile_cache,3,1,2,read_committed_or_stale,AP_tolerant,in_review
+qp003,analytics_rollup,3,1,1,eventual,AP,approved
+qp004,configuration_metadata,5,3,3,linearizable,CP,approved
+qp005,global_search_index,3,1,1,eventual,AP,in_review
