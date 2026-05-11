@@ -1,0 +1,9 @@
+check_id,check_type,status,severity,evidence,remediation
+chk001,event_timestamp_authority,pass,critical,event_time is present on all events,none
+chk002,processing_time_recorded,pass,high,processing_time is recorded on all events,none
+chk003,late_event_policy,warn,high,allowed lateness exists but legacy stream has zero tolerance,define late-data policy
+chk004,replayability,pass,high,topic retention supports replay for critical streams,none
+chk005,state_recovery,in_review,critical,state size and checkpoint assumptions need review,document checkpoint and restore test
+chk006,exactly_once_claims,warn,critical,effective semantics depend on sink idempotency,document end-to-end guarantees
+chk007,provisional_output_labeling,warn,medium,early and late refinements are not labeled in all serving views,label provisional and final outputs
+chk008,backpressure_monitoring,warn,medium,backpressure spike observed at 10:05,add escalation threshold

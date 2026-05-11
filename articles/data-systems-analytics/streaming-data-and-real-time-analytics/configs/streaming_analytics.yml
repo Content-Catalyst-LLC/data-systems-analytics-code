@@ -1,0 +1,15 @@
+platform:
+  name: streaming-data-and-real-time-analytics
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - distinguish_event_time_from_processing_time
+    - treat_watermarks_as_progress_estimates
+    - define_window_and_lateness_policy_explicitly
+    - label_provisional_and_refined_outputs
+    - preserve_replayable_event_logs
+    - make_stateful_processing_recoverable
+    - document_delivery_semantics_end_to_end
+    - monitor_lag_backpressure_and_late_events
+    - govern_alerts_and_serving_views
+    - connect_latency_to_decision_value

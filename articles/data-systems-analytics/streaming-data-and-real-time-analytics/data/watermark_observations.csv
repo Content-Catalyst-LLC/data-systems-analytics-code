@@ -1,0 +1,6 @@
+observation_id,stream_name,processing_time,observed_max_event_time,watermark_time,late_event_count,state_size_mb,backpressure_ms,status
+wm001,event_stream,2026-05-01T10:01:00Z,2026-05-01T10:00:45Z,2026-05-01T10:00:15Z,0,12.5,8,pass
+wm002,event_stream,2026-05-01T10:02:00Z,2026-05-01T10:01:44Z,2026-05-01T10:01:14Z,1,14.8,15,watch
+wm003,event_stream,2026-05-01T10:03:00Z,2026-05-01T10:02:41Z,2026-05-01T10:02:11Z,1,18.2,25,watch
+wm004,event_stream,2026-05-01T10:04:00Z,2026-05-01T10:03:33Z,2026-05-01T10:03:03Z,0,21.7,30,pass
+wm005,event_stream,2026-05-01T10:05:00Z,2026-05-01T10:04:45Z,2026-05-01T10:04:15Z,2,29.4,75,warn

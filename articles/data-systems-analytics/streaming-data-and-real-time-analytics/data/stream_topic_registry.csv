@@ -1,0 +1,5 @@
+topic_id,topic_name,event_domain,retention_hours,partition_count,replication_factor,delivery_semantics,owner,status,risk_level
+top001,user-behavior-events,product_analytics,168,6,3,at_least_once,stream-platform,approved,medium
+top002,purchase-events,commerce,720,8,3,exactly_once_effective,stream-platform,approved,high
+top003,sensor-telemetry,operations,72,12,3,at_least_once,observability-platform,in_review,high
+top004,legacy-realtime-metrics,legacy_reporting,24,2,2,at_most_once,legacy-steward,needs_revision,medium

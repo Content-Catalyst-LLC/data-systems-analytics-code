@@ -1,0 +1,5 @@
+window_id,stream_name,window_type,size_seconds,slide_seconds,allowed_lateness_seconds,trigger_policy,output_mode,status
+win001,event_stream,tumbling,60,60,30,on_watermark_plus_late_refinement,append_then_update,approved
+win002,event_stream,sliding,120,30,45,early_and_late_triggers,update,in_review
+win003,event_stream,session,300,0,60,inactivity_gap_with_late_refinement,update,in_review
+win004,legacy_stream,tumbling,60,60,0,processing_time_only,append,needs_revision

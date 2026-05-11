@@ -1,0 +1,5 @@
+rule_id,rule_name,event_type,condition,threshold,window_seconds,severity,status,owner
+al001,High Sensor Reading,sensor_reading,value_gt,150,60,high,approved,observability-platform
+al002,Late Event Spike,all,late_event_rate_gt,0.10,300,medium,in_review,stream-platform
+al003,Backpressure Warning,all,backpressure_ms_gt,60,60,medium,approved,stream-platform
+al004,Low Quality Event,all,quality_score_lt,0.70,60,high,approved,data-quality

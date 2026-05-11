@@ -1,0 +1,39 @@
+---
+title: "Streaming Data and Real-Time Analytics Review"
+subtitle: "Event Time, Watermarks, Windows, State, Replay, Alerts, and Streaming Governance"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Event stream
+
+Define event schema, event key, event time, processing time, source, and value semantics.
+
+## Temporal correctness
+
+Document event-time behavior, watermark assumptions, allowed lateness, triggers, and output modes.
+
+## Reproducible example
+
+```{python}
+from datetime import datetime, timezone
+
+event_time = datetime.fromisoformat("2026-05-01T10:00:02+00:00")
+processing_time = datetime.fromisoformat("2026-05-01T10:00:05+00:00")
+lateness_seconds = (processing_time - event_time).total_seconds()
+print({"lateness_seconds": lateness_seconds})
+```
+
+## Stateful outputs
+
+Preserve stateful aggregates, alert records, and serving table update policies.
+
+## Appendix
+
+Preserve topic registry, window definitions, watermarks, alert rules, governance checks, and replay assumptions.
