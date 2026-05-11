@@ -1,0 +1,13 @@
+asset_id,asset_name,architecture_zone,storage_form,schema_strategy,file_or_table_format,owner,governance_status,row_count,size_gb,freshness_hours,pii_classification,query_frequency_per_day,ml_ready
+a001,raw_orders_extract,raw_lake,object_storage,schema_on_read,csv,data-platform,registered,5000000,42.5,3,confidential,4,0
+a002,raw_clickstream_events,raw_lake,object_storage,schema_on_read,json,product-analytics,registered,90000000,620.0,1,restricted,12,1
+a003,raw_sensor_telemetry,raw_lake,object_storage,schema_on_read,parquet,environmental-systems,in_review,180000000,880.0,2,public,8,1
+a004,bronze_customer_events,bronze_lakehouse,table,schema_on_read,delta,analytics-engineering,registered,65000000,380.0,2,confidential,20,1
+a005,silver_customer_profile,silver_lakehouse,table,hybrid_schema,iceberg,analytics-engineering,certified,1200000,35.0,6,restricted,45,1
+a006,gold_customer_metrics,gold_lakehouse,table,schema_on_write,delta,analytics-engineering,certified,1200000,12.5,12,restricted,85,1
+a007,dim_customer,warehouse_dimension,relational_table,schema_on_write,warehouse_table,analytics-engineering,certified,1200000,8.2,24,restricted,180,0
+a008,dim_product,warehouse_dimension,relational_table,schema_on_write,warehouse_table,analytics-engineering,certified,55000,1.3,24,internal,160,0
+a009,fact_sales,warehouse_fact,relational_table,schema_on_write,warehouse_table,finance-analytics,certified,85000000,210.0,24,confidential,240,0
+a010,feature_customer_churn,feature_store,table,hybrid_schema,delta,ml-platform,in_review,1200000,18.0,12,restricted,30,1
+a011,sandbox_experiment_events,sandbox_lake,object_storage,schema_on_read,parquet,data-science,unregistered,25000000,110.0,48,confidential,2,1
+a012,archive_legacy_exports,archive_lake,object_storage,schema_on_read,csv,records-management,registered,40000000,300.0,8760,confidential,1,0

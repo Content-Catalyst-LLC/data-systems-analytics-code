@@ -1,0 +1,13 @@
+control_id,asset_id,metadata_coverage,lineage_coverage,owner_assigned,classification_applied,quality_status,access_policy_status,lifecycle_status,certification_status
+g001,a001,0.80,0.65,1,1,warn,approved,approved,registered
+g002,a002,0.82,0.70,1,1,warn,approved,approved,registered
+g003,a003,0.58,0.40,1,1,warn,in_review,in_review,in_review
+g004,a004,0.88,0.82,1,1,pass,approved,approved,registered
+g005,a005,0.95,0.90,1,1,pass,approved,approved,certified
+g006,a006,0.97,0.94,1,1,pass,approved,approved,certified
+g007,a007,0.99,0.96,1,1,pass,approved,approved,certified
+g008,a008,0.98,0.95,1,1,pass,approved,approved,certified
+g009,a009,0.99,0.97,1,1,pass,approved,approved,certified
+g010,a010,0.90,0.84,1,1,warn,in_review,approved,in_review
+g011,a011,0.35,0.20,0,1,unknown,missing,missing,unregistered
+g012,a012,0.70,0.50,1,1,warn,approved,approved,registered

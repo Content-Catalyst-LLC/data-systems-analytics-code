@@ -1,0 +1,8 @@
+table_id,table_name,model_role,grain,business_process,conformed_dimension,slowly_changing_type,primary_key,foreign_keys,owner,certification_status
+dm001,fact_sales,fact,one row per order line,sales,0,not_applicable,sales_line_key,"customer_key;product_key;date_key",finance-analytics,certified
+dm002,fact_inventory_snapshot,fact,one row per product location day,inventory,0,not_applicable,inventory_snapshot_key,"product_key;location_key;date_key",supply-chain-analytics,certified
+dm003,dim_customer,dimension,one row per customer version,customer,1,type_2,customer_key,,analytics-engineering,certified
+dm004,dim_product,dimension,one row per product version,product,1,type_2,product_key,,analytics-engineering,certified
+dm005,dim_date,dimension,one row per calendar date,calendar,1,type_0,date_key,,analytics-engineering,certified
+dm006,dim_location,dimension,one row per governed location,location,1,type_2,location_key,,analytics-engineering,in_review
+dm007,bridge_customer_segment,bridge,one row per customer segment assignment,segmentation,0,type_2,customer_segment_key,"customer_key;segment_key",marketing-analytics,in_review

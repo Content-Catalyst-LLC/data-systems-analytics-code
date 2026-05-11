@@ -1,0 +1,13 @@
+metric_id,asset_id,monthly_storage_cost_usd,monthly_compute_cost_usd,mean_query_latency_seconds,p95_query_latency_seconds,compression_ratio,cache_hit_rate,scan_efficiency_score,cost_status
+cp001,a001,850,120,38,95,0.25,0.05,0.30,watch
+cp002,a002,12400,2800,55,140,0.22,0.08,0.35,watch
+cp003,a003,17600,3200,62,160,0.20,0.05,0.31,watch
+cp004,a004,7600,4500,24,70,0.35,0.20,0.55,acceptable
+cp005,a005,700,1800,8,22,0.44,0.62,0.80,good
+cp006,a006,250,2200,5,14,0.50,0.72,0.88,good
+cp007,a007,164,2100,2.5,8,0.62,0.84,0.92,good
+cp008,a008,26,1300,2.0,6,0.66,0.86,0.94,good
+cp009,a009,4200,8800,4.2,12,0.58,0.78,0.90,good
+cp010,a010,360,2600,7,24,0.44,0.44,0.72,acceptable
+cp011,a011,2200,5000,80,220,0.18,0.03,0.20,high_risk
+cp012,a012,6000,300,120,300,0.15,0.00,0.10,watch

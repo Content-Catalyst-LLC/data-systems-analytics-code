@@ -1,0 +1,7 @@
+# Core workflow uses only Python standard library.
+# Optional packages for notebooks and expanded warehouse/lake workflows:
+pandas>=2.2
+numpy>=2.0
+duckdb>=1.0
+pyyaml>=6.0
+jupyter>=1.0

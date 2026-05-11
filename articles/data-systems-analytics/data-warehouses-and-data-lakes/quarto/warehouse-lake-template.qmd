@@ -1,0 +1,38 @@
+---
+title: "Data Warehouses and Data Lakes Review"
+subtitle: "Warehouse Structure, Lake Optionality, Lakehouse Tables, Metadata, Governance, and Workload Fit"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Architecture objective
+
+Define whether each workload needs warehouse-style curated analytical state, lake-style raw optionality, or lakehouse-style convergence.
+
+## Reproducible example
+
+```{python}
+assets = [
+    {"asset": "fact_sales", "zone": "warehouse_fact", "schema": "schema_on_write"},
+    {"asset": "raw_clickstream_events", "zone": "raw_lake", "schema": "schema_on_read"},
+]
+print(assets)
+```
+
+## Governance review
+
+Check metadata, lineage, ownership, sensitivity classification, access policy, lifecycle status, and certification status.
+
+## Performance review
+
+Compare query latency, scan efficiency, storage cost, compute cost, cache hit rate, and cost status.
+
+## Appendix
+
+Attach data assets, lake zones, dimensional models, governance controls, cost/performance metrics, lakehouse features, and workload requirements.

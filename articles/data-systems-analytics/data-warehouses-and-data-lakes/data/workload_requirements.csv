@@ -1,0 +1,7 @@
+workload_id,workload_name,primary_use_case,requires_low_latency_sql,requires_raw_data_access,requires_ml_features,requires_strong_governance,requires_open_format,preferred_architecture
+w001,executive_kpi_dashboard,business_intelligence,1,0,0,1,0,warehouse_or_gold_lakehouse
+w002,customer_churn_model,machine_learning,0,1,1,1,1,lakehouse_feature_layer
+w003,regulatory_sales_reporting,compliance_reporting,1,0,0,1,0,warehouse
+w004,clickstream_exploration,data_science_exploration,0,1,1,0,1,data_lake_or_lakehouse
+w005,environmental_sensor_archive,scientific_retention,0,1,1,1,1,data_lake_with_catalog
+w006,self_service_revenue_analysis,self_service_bi,1,0,0,1,0,warehouse_mart

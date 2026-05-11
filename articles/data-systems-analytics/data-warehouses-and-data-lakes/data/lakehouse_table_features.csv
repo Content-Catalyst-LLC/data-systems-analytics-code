@@ -1,0 +1,6 @@
+table_id,asset_id,open_table_format,acid_transactions,schema_evolution,time_travel,partition_evolution,batch_stream_unified,metadata_scalability,table_status
+lh001,a004,delta,1,1,1,0,1,1,registered
+lh002,a005,iceberg,1,1,1,1,1,1,certified
+lh003,a006,delta,1,1,1,0,1,1,certified
+lh004,a010,delta,1,1,1,0,1,1,in_review
+lh005,a011,parquet_only,0,0,0,0,0,0,unregistered

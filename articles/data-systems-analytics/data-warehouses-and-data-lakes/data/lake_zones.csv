@@ -1,0 +1,8 @@
+zone_id,zone_name,purpose,allowed_formats,metadata_required,quality_gate_required,retention_days,access_model,swamp_risk,status
+z001,raw_landing,preserve source data before interpretation,"csv;json;parquet;avro",1,0,90,restricted,medium,approved
+z002,bronze_lake,preserve lightly standardized source-aligned tables,"parquet;delta;iceberg",1,1,365,restricted,medium,approved
+z003,silver_refined,cleaned conformed reusable analytical inputs,"delta;iceberg;parquet",1,1,1095,role_based,low,approved
+z004,gold_curated,governed data products and reporting-ready outputs,"delta;iceberg;warehouse_table",1,1,2555,role_based,low,approved
+z005,warehouse_marts,dimensional and semantic reporting structures,"warehouse_table",1,1,2555,role_based,low,approved
+z006,data_science_sandbox,exploratory feature and experiment workspaces,"parquet;delta;iceberg;csv",1,0,180,project_based,high,in_review
+z007,archive,legal historical and low-frequency retained extracts,"csv;parquet",1,0,3650,restricted,medium,approved

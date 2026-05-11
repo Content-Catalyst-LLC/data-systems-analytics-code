@@ -1,0 +1,26 @@
+name: Warehouse and lake smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/data-warehouses-and-data-lakes/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/data-warehouses-and-data-lakes
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run warehouse/lake scorecard and SQL loader
+        run: |
+          python3 python/warehouse_lake_scorecard.py
+          python3 sql/run_sqlite_warehouse_lake.py
+      - name: Show manifest
+        run: |
+          cat outputs/warehouse_lake_manifest_python.json

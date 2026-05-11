@@ -1,0 +1,15 @@
+platform:
+  name: data-warehouses-and-data-lakes
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - distinguish_curated_analytical_state_from_raw_optionality
+    - preserve_raw_data_but_do_not_confuse_storage_with_usability
+    - use_dimensional_models_for_repeated_governed_reporting
+    - apply_metadata_lineage_ownership_and_access_controls_to_lake_assets
+    - treat_schema_on_write_and_schema_on_read_as_lifecycle_choices
+    - use_lakehouse_table_features_when_governed_lake_tables_require_reliability
+    - monitor_data_swamp_risk
+    - align_architecture_to_workload_semantics
+    - measure_cost_performance_and_governance_together
+    - publish_certified_outputs_only_after_quality_and_lineage_checks
