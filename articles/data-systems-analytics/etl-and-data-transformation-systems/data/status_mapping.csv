@@ -1,0 +1,13 @@
+source_system,source_field,source_value,canonical_domain,canonical_value,active_flag,mapping_status
+crm,status_code,A,customer_status,active,1,approved
+crm,status_code,I,customer_status,inactive,0,approved
+erp,status_code,ACTIVE,customer_status,active,1,approved
+erp,status_code,INACTIVE,customer_status,inactive,0,approved
+billing,status_code,current,customer_status,active,1,approved
+billing,status_code,lapsed,customer_status,inactive,0,approved
+commerce,status_code,paid,order_status,completed,1,approved
+commerce,status_code,refund,order_status,refunded,0,approved
+pos,status_code,COMPLETE,order_status,completed,1,approved
+pos,status_code,RETURN,order_status,refunded,0,approved
+billing,status_code,posted,order_status,completed,1,approved
+billing,status_code,void,order_status,voided,0,approved

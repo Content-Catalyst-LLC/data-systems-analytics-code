@@ -1,0 +1,8 @@
+event_id,source_system,entity,operation,business_key,event_time,sequence_number,payload_status,payload_amount
+cdc001,crm,customer,insert,CRM-001,2026-04-01T08:02:00Z,1,A,
+cdc002,commerce,order,insert,O-1001,2026-04-01T10:12:00Z,2,paid,120.50
+cdc003,pos,order,insert,P-4401,2026-04-01T13:07:00Z,3,COMPLETE,63.25
+cdc004,billing,order,insert,INV-778,2026-04-02T08:05:00Z,4,posted,200.00
+cdc005,commerce,order,update,O-1001,2026-04-02T09:00:00Z,5,refund,-120.50
+cdc006,crm,customer,update,CRM-003,2026-04-02T09:13:00Z,6,I,
+cdc007,commerce,order,insert,O-1004,2026-04-02T09:01:00Z,7,paid,98.00

@@ -1,0 +1,39 @@
+---
+title: "ETL and Data Transformation Systems Review"
+subtitle: "Extraction, Staging, Mapping, Quality Gates, CDC, Merge Logic, Lineage, and Governance"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Transformation objective
+
+Define sources, target grain, canonical entities, business rules, and governance owner.
+
+## Reproducible example
+
+```{python}
+import hashlib
+
+def stable_key(value):
+    return hashlib.sha256(value.lower().encode("utf-8")).hexdigest()[:16]
+
+print({"canonical_customer_id": stable_key("ada@example.com")})
+```
+
+## Quality gates
+
+Review mapping coverage, null constraints, referential integrity, rejected records, and idempotent merge behavior.
+
+## Lineage
+
+Preserve run ID, source batch, input fingerprints, code version, rejected-record counts, and output table state.
+
+## Appendix
+
+Attach raw extracts, mappings, CDC events, orchestration runs, tests, and generated summaries.

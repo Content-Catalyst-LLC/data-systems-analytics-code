@@ -1,0 +1,11 @@
+source_system,source_customer_id,customer_name,status_code,country_code,created_at,updated_at,email
+crm,CRM-001,Ada Lovelace,A,US,2025-01-03T10:00:00Z,2026-04-01T08:02:00Z,ada@example.com
+crm,CRM-002,Grace Hopper,A,US,2025-02-14T11:30:00Z,2026-04-02T09:10:00Z,grace@example.com
+crm,CRM-003,Katherine Johnson,I,US,2025-03-22T14:20:00Z,2026-04-02T09:13:00Z,katherine@example.com
+erp,1001,Ada L.,ACTIVE,USA,2025-01-03T10:05:00Z,2026-04-01T08:09:00Z,ada@example.com
+erp,1002,Grace M. Hopper,ACTIVE,USA,2025-02-14T11:35:00Z,2026-04-02T09:22:00Z,grace@example.com
+erp,1003,Katherine Johnson,INACTIVE,USA,2025-03-22T14:25:00Z,2026-04-02T09:34:00Z,katherine@example.com
+billing,B-884,Ada Lovelace,current,US,2025-01-03T10:15:00Z,2026-04-01T08:18:00Z,ada@example.com
+billing,B-991,Grace Hopper,current,US,2025-02-14T11:40:00Z,2026-04-02T09:41:00Z,grace@example.com
+billing,B-777,Katherine Johnson,lapsed,US,2025-03-22T14:30:00Z,2026-04-02T09:52:00Z,katherine@example.com
+crm,CRM-004,Invalid Missing Email,A,US,2026-04-02T12:00:00Z,2026-04-02T12:00:00Z,

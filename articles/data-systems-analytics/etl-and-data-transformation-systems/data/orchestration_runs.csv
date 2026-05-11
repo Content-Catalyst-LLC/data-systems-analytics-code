@@ -1,0 +1,4 @@
+run_id,pipeline_name,started_at,finished_at,source_batch_id,code_version,input_rows,loaded_rows,rejected_rows,status
+run001,customer_transform,2026-04-02T10:00:00Z,2026-04-02T10:02:30Z,batch-20260402,a1b2c3d,10,9,1,completed_with_warning
+run002,order_transform,2026-04-02T10:03:00Z,2026-04-02T10:05:45Z,batch-20260402,a1b2c3d,10,9,1,completed_with_warning
+run003,cdc_merge,2026-04-02T10:06:00Z,2026-04-02T10:07:10Z,cdc-20260402,a1b2c3d,7,6,1,completed_with_warning

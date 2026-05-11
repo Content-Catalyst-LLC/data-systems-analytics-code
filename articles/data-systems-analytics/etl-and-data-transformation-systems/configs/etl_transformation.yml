@@ -1,0 +1,15 @@
+platform:
+  name: etl-and-data-transformation-systems
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - preserve_raw_extracts_before_transformation
+    - stage_before_canonical_promotion
+    - treat_mappings_as_governed_assets
+    - quarantine_rejected_records_with_reason_codes
+    - make_incremental_loads_idempotent
+    - support_replay_and_backfill
+    - record_lineage_for_each_output
+    - distinguish_source_time_event_time_and_load_time
+    - test_transformation_logic_before_promotion
+    - document_canonical_grain_identity_and_business_rules

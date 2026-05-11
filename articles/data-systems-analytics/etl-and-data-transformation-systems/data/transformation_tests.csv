@@ -1,0 +1,9 @@
+test_id,test_name,scope,condition,expected_result,severity,status
+t001,customer_email_required,customer,email_not_null,pass,high,warn
+t002,canonical_status_required,customer,canonical_status_not_null,pass,critical,pass
+t003,order_customer_key_required,order,canonical_customer_id_not_null,pass,critical,warn
+t004,order_amount_nonnegative_for_completed,order,completed_amount_nonnegative,pass,high,pass
+t005,status_mapping_coverage,mapping,all_status_values_mapped,pass,critical,pass
+t006,idempotent_merge_key,load,stable_business_key_present,pass,critical,pass
+t007,rejected_records_documented,governance,reject_reason_present,pass,high,pass
+t008,lineage_run_id_present,governance,lineage_run_id_not_null,pass,high,pass
