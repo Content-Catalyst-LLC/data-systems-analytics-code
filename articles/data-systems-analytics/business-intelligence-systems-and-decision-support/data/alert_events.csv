@@ -1,0 +1,7 @@
+event_date,threshold_id,metric_id,dashboard_id,observed_value,alert_status,time_to_acknowledge_hours,resolution_status
+2026-01-01,t001,m001,d001,980000,triggered,3,resolved
+2026-01-01,t002,m003,d002,0.90,triggered,1,resolved
+2026-01-02,t003,m004,d003,17,triggered,8,in_review
+2026-01-02,t004,m007,d002,470,triggered,2,resolved
+2026-01-03,t005,m005,d004,24000,triggered,5,resolved
+2026-01-04,t002,m003,d002,0.91,triggered,2,resolved

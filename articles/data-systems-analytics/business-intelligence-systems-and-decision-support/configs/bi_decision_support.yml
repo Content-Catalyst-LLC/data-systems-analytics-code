@@ -1,0 +1,19 @@
+platform:
+  name: business-intelligence-systems-and-decision-support
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - semantic_consistency
+    - metric_certification
+    - dashboard_scope_discipline
+    - uncertainty_visibility
+    - threshold_based_decision_support
+    - role_aware_interfaces
+    - lineage_and_traceability
+    - governed_self_service
+    - decision_review_loops
+  decision_functions:
+    - descriptive_monitoring
+    - diagnostic_analysis
+    - predictive_estimation
+    - prescriptive_evaluation

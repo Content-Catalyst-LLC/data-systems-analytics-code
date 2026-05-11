@@ -1,0 +1,7 @@
+dashboard_id,dashboard_name,domain,primary_user,decision_function,certification_status,refresh_sla_hours,owner,lifecycle_status
+d001,Executive Revenue Scorecard,finance,executive-team,descriptive-monitoring,certified,24,finance-analytics,active
+d002,Fulfillment Operations Monitor,operations,operations-managers,threshold-monitoring,certified,6,operations-analytics,active
+d003,Risk Incident Review,risk,risk-committee,diagnostic-analysis,reviewed,24,risk-analytics,active
+d004,Product Growth Workbench,product,product-managers,diagnostic-analysis,certified,12,product-analytics,active
+d005,Customer Experience Review,customer,customer-leaders,trend-review,reviewed,48,customer-insights,active
+d006,Legacy KPI Dashboard,legacy,legacy-consumers,descriptive-monitoring,uncertified,168,central-bi,deprecated

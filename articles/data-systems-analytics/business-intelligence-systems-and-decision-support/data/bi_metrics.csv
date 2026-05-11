@@ -1,0 +1,9 @@
+metric_id,metric_name,domain,owner,semantic_status,quality_score,freshness_hours,uncertainty_visible,decision_critical
+m001,net_revenue,finance,finance-analytics,certified,0.98,12,true,true
+m002,gross_margin,finance,finance-analytics,certified,0.96,12,true,true
+m003,on_time_fulfillment,operations,operations-analytics,certified,0.94,6,true,true
+m004,incident_rate,risk,risk-analytics,reviewed,0.91,24,true,true
+m005,weekly_active_users,product,product-analytics,certified,0.95,6,false,true
+m006,customer_satisfaction,customer,customer-insights,reviewed,0.88,48,true,false
+m007,inventory_position,operations,operations-analytics,certified,0.93,4,true,true
+m008,legacy_kpi_extract,legacy,central-bi,uncertified,0.61,168,false,false

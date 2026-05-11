@@ -1,0 +1,6 @@
+threshold_id,metric_id,condition,threshold_value,decision_owner,escalation_path,response_window_hours
+t001,m001,below,1000000,chief-financial-officer,finance-leadership-review,24
+t002,m003,below,0.92,operations-director,fulfillment-war-room,6
+t003,m004,above,15,risk-officer,risk-committee-review,24
+t004,m007,below,500,operations-director,inventory-response-review,4
+t005,m005,below,25000,product-lead,product-growth-review,24

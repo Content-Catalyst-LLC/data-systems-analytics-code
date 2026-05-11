@@ -1,0 +1,7 @@
+review_id,dashboard_id,decision_meeting,decision_taken,evidence_quality,action_traceable,followup_required
+r001,d001,weekly-executive-review,pricing-review-approved,high,true,false
+r002,d002,operations-standup,expedite-delayed-shipments,high,true,true
+r003,d003,risk-committee-review,incident-pattern-investigation,medium,true,true
+r004,d004,product-growth-review,onboarding-experiment-approved,medium,true,true
+r005,d005,customer-review,service-process-review,medium,false,true
+r006,d006,legacy-review,no-action-low-confidence,low,false,false
