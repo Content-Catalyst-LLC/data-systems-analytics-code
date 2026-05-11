@@ -1,0 +1,5 @@
+outputs/*.sqlite
+outputs/fnv_fingerprint
+outputs/reproducible_summary_cpp
+data/snapshots/
+.DS_Store

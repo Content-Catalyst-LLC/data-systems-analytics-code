@@ -1,0 +1,7 @@
+workflow=reproducible-analytics-and-versioned-data-workflows
+runtime=R
+r_version=R version 4.5.2 (2025-10-31)
+input_path=data/sample_events.csv
+output_path=outputs/run_summary_r.csv
+row_count=12
+run_time_utc=2026-05-11 00:04:05 UTC

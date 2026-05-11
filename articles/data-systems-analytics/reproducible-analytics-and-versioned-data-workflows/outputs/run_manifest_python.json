@@ -1,0 +1,35 @@
+{
+  "run_id": "6b766b04-9336-4270-bd04-a7932abbb242",
+  "run_started_at_utc": "2026-05-11T00:04:04.780965+00:00",
+  "workflow_name": "reproducible-analytics-and-versioned-data-workflows",
+  "workflow_version": "0.1.0",
+  "git_commit": "870b82e412a28907b74cd1a153fd86345374af09",
+  "parameters": {
+    "group_by": "system"
+  },
+  "environment": {
+    "python_version": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+    "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "working_directory": "/Users/tariqahmad/projects/data-systems-analytics-code/articles/data-systems-analytics/reproducible-analytics-and-versioned-data-workflows"
+  },
+  "inputs": {
+    "source_path": "/Users/tariqahmad/projects/data-systems-analytics-code/articles/data-systems-analytics/reproducible-analytics-and-versioned-data-workflows/data/sample_events.csv",
+    "snapshot_path": "/Users/tariqahmad/projects/data-systems-analytics-code/articles/data-systems-analytics/reproducible-analytics-and-versioned-data-workflows/data/snapshots/6b766b04-9336-4270-bd04-a7932abbb242/sample_events.csv",
+    "sha256": "d4c15776b6261ed11dbe3f9ee7cfe80419f27d554c650461b530eac4f5eb1ccb",
+    "rows": 12
+  },
+  "outputs": {
+    "summary_path": "/Users/tariqahmad/projects/data-systems-analytics-code/articles/data-systems-analytics/reproducible-analytics-and-versioned-data-workflows/outputs/run_summary_python.csv",
+    "summary_sha256": "fc10a1ea01103da1eb3b3f8af4e0ae2449259edc1fb7a2b6fc3cb319db63537f",
+    "manifest_path": "/Users/tariqahmad/projects/data-systems-analytics-code/articles/data-systems-analytics/reproducible-analytics-and-versioned-data-workflows/outputs/run_manifest_python.json"
+  },
+  "lineage": [
+    {
+      "from": "/Users/tariqahmad/projects/data-systems-analytics-code/articles/data-systems-analytics/reproducible-analytics-and-versioned-data-workflows/data/snapshots/6b766b04-9336-4270-bd04-a7932abbb242/sample_events.csv",
+      "to": "/Users/tariqahmad/projects/data-systems-analytics-code/articles/data-systems-analytics/reproducible-analytics-and-versioned-data-workflows/outputs/run_summary_python.csv",
+      "transformation": "grouped aggregation",
+      "group_by": "system"
+    }
+  ]
+}

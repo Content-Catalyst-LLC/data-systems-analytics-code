@@ -1,0 +1,2 @@
+file=data/sample_events.csv
+fnv1a64=100c012b6dbd03f2

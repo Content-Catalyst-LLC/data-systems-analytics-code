@@ -1,0 +1,20 @@
+workflow:
+  name: reproducible-analytics-and-versioned-data-workflows
+  article: Reproducible Analytics and Versioned Data Workflows
+  version: 0.1.0
+  owner: data-systems-analytics
+  input:
+    path: data/sample_events.csv
+    format: csv
+    snapshot_policy: immutable-copy-per-run
+  output:
+    summary_csv: outputs/run_summary_python.csv
+    manifest_json: outputs/run_manifest_python.json
+  reproducibility_controls:
+    - input_fingerprint
+    - output_fingerprint
+    - parameter_capture
+    - environment_capture
+    - execution_timestamp
+    - run_identifier
+    - workflow_version
