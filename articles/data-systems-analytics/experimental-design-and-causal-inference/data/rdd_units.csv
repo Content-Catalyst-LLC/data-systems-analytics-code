@@ -1,0 +1,9 @@
+unit_id,study_id,running_variable,cutoff,treatment,outcome
+e001,study002,47,50,0,0
+e002,study002,48,50,0,0
+e003,study002,49,50,0,1
+e004,study002,50,50,1,1
+e005,study002,51,50,1,1
+e006,study002,52,50,1,1
+e007,study002,53,50,1,1
+e008,study002,46,50,0,0

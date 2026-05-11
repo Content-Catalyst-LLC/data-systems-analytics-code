@@ -1,0 +1,15 @@
+platform:
+  name: experimental-design-and-causal-inference
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - define_causal_question_before_model
+    - specify_intervention_comparison_outcome_unit_and_time
+    - estimand_precedes_estimator
+    - randomized_design_strengthens_exchangeability
+    - observational_design_requires_identification_assumptions
+    - avoid_post_treatment_adjustment
+    - test_or_argue_design_assumptions
+    - report_robustness_and_sensitivity
+    - distinguish_prediction_from_causation
+    - connect_causal_claims_to_governance_review

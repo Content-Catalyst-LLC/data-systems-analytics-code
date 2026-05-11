@@ -1,0 +1,5 @@
+cell_id,study_id,factor_a,factor_b,n,mean_outcome
+cell001,study001,low_message,no_discount,120,0.18
+cell002,study001,low_message,discount,118,0.14
+cell003,study001,high_message,no_discount,121,0.15
+cell004,study001,high_message,discount,119,0.10

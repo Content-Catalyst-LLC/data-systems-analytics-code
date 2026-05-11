@@ -1,0 +1,6 @@
+study_id,study_name,domain,causal_question,intervention,comparison,outcome,unit_of_analysis,design_type,estimand,owner,status,risk_level
+study001,Retention Outreach Experiment,platform_analytics,Does proactive outreach reduce churn,offer_outreach,no_outreach,churn_30d,user,randomized_experiment,ATE,customer-steward,approved,medium
+study002,Training Program Evaluation,workforce,Does training improve completion rates,training_eligible,not_eligible,completion_rate,employee,regression_discontinuity,LATE,people-analytics,in_review,medium
+study003,Policy Emissions Evaluation,public_policy,Did policy adoption reduce emissions,policy_adopted,not_yet_adopted,emissions_rate,region,difference_in_differences,ATT,policy-steward,in_review,high
+study004,Medication Comparative Effect,healthcare,Does treatment improve recovery,treatment_a,treatment_b,recovery_90d,patient,target_trial_emulation,ATE,clinical-steward,planned,high
+study005,Legacy Campaign Lift,marketing,Did campaign increase purchases,campaign_exposed,not_exposed,purchase_14d,customer,observational_regression,ATE,marketing-steward,needs_revision,medium

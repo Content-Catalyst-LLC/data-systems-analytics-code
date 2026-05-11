@@ -1,0 +1,9 @@
+outputs/*
+!outputs/.gitkeep
+.DS_Store
+*.o
+*.exe
+target/
+typescript/node_modules/
+typescript/dist/
+.quarto/

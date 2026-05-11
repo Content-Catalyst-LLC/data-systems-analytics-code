@@ -1,0 +1,13 @@
+unit_id,study_id,block,treatment,outcome,pre_score,propensity_score,assignment_score,time_period,group_id
+u001,study001,north,1,0,0.22,0.50,0.70,post,g1
+u002,study001,north,0,1,0.31,0.50,0.41,post,g2
+u003,study001,north,1,0,0.44,0.50,0.80,post,g3
+u004,study001,south,0,1,0.27,0.50,0.37,post,g4
+u005,study001,south,1,0,0.25,0.50,0.72,post,g5
+u006,study001,south,0,1,0.35,0.50,0.39,post,g6
+u007,study005,A,1,1,0.62,0.72,0.90,post,g7
+u008,study005,A,0,0,0.60,0.48,0.30,post,g8
+u009,study005,B,1,1,0.55,0.68,0.88,post,g9
+u010,study005,B,0,0,0.58,0.46,0.32,post,g10
+u011,study005,C,1,0,0.40,0.61,0.76,post,g11
+u012,study005,C,0,0,0.44,0.42,0.26,post,g12

@@ -1,0 +1,8 @@
+check_id,study_id,assumption,status,severity,evidence,remediation
+chk001,study001,random_assignment,pass,critical,assignment probability fixed within blocks,none
+chk002,study001,sutva_no_interference,warn,high,outreach could spill over among household users,cluster sensitivity check
+chk003,study002,continuity_at_cutoff,warn,critical,limited observations near cutoff,expand bandwidth sensitivity
+chk004,study003,parallel_trends,warn,critical,pre-period evidence limited,add more pre-periods and placebo tests
+chk005,study004,exchangeability,planned,critical,target trial protocol not complete,define eligibility and adjustment set
+chk006,study005,no_unmeasured_confounding,fail,critical,campaign exposure not randomized and correlated with pre-score,use target trial emulation or matching design
+chk007,study005,post_treatment_bias,fail,high,model includes post-exposure engagement,remove post-treatment covariates

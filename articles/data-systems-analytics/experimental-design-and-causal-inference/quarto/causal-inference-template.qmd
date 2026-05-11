@@ -1,0 +1,41 @@
+---
+title: "Experimental Design and Causal Inference Review"
+subtitle: "Interventions, Estimands, Identification, Validity, and Governance"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Causal question
+
+State the intervention, comparison, outcome, unit, and time horizon.
+
+## Estimand
+
+Define ATE, ATT, LATE, CATE, ITT, or another estimand.
+
+## Design and identification
+
+Describe whether the analysis uses randomization, blocking, difference-in-differences, regression discontinuity, target-trial emulation, or an observational adjustment strategy.
+
+## Reproducible example
+
+```{python}
+treated_mean = 0.0
+control_mean = 1.0
+ate = treated_mean - control_mean
+print({"ate": ate})
+```
+
+## Validity review
+
+State internal validity, external validity, interference, attrition, measurement, and sensitivity concerns.
+
+## Appendix
+
+Preserve study registry, assumptions, design checks, estimates, and robustness notes.

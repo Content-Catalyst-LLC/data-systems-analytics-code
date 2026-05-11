@@ -1,0 +1,9 @@
+unit_id,study_id,group,time_period,treatment_group,post,outcome
+r001,study003,treated,pre,1,0,102
+r002,study003,treated,post,1,1,91
+r003,study003,treated,pre,1,0,98
+r004,study003,treated,post,1,1,89
+r005,study003,control,pre,0,0,101
+r006,study003,control,post,0,1,99
+r007,study003,control,pre,0,0,97
+r008,study003,control,post,0,1,96
