@@ -1,0 +1,26 @@
+name: Time series forecasting smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/time-series-analysis-and-forecasting/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/time-series-analysis-and-forecasting
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run time-series forecasting scorecard and SQL loader
+        run: |
+          python3 python/time_series_forecasting_scorecard.py
+          python3 sql/run_sqlite_time_series_forecasting.py
+      - name: Show manifest
+        run: |
+          cat outputs/time_series_forecasting_manifest_python.json

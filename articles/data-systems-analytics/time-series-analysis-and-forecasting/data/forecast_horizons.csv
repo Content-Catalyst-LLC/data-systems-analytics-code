@@ -1,0 +1,7 @@
+forecast_id,model_id,series_id,origin_date,horizon,forecast,lower_80,upper_80,lower_95,upper_95,release_status
+fc001,ts001,demand,2026-06-01,1,169,157,181,150,188,approved
+fc002,ts001,demand,2026-06-01,2,164,148,180,139,189,approved
+fc003,ts001,demand,2026-06-01,3,150,130,170,119,181,approved
+fc004,ts003,demand,2026-06-01,1,174,164,184,158,190,in_review
+fc005,ts003,demand,2026-06-01,2,166,152,180,144,188,in_review
+fc006,ts003,demand,2026-06-01,3,153,135,171,125,181,in_review

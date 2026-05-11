@@ -1,0 +1,13 @@
+window_id,model_id,series_id,origin_date,horizon,actual,forecast,lower_80,upper_80,status
+bt001,ts001,demand,2025-06-01,1,169,155,145,165,watch
+bt002,ts001,demand,2025-07-01,1,164,151,141,161,watch
+bt003,ts001,demand,2025-08-01,1,150,139,129,149,watch
+bt004,ts001,demand,2025-09-01,1,137,128,118,138,pass
+bt005,ts002,demand,2025-06-01,1,169,142,130,154,fail
+bt006,ts002,demand,2025-07-01,1,164,155,143,167,pass
+bt007,ts002,demand,2025-08-01,1,150,162,150,174,watch
+bt008,ts002,demand,2025-09-01,1,137,161,149,173,fail
+bt009,ts003,demand,2025-06-01,1,169,160,150,170,pass
+bt010,ts003,demand,2025-07-01,1,164,170,160,180,pass
+bt011,ts003,demand,2025-08-01,1,150,162,152,172,watch
+bt012,ts003,demand,2025-09-01,1,137,145,135,155,pass

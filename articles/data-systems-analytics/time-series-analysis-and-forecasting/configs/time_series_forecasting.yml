@@ -1,0 +1,15 @@
+platform:
+  name: time-series-analysis-and-forecasting
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - preserve_temporal_order
+    - inspect_trend_seasonality_and_lag_structure
+    - do_not_randomly_split_time_ordered_data
+    - evaluate_forecasts_with_rolling_origin
+    - report_error_by_horizon
+    - communicate_prediction_intervals
+    - monitor_stationarity_and_structural_breaks
+    - connect_forecasts_to_decision_risk
+    - record_forecast_release_status
+    - revalidate_when_regimes_change

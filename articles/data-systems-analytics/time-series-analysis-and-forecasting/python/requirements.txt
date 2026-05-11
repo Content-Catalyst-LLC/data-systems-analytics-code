@@ -1,0 +1,10 @@
+# Core workflow uses only Python standard library.
+# Optional packages for notebooks and expanded forecasting workflows:
+pandas>=2.2
+numpy>=2.0
+statsmodels>=0.14
+scikit-learn>=1.5
+matplotlib>=3.9
+jupyter>=1.0
+duckdb>=1.0
+pyyaml>=6.0

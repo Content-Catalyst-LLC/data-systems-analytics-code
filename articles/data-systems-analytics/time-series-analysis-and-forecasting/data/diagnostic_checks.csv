@@ -1,0 +1,8 @@
+check_id,series_id,check_type,status,severity,evidence,remediation
+chk001,demand,time_index_regular,pass,high,monthly observations have regular spacing,none
+chk002,demand,missing_periods,pass,high,no missing monthly periods,none
+chk003,demand,seasonality_present,pass,medium,summer and holiday peaks visible,include seasonal baseline
+chk004,demand,trend_present,warn,medium,level rises from 2024 to 2026,include trend or differencing diagnostics
+chk005,demand,stationarity,watch,high,mean level shifts upward across years,use detrending or differencing before ARIMA
+chk006,demand,structural_break,watch,high,2026 values appear above previous seasonal baseline,monitor forecast residuals
+chk007,demand,exogenous_predictors,in_review,medium,temperature and promotion indices available,validate leakage-free availability

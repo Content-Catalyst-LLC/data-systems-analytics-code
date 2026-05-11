@@ -1,0 +1,6 @@
+model_id,series_id,model_name,model_family,frequency,horizon,uses_exogenous,validation_design,status,owner,risk_level
+ts001,demand,Seasonal Naive Baseline,seasonal_naive,monthly,6,false,rolling_origin,approved,forecast-steward,low
+ts002,demand,Moving Average Baseline,moving_average,monthly,6,false,rolling_origin,in_review,forecast-steward,medium
+ts003,demand,Time Series Regression,time_series_regression,monthly,6,true,rolling_origin,in_review,forecast-steward,medium
+ts004,demand,SARIMA Candidate,sarima,monthly,6,false,rolling_origin,planned,forecast-steward,medium
+ts005,demand,Legacy Trend Line,linear_trend,monthly,6,false,static_holdout,needs_revision,legacy-steward,medium

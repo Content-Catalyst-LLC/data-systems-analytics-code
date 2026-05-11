@@ -1,0 +1,41 @@
+---
+title: "Time Series Analysis and Forecasting Review"
+subtitle: "Trend, Seasonality, Autocorrelation, Backtesting, Intervals, and Forecast Governance"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Series definition
+
+State the series, time index, frequency, units, and forecast horizon.
+
+## Temporal diagnostics
+
+Inspect trend, seasonality, lag dependence, stationarity, missing periods, and structural breaks.
+
+## Reproducible example
+
+```{python}
+actual = [169, 164, 150, 137]
+forecast = [155, 151, 139, 128]
+mae = sum(abs(a - f) for a, f in zip(actual, forecast)) / len(actual)
+print({"mae": mae})
+```
+
+## Backtesting
+
+Use rolling-origin evaluation or another time-preserving validation design.
+
+## Forecast release
+
+Publish point forecasts with prediction intervals and release status.
+
+## Appendix
+
+Preserve model registry, diagnostics, backtests, horizons, and monitoring records.
