@@ -1,0 +1,7 @@
+policy_id,scope,principal_type,access_pattern,control_type,sensitivity
+pol001,raw-zone,platform-service-account,write,iam-and-network-restriction,high
+pol002,curated-zone,data-engineer,read-write,role-based-access,medium
+pol003,warehouse-marts,analyst,read,row-and-column-security,medium
+pol004,semantic-metrics,business-user,read,certified-metric-access,low
+pol005,ml-features,ml-service-account,read-write,service-identity-and-audit,high
+pol006,catalog,all-data-users,read,metadata-access-policy,low

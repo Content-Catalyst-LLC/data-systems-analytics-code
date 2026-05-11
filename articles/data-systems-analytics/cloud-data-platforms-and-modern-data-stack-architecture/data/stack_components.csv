@@ -1,0 +1,15 @@
+component_id,layer,component_name,owner,criticality,governance_control,observability_control
+src_crm,source,CRM source system,sales-domain,high,classified-source,source-freshness
+src_billing,source,Billing source system,finance-domain,high,classified-source,source-freshness
+ingest_cdc,ingestion,Change data capture pipelines,platform-engineering,high,schema-contracts,pipeline-latency
+ingest_batch,ingestion,Batch file ingestion,platform-engineering,medium,landing-zone-policy,file-arrival-monitoring
+lake_raw,storage,Raw object storage zone,platform-engineering,high,retention-policy,storage-volume-monitoring
+lake_curated,storage,Curated lakehouse tables,data-engineering,high,table-access-policy,table-quality-monitoring
+warehouse_core,serving,Cloud warehouse core marts,analytics-engineering,high,row-column-security,query-performance
+transform_models,transformation,Versioned transformation models,analytics-engineering,high,code-review-and-tests,model-test-results
+orchestrator,orchestration,Workflow orchestrator,platform-engineering,high,run-approval-policy,job-failure-alerts
+catalog,metadata,Data catalog and glossary,data-governance,high,stewardship-policy,catalog-coverage
+lineage,lineage,Lineage graph,data-governance,high,provenance-policy,lineage-coverage
+semantic_layer,semantic,Governed metrics and dimensions,analytics-engineering,high,metric-certification,metric-drift-monitoring
+bi_layer,consumption,Business intelligence dashboards,business-intelligence,medium,certified-dashboard-policy,usage-monitoring
+ml_features,ai_ml,Feature and AI data products,ml-platform,medium,model-data-policy,feature-drift-monitoring

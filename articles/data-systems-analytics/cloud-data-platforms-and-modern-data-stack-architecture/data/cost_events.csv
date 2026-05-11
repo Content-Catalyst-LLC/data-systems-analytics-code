@@ -1,0 +1,11 @@
+event_date,service_category,workload,compute_units,storage_gb,estimated_cost
+2026-01-01,ingestion,cdc,18,0,42.00
+2026-01-01,storage,raw-zone,0,2500,57.50
+2026-01-01,transformation,daily-model-build,64,0,128.00
+2026-01-01,serving,warehouse-query,45,0,91.00
+2026-01-01,metadata,catalog-sync,4,0,8.00
+2026-01-02,ingestion,cdc,20,0,46.00
+2026-01-02,storage,curated-zone,0,1500,39.00
+2026-01-02,transformation,daily-model-build,70,0,140.00
+2026-01-02,serving,warehouse-query,52,0,104.00
+2026-01-02,ai_ml,feature-refresh,28,0,75.00

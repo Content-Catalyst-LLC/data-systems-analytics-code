@@ -1,0 +1,10 @@
+pipeline_id,source_layer,target_layer,latency_pattern,expected_frequency,owner,quality_gate
+p01,source,ingestion,cdc,continuous,platform-engineering,schema_compatibility
+p02,ingestion,storage,batch,hourly,platform-engineering,file_arrival
+p03,storage,transformation,batch,daily,analytics-engineering,not_null_and_unique_keys
+p04,transformation,serving,batch,daily,analytics-engineering,reconciliation_total
+p05,serving,semantic,batch,daily,analytics-engineering,metric_contract_test
+p06,semantic,consumption,batch,daily,business-intelligence,certified_metric_match
+p07,storage,lineage,event,continuous,data-governance,lineage_event_completeness
+p08,storage,metadata,event,continuous,data-governance,catalog_asset_registration
+p09,serving,ai_ml,batch,daily,ml-platform,feature_freshness

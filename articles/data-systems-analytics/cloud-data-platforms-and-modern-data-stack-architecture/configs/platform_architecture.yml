@@ -1,0 +1,29 @@
+platform:
+  name: cloud-data-platforms-and-modern-data-stack-architecture
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - separate_storage_and_compute
+    - modular_services
+    - governed_access
+    - metadata_by_default
+    - lineage_by_default
+    - observable_pipelines
+    - reusable_semantics
+    - lifecycle_management
+    - fit_for_purpose_workloads
+  required_layers:
+    - source
+    - ingestion
+    - storage
+    - transformation
+    - orchestration
+    - metadata
+    - lineage
+    - semantic
+    - serving
+    - consumption
+  non_goals:
+    - real_cloud_provisioning
+    - vendor_specific_deployment
+    - production_security_configuration
