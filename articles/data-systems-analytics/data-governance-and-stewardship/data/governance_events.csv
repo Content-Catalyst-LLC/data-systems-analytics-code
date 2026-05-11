@@ -1,0 +1,6 @@
+event_id,event_time_utc,asset_id,event_type,actor,decision_id,policy_id,outcome,notes
+gov001,2026-01-01T08:00:00Z,asset_customer_360,definition_review,customer-steward,dec001,pol003,approved,Active customer definition reaffirmed
+gov002,2026-01-01T09:00:00Z,asset_revenue_mart,metric_certification,finance-steward,dec002,pol002,approved,Net revenue metric certified after reconciliation
+gov003,2026-01-01T10:00:00Z,asset_customer_360,access_review,privacy-office,dec004,pol004,denied,Vendor export request denied
+gov004,2026-01-02T11:00:00Z,asset_ai_feature_store,responsible_use_review,ai-steward,dec006,pol004,approved_with_conditions,Feature reuse approved with monitoring conditions
+gov005,2026-01-02T12:00:00Z,asset_legacy_kpi,lifecycle_review,legacy-steward,,pol006,open,Legacy deprecation remains unresolved

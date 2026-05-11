@@ -1,0 +1,7 @@
+issue_id,asset_id,issue_type,severity,status,opened_at_utc,assigned_steward,days_open,consumer_notified,root_cause
+iss001,asset_customer_360,missing_required_field,medium,in_review,2026-01-01T01:00:00Z,customer-steward,3,true,upstream_optional_field_change
+iss002,asset_revenue_mart,reconciliation_variance,high,resolved,2026-01-01T02:00:00Z,finance-steward,1,true,billing_adjustment_window
+iss003,asset_usage_events,volume_anomaly,high,resolved,2026-01-01T03:00:00Z,product-steward,1,true,product_event_instrumentation_change
+iss004,asset_supplier_risk,reference_value_drift,medium,in_review,2026-01-02T04:00:00Z,supplier-steward,2,true,controlled_vocabulary_mismatch
+iss005,asset_legacy_kpi,missing_business_definition,medium,open,2026-01-02T05:00:00Z,legacy-steward,12,false,legacy_documentation_gap
+iss006,asset_ai_feature_store,feature_drift,high,in_review,2026-01-03T06:00:00Z,ai-steward,2,true,input_distribution_shift

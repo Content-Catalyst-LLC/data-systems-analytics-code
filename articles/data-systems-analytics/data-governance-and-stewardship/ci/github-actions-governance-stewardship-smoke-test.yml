@@ -1,0 +1,26 @@
+name: Data governance stewardship smoke test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'articles/data-systems-analytics/data-governance-and-stewardship/**'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: articles/data-systems-analytics/data-governance-and-stewardship
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run governance scorecard and SQL loader
+        run: |
+          python3 python/governance_stewardship_scorecard.py
+          python3 sql/run_sqlite_governance_stewardship.py
+      - name: Show manifest
+        run: |
+          cat outputs/governance_stewardship_manifest_python.json

@@ -1,0 +1,7 @@
+access_id,asset_id,requester_group,purpose,access_level,risk_level,decision,approver_role,review_status,review_days,expiry_days
+acc001,asset_customer_360,marketing-analytics,segmentation_analysis,read,medium,approved,customer-steward,completed,2,90
+acc002,asset_revenue_mart,executive-bi,certified_reporting,read,medium,approved,finance-steward,completed,1,180
+acc003,asset_ai_feature_store,ml-experimentation,churn_model_training,read,high,approved_with_conditions,ai-steward,completed,4,60
+acc004,asset_customer_360,vendor-export,list_enrichment,export,high,denied,privacy-office,completed,5,0
+acc005,asset_legacy_kpi,regional-team,legacy_report_rebuild,read,low,approved,legacy-steward,completed,3,30
+acc006,asset_supplier_risk,procurement-leaders,supplier_oversight,read,medium,approved,supplier-steward,completed,2,120

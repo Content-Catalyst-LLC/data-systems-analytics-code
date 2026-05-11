@@ -1,0 +1,7 @@
+decision_id,domain,decision_area,decision_type,approver_role,consulted_roles,escalation_path,service_level_days
+dec001,customer,business_definition,approve_definition_change,customer-steward,analytics-engineering;privacy-office,data-governance-council,10
+dec002,finance,certified_metric,approve_metric_certification,finance-steward,central-bi;finance-controller,data-governance-council,7
+dec003,enterprise,classification,approve_sensitive_data_classification,security-governance,privacy-office;data-owner,security-council,5
+dec004,enterprise,access_exception,approve_high_risk_access,privacy-office,security-governance;data-owner,risk-committee,5
+dec005,operations,reference_data,approve_reference_data_change,supplier-steward,operations-analytics;finance-steward,data-governance-council,10
+dec006,ai,model_input_reuse,approve_feature_reuse_for_modeling,ai-steward,privacy-office;security-governance,ai-governance-board,8

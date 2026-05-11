@@ -1,0 +1,7 @@
+control_id,asset_id,lifecycle_stage,control_type,status,owner,next_review_due_utc,retention_rule,disposal_required
+life001,asset_customer_360,use,certification_review,current,customer-steward,2026-07-01T00:00:00Z,seven_years,false
+life002,asset_revenue_mart,use,metric_certification_review,current,finance-steward,2026-06-01T00:00:00Z,seven_years,false
+life003,asset_usage_events,retention,partition_retention_review,current,records-management,2026-04-01T00:00:00Z,two_years_partial_rollup,false
+life004,asset_supplier_risk,use,third_party_risk_review,current,supplier-steward,2026-05-01T00:00:00Z,five_years,false
+life005,asset_legacy_kpi,deprecation,retirement_plan,overdue,central-bi,2025-12-01T00:00:00Z,archive_then_delete,true
+life006,asset_ai_feature_store,reuse,model_input_review,current,ai-steward,2026-03-01T00:00:00Z,model_governance_retention,false

@@ -1,0 +1,22 @@
+platform:
+  name: data-governance-and-stewardship
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - governance_as_accountable_decision_rights
+    - stewardship_as_operational_ownership
+    - policy_connected_to_real_assets
+    - quality_issues_require_resolution_paths
+    - access_governance_balances_reuse_and_control
+    - lifecycle_control_from_creation_to_deletion
+    - responsible_use_review_for_high_impact_contexts
+    - metadata_and_lineage_as_governance_substrate
+  governance_domains:
+    - data_quality
+    - metadata
+    - access
+    - privacy
+    - lifecycle
+    - classification
+    - metric_governance
+    - responsible_use

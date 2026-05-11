@@ -1,0 +1,7 @@
+policy_id,policy_name,policy_domain,policy_type,owner,effective_date,review_cycle_days,enforcement_status,linked_assets
+pol001,Enterprise Data Classification,security,classification,security-governance,2025-01-01,365,enforced,asset_customer_360;asset_ai_feature_store
+pol002,Certified Metric Governance,finance,metric_governance,finance-steward,2025-02-01,180,enforced,asset_revenue_mart
+pol003,Customer Data Stewardship Standard,customer,stewardship,customer-steward,2025-03-01,180,enforced,asset_customer_360
+pol004,Responsible Data Reuse Review,enterprise,responsible_use,privacy-office,2025-04-01,180,review,asset_customer_360;asset_ai_feature_store
+pol005,Data Retention and Disposal,records,lifecycle,records-management,2025-01-15,365,enforced,asset_legacy_kpi;asset_usage_events
+pol006,Legacy Asset Deprecation,legacy,lifecycle,central-bi,2024-06-01,365,weak,asset_legacy_kpi
