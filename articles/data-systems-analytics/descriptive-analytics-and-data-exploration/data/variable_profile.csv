@@ -1,0 +1,11 @@
+variable_name,variable_type,expected_domain,nullable,description
+record_id,identifier,unique_record,false,Record-level identifier
+segment,categorical,A|B|C,false,Operational or customer segment
+region,categorical,North|South,false,Geographic or organizational region
+period,period,YYYY-MM,false,Monthly reporting period
+value,numeric,positive,true,Primary outcome or performance measure
+volume,numeric,nonnegative,false,Activity or exposure volume
+quality_score,numeric,0_to_1,false,Data or service quality score
+response_time,numeric,positive,false,Observed response time or processing delay
+missing_flag,binary,0|1,false,Indicator for missing primary value
+category,categorical,basic|standard|premium,false,Product or service category

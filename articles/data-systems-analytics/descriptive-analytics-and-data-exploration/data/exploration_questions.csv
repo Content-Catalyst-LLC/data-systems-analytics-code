@@ -1,0 +1,7 @@
+question_id,question,analysis_mode,priority,status
+q001,How does value vary by segment and region,grouped_summary,high,active
+q002,Is the extreme value in segment C South valid,outlier_review,high,active
+q003,Is missingness concentrated in a subgroup,missingness_profile,high,active
+q004,Does the overall mean hide subgroup differences,aggregation_risk,medium,active
+q005,How are value volume and quality related,bivariate_exploration,medium,in_review
+q006,Does response time differ across categories,grouped_distribution,medium,in_review

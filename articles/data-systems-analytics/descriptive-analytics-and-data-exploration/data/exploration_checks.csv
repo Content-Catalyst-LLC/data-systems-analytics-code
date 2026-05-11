@@ -1,0 +1,9 @@
+check_id,check_type,status,severity,evidence,remediation
+chk001,unique_record_id,pass,high,all record_id values are unique,none
+chk002,missing_primary_value,warn,high,value has missingness in segment A South 2026-03,inspect source feed and imputation rules
+chk003,outlier_detection,warn,high,segment C South has value 500 in 2026-02,confirm whether true rare event or data-entry error
+chk004,subgroup_masking,warn,medium,overall mean hides large segment and region differences,report subgroup summaries
+chk005,skewness_review,warn,medium,value distribution is right-skewed due to extreme observation,report median and robust summaries
+chk006,category_domain,pass,medium,category values match expected domain,none
+chk007,time_coverage,pass,medium,three monthly periods are present,none
+chk008,relationship_review,in_review,medium,value and volume appear positively associated,inspect scatter and subgroup relationships

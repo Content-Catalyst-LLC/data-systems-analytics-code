@@ -1,0 +1,13 @@
+platform:
+  name: descriptive-analytics-and-data-exploration
+  version: 0.1.0
+  posture: vendor-neutral-reference
+  design_principles:
+    - profile_before_modeling
+    - summarize_distributions_not_only_averages
+    - inspect_missingness_as_pattern
+    - compare_aggregates_with_subgroups
+    - treat_outliers_as_questions_not_disposable_noise
+    - use_visual_reasoning_to_generate_questions
+    - distinguish_description_from_inference_prediction_and_causation
+    - preserve_exploration_records_for_later_audit

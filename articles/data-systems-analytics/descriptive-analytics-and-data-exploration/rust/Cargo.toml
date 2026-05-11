@@ -1,0 +1,6 @@
+[package]
+name = "descriptive_eda_inventory"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
